@@ -143,14 +143,14 @@ void interactionManager::turnOffLEDs() {
 
 void interactionManager::setLEDs(int led1, int led2, int led3, int led4) {
 #ifdef USE_SERIAL
-    int ledValuesByte = (led1 & 0x1) + ((led2 & 0x1) << 1) + ((led3 & 0x1) << 2) + ((led4 & 0x1) << 3); 
+    unsigned char ledValuesByte = (led1 & 0x1) + ((led2 & 0x1) << 1) + ((led3 & 0x1) << 2) + ((led4 & 0x1) << 3);
     serial.writeByte(ledValuesByte);
 #endif
 }
 
 void interactionManager::setCurrentSceneParameterCount(int numParams) {
 #ifdef USE_SERIAL
-    int ledValuesByte = 0x0;
+    unsigned char ledValuesByte = 0x0;
     for (int i=0; i<numParams; i++) {
         ledValuesByte += (0x1 << i);
     }
