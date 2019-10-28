@@ -9,7 +9,7 @@
  *
  */
 #include "ofxBaseMidi.h"
-
+#include "ofLog.h"
 // MIDI IN
 
 vector<string> ofxBaseMidiIn::portList;

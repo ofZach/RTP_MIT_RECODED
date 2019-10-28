@@ -9,8 +9,8 @@
  *
  */
 #include "ofxRtMidiOut.h"
-
-ofPtr<RtMidiOut> ofxRtMidiOut::s_midiOut;
+#include "ofLog.h"
+shared_ptr<RtMidiOut> ofxRtMidiOut::s_midiOut;
 
 // -----------------------------------------------------------------------------
 ofxRtMidiOut::ofxRtMidiOut(const string name) :
@@ -25,7 +25,7 @@ ofxRtMidiOut::~ofxRtMidiOut() {
 // -----------------------------------------------------------------------------
 void ofxRtMidiOut::listPorts() {
 	if(s_midiOut == NULL) {
-		s_midiOut = ofPtr<RtMidiOut>(new RtMidiOut(RtMidi::UNSPECIFIED, "ofxMidi Client"));
+		s_midiOut = shared_ptr<RtMidiOut>(new RtMidiOut(RtMidi::UNSPECIFIED, "ofxMidi Client"));
 	}
 	ofLogNotice("ofxMidiOut") << s_midiOut->getPortCount() << " ports available";
 	for(unsigned int i = 0; i < s_midiOut->getPortCount(); ++i){
@@ -36,7 +36,7 @@ void ofxRtMidiOut::listPorts() {
 // -----------------------------------------------------------------------------
 vector<string>& ofxRtMidiOut::getPortList() {
 	if(s_midiOut == NULL) {
-		s_midiOut = ofPtr<RtMidiOut>(new RtMidiOut(RtMidi::UNSPECIFIED, "ofxMidi Client"));
+		s_midiOut = shared_ptr<RtMidiOut>(new RtMidiOut(RtMidi::UNSPECIFIED, "ofxMidi Client"));
 	}
 	portList.clear();
 	for(unsigned int i = 0; i < s_midiOut->getPortCount(); ++i) {
@@ -48,7 +48,7 @@ vector<string>& ofxRtMidiOut::getPortList() {
 // -----------------------------------------------------------------------------
 int ofxRtMidiOut::getNumPorts() {
 	if(s_midiOut == NULL) {
-		s_midiOut = ofPtr<RtMidiOut>(new RtMidiOut(RtMidi::UNSPECIFIED, "ofxMidi Client"));
+		s_midiOut = shared_ptr<RtMidiOut>(new RtMidiOut(RtMidi::UNSPECIFIED, "ofxMidi Client"));
 	}
 	return s_midiOut->getPortCount();
 }
@@ -56,7 +56,7 @@ int ofxRtMidiOut::getNumPorts() {
 // -----------------------------------------------------------------------------
 string ofxRtMidiOut::getPortName(unsigned int portNumber) {
 	if(s_midiOut == NULL) {
-		s_midiOut = ofPtr<RtMidiOut>(new RtMidiOut(RtMidi::UNSPECIFIED, "ofxMidi Client"));
+		s_midiOut = shared_ptr<RtMidiOut>(new RtMidiOut(RtMidi::UNSPECIFIED, "ofxMidi Client"));
 	}
 	// handle rtmidi exceptions
 	try {

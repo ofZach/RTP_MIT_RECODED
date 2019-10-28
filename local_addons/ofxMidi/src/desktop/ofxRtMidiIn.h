@@ -35,7 +35,7 @@ public:
 private:
 	
 	RtMidiIn midiIn;
-	static ofPtr<RtMidiIn> s_midiIn; //< for static calls (a little kludgey, I know)
+	static shared_ptr<RtMidiIn> s_midiIn; //< for static calls (a little kludgey, I know)
 	
 	/// static callback for rtmidi
 	static void _midiMessageCallback(double deltatime, vector<unsigned char> *message, void *userData);

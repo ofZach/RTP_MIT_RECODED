@@ -14,6 +14,8 @@
 #include "ofEvents.h"
 #include "ofxMidiConstants.h"
 
+using namespace std;
+
 class ofxMidiMessage;
 
 /// receives midi messages

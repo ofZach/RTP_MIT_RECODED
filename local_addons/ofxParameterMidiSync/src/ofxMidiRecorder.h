@@ -9,6 +9,8 @@
 #include "ofMain.h"
 #include "ofxMidi.h"
 #include "nanoKontrolConstants.h"
+#include "ofxXmlPoco.h"
+
 class ofxMidiNanoKontrolButtons{
 public:
     ~ofxMidiNanoKontrolButtons(){
@@ -109,18 +111,20 @@ public:
 
 static void saveMidi(const vector<ofxMidiRecordingEvent>& data, float duration, string path){
     cout << __PRETTY_FUNCTION__ << endl;
-    ofXml xml;
+    ofxXmlPoco xml;
+    
+    
     xml.addChild("Midi");
     xml.setTo("Midi");
 
-    ofXml meta;
+    ofxXmlPoco meta;
     meta.addChild("Meta");
     meta.setTo("Meta");
     meta.addValue("duration", duration);
     xml.addXml(meta);
 
     for (int i =0; i < data.size(); i++) {
-        ofXml x;
+        ofxXmlPoco x;
         x.addChild("midiEvent");
         x.setTo("midiEvent");
         x.addValue("time", data[i].time);
@@ -141,7 +145,7 @@ static void saveMidi(const vector<ofxMidiRecordingEvent>& data, float duration, 
 }
 static void loadMidi(vector<ofxMidiRecordingEvent>& data, float *duration, string path){
     cout << "loadMidi " << path << endl;
-    ofXml xml;
+    ofxXmlPoco xml;
     xml.load(path);
     if(xml.exists("Meta")) {
         xml.setTo("Meta");

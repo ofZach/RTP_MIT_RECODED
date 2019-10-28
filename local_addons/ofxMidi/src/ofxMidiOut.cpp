@@ -12,7 +12,7 @@
 
 // -----------------------------------------------------------------------------
 ofxMidiOut::ofxMidiOut(const string name) {
-	midiOut = ofPtr<ofxBaseMidiOut>(new OFX_MIDI_OUT_TYPE(name));
+	midiOut = shared_ptr<ofxBaseMidiOut>(new OFX_MIDI_OUT_TYPE(name));
 }
 
 // -----------------------------------------------------------------------------

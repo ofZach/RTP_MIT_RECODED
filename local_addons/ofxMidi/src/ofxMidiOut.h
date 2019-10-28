@@ -191,5 +191,5 @@ public:
 	
 private:
 	
-	ofPtr<ofxBaseMidiOut> midiOut;
+	shared_ptr<ofxBaseMidiOut> midiOut;
 };

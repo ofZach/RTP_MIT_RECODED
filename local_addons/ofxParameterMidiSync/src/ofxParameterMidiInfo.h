@@ -9,6 +9,7 @@
 #pragma once
 #include "ofMain.h"
 #include "ofxMidi.h"
+#include "ofxXmlPoco.h"
 
 class ofParameterMidiInfo {
 public:
@@ -26,8 +27,8 @@ public:
 
     void setNewValue(int value);
     void updateSmoothing(float smoothFactor);
-    void saveToXml(ofXml& xml);
-    void loadFromXml(ofXml& xml);
+    void saveToXml(ofxXmlPoco& xml);
+    void loadFromXml(ofxXmlPoco& xml);
     string joinStrings(vector<string> s, string delim){
         string r = "";
         for(int i = 0; i < s.size(); i++){

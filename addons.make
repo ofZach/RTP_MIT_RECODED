@@ -1,5 +1,6 @@
 ofxGui
 ofxOsc
+ofxPoco
 ofxXmlSettings
 local_addons/ofxDelaunay
 local_addons/ofxMidi

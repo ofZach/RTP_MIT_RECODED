@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "recoded.app"
-               BlueprintName = "recoded"
-               ReferencedContainer = "container:recoded.xcodeproj">
+               BuildableName = "RTP_MIT_RECODED.app"
+               BlueprintName = "RTP_MIT_RECODED"
+               ReferencedContainer = "container:RTP_MIT_RECODED.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "recoded.app"
-            BlueprintName = "recoded"
-            ReferencedContainer = "container:recoded.xcodeproj">
+            BuildableName = "RTP_MIT_RECODED.app"
+            BlueprintName = "RTP_MIT_RECODED"
+            ReferencedContainer = "container:RTP_MIT_RECODED.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "recoded.app"
-            BlueprintName = "recoded"
-            ReferencedContainer = "container:recoded.xcodeproj">
+            BuildableName = "RTP_MIT_RECODED.app"
+            BlueprintName = "RTP_MIT_RECODED"
+            ReferencedContainer = "container:RTP_MIT_RECODED.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "recoded.app"
-            BlueprintName = "recoded"
-            ReferencedContainer = "container:recoded.xcodeproj">
+            BuildableName = "RTP_MIT_RECODED.app"
+            BlueprintName = "RTP_MIT_RECODED"
+            ReferencedContainer = "container:RTP_MIT_RECODED.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

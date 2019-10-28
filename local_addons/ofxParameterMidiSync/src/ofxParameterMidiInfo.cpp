@@ -7,6 +7,7 @@
 //
 
 #include "ofxParameterMidiInfo.h"
+#include "ofxXmlPoco.h"
 void mapMidiInfoToParameter(ofParameterMidiInfo& info, float value, int control){
     //     cout << __PRETTY_FUNCTION__ << endl;
     //     cout << "dims " << info.dims << "  midiMsg.control "<< midiMsg.control<<endl;
@@ -112,9 +113,9 @@ void ofParameterMidiInfo::setNewValue(int value){
         lastValue = value;
     }
 }
-void ofParameterMidiInfo::saveToXml(ofXml& xml){
+void ofParameterMidiInfo::saveToXml(ofxXmlPoco & xml){
     if(param){
-        ofXml x;
+        ofxXmlPoco x;
         x.addChild("ofParameterMidiInfo");
         x.setTo("ofParameterMidiInfo");
         x.addValue("groupHierarchyNames", joinStrings(param->getGroupHierarchyNames(), "/"));
@@ -126,4 +127,4 @@ void ofParameterMidiInfo::saveToXml(ofXml& xml){
         xml.addXml(x);
     }
 }
-void ofParameterMidiInfo::loadFromXml(ofXml& xml){}
+void ofParameterMidiInfo::loadFromXml(ofxXmlPoco& xml){}
