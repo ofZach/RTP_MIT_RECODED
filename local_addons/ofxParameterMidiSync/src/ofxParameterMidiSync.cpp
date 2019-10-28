@@ -8,6 +8,8 @@
 
 #include "ofxParameterMidiSync.h"
 #include "nanoKontrolConstants.h"
+#include "ofxXmlPoco.h"
+
 //-----------------------------------------------------
 int isVecParam(ofAbstractParameter* param){
     int ret = 0;
@@ -182,7 +184,7 @@ bool ofxParameterMidiSync::linkMidiToOfParameter(int controlNum, ofAbstractParam
 }
 //--------------------------------------------------------------
 bool ofxParameterMidiSync::load(string path){
-    ofXml xml;
+    ofxXmlPoco xml;
     bool bLoad = false;
     
     cout << "ofxParameterMidiSync::load(" << path << ");" << endl;
@@ -267,7 +269,7 @@ void ofxParameterMidiSync::drawDebug(){
 }
 //--------------------------------------------------------------
 void ofxParameterMidiSync::save(string path){
-    ofXml xml;
+    ofxXmlPoco xml;
     xml.addChild("ofxParameterMidiSync");
     xml.setTo("ofxParameterMidiSync");
     if(!syncGroup.getName().empty()) xml.setTo(syncGroup.getName());

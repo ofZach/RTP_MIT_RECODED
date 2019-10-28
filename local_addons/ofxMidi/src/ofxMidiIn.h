@@ -147,5 +147,5 @@ public:
 
 private:
 
-	ofPtr<ofxBaseMidiIn> midiIn;
+	shared_ptr<ofxBaseMidiIn> midiIn;
 };

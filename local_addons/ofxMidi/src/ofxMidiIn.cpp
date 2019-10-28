@@ -12,7 +12,7 @@
 
 // -----------------------------------------------------------------------------
 ofxMidiIn::ofxMidiIn(const string name) {
-	midiIn = ofPtr<ofxBaseMidiIn>(new OFX_MIDI_IN_TYPE(name));
+	midiIn = shared_ptr<ofxBaseMidiIn>(new OFX_MIDI_IN_TYPE(name));
 }
 
 // -----------------------------------------------------------------------------

@@ -9,8 +9,10 @@
  *
  */
 #include "ofxRtMidiIn.h"
+#include "ofLog.h"
 
-ofPtr<RtMidiIn> ofxRtMidiIn::s_midiIn;
+
+shared_ptr<RtMidiIn> ofxRtMidiIn::s_midiIn;
 
 // -----------------------------------------------------------------------------
 ofxRtMidiIn::ofxRtMidiIn(const string name) :
@@ -25,7 +27,7 @@ ofxRtMidiIn::~ofxRtMidiIn() {
 // -----------------------------------------------------------------------------
 void ofxRtMidiIn::listPorts() {
 	if(s_midiIn == NULL) {
-		s_midiIn = ofPtr<RtMidiIn>(new RtMidiIn(RtMidi::UNSPECIFIED, "ofxMidi Client"));
+		s_midiIn = shared_ptr<RtMidiIn>(new RtMidiIn(RtMidi::UNSPECIFIED, "ofxMidi Client"));
 	}
 	ofLogNotice("ofxMidiIn") << s_midiIn->getPortCount() << " ports available";
 	for(unsigned int i = 0; i < s_midiIn->getPortCount(); ++i){
@@ -36,7 +38,7 @@ void ofxRtMidiIn::listPorts() {
 // -----------------------------------------------------------------------------
 vector<string>& ofxRtMidiIn::getPortList() {
 	if(s_midiIn == NULL) {
-		s_midiIn = ofPtr<RtMidiIn>(new RtMidiIn(RtMidi::UNSPECIFIED, "ofxMidi Client"));
+		s_midiIn = shared_ptr<RtMidiIn>(new RtMidiIn(RtMidi::UNSPECIFIED, "ofxMidi Client"));
 	}
 	portList.clear();
 	for(unsigned int i=0; i < s_midiIn->getPortCount(); ++i) {
@@ -48,7 +50,7 @@ vector<string>& ofxRtMidiIn::getPortList() {
 // -----------------------------------------------------------------------------
 int ofxRtMidiIn::getNumPorts() {
 	if(s_midiIn == NULL) {
-		s_midiIn = ofPtr<RtMidiIn>(new RtMidiIn(RtMidi::UNSPECIFIED, "ofxMidi Client"));
+		s_midiIn = shared_ptr<RtMidiIn>(new RtMidiIn(RtMidi::UNSPECIFIED, "ofxMidi Client"));
 	}
 	return s_midiIn->getPortCount();
 }
@@ -56,7 +58,7 @@ int ofxRtMidiIn::getNumPorts() {
 // -----------------------------------------------------------------------------
 string ofxRtMidiIn::getPortName(unsigned int portNumber) {
 	if(s_midiIn == NULL) {
-		s_midiIn = ofPtr<RtMidiIn>(new RtMidiIn(RtMidi::UNSPECIFIED, "ofxMidi Client"));
+		s_midiIn = shared_ptr<RtMidiIn>(new RtMidiIn(RtMidi::UNSPECIFIED, "ofxMidi Client"));
 	}
 	// handle rtmidi exceptions
 	try {
