@@ -30,7 +30,8 @@
 		6F2D739BB67B61B0D43AB5BD /* ofxOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B34D2935437BD95ED6DA2A59 /* ofxOscReceiver.cpp */; };
 		74B90FB956C1C60D24304221 /* ofxBaseMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7051ABC229EA2BD7B02CCF8B /* ofxBaseMidi.cpp */; };
 		786B04644A4B7B5D8697D5B0 /* ofxEasingQuint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B841694F14059BC544EE4894 /* ofxEasingQuint.cpp */; };
-		7CF3B6962368B95200BDCE8A /* ethanWhitneyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3B6942368B95100BDCE8A /* ethanWhitneyScene.cpp */; };
+		7CF3B69E2368C5DE00BDCE8A /* ethanWhitneyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3B69D2368C5DD00BDCE8A /* ethanWhitneyScene.cpp */; };
+		7CF3B6A52368C64400BDCE8A /* ethanMolnarScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3B6A42368C64400BDCE8A /* ethanMolnarScene.cpp */; };
 		7F208A71CF13CBC28D2CD896 /* ofxEasingExpo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97D85E05E62C393BE2F7222C /* ofxEasingExpo.cpp */; };
 		800429C3408CE8521C357F20 /* interactionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB25C0CD00F1B962AECE31E7 /* interactionManager.cpp */; };
 		817603EE655EE3365B256E5A /* ofxInputField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2271EF8762ACE471CF677BE2 /* ofxInputField.cpp */; };
@@ -180,8 +181,10 @@
 		7B2BAA0F221902291E676F45 /* ofxOscSender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxOscSender.cpp; path = ../../addons/ofxOsc/src/ofxOscSender.cpp; sourceTree = SOURCE_ROOT; };
 		7B3098B39DF5D4B8937F7140 /* ts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ts.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ts.h; sourceTree = SOURCE_ROOT; };
 		7CC4234946AA16310171C5CE /* typographyManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = typographyManager.hpp; path = src/scenes/typographyManager.hpp; sourceTree = SOURCE_ROOT; };
-		7CF3B6942368B95100BDCE8A /* ethanWhitneyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ethanWhitneyScene.cpp; sourceTree = "<group>"; };
-		7CF3B6952368B95200BDCE8A /* ethanWhitneyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ethanWhitneyScene.h; sourceTree = "<group>"; };
+		7CF3B69C2368C5DD00BDCE8A /* ethanWhitneyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ethanWhitneyScene.h; sourceTree = "<group>"; };
+		7CF3B69D2368C5DD00BDCE8A /* ethanWhitneyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ethanWhitneyScene.cpp; sourceTree = "<group>"; };
+		7CF3B6A32368C64400BDCE8A /* ethanMolnarScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ethanMolnarScene.h; sourceTree = "<group>"; };
+		7CF3B6A42368C64400BDCE8A /* ethanMolnarScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ethanMolnarScene.cpp; sourceTree = "<group>"; };
 		7D0A284E68AB41CA27B1903F /* pkcs7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pkcs7.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/pkcs7.h; sourceTree = SOURCE_ROOT; };
 		7D1DCF147EA756A7BE4BBEBB /* ecdsa.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ecdsa.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ecdsa.h; sourceTree = SOURCE_ROOT; };
 		7FE5F37869AABB8C93D219FC /* appConstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = appConstants.h; path = src/scenes/appConstants.h; sourceTree = SOURCE_ROOT; };
@@ -573,7 +576,8 @@
 		36BF1C038F5AEC4D85473FE4 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
-				7CF3B6882368B73100BDCE8A /* ethanWhitneyScene */,
+				7CF3B6A22368C64400BDCE8A /* ethanMolnarScene */,
+				7CF3B69B2368C5DD00BDCE8A /* ethanWhitneyScene */,
 				C1868819252A931A515C8E7D /* emptyScene */,
 				39BAC5F6447319B74F7D342C /* exampleScene */,
 				7CC4234946AA16310171C5CE /* typographyManager.hpp */,
@@ -804,13 +808,24 @@
 			name = ofxParameterMidiSync;
 			sourceTree = "<group>";
 		};
-		7CF3B6882368B73100BDCE8A /* ethanWhitneyScene */ = {
+		7CF3B69B2368C5DD00BDCE8A /* ethanWhitneyScene */ = {
 			isa = PBXGroup;
 			children = (
-				7CF3B6942368B95100BDCE8A /* ethanWhitneyScene.cpp */,
-				7CF3B6952368B95200BDCE8A /* ethanWhitneyScene.h */,
+				7CF3B69C2368C5DD00BDCE8A /* ethanWhitneyScene.h */,
+				7CF3B69D2368C5DD00BDCE8A /* ethanWhitneyScene.cpp */,
 			);
-			path = ethanWhitneyScene;
+			name = ethanWhitneyScene;
+			path = scenes/ethanWhitneyScene;
+			sourceTree = "<group>";
+		};
+		7CF3B6A22368C64400BDCE8A /* ethanMolnarScene */ = {
+			isa = PBXGroup;
+			children = (
+				7CF3B6A32368C64400BDCE8A /* ethanMolnarScene.h */,
+				7CF3B6A42368C64400BDCE8A /* ethanMolnarScene.cpp */,
+			);
+			name = ethanMolnarScene;
+			path = scenes/ethanMolnarScene;
 			sourceTree = "<group>";
 		};
 		7F6D532CA91E20040D9531D8 /* Easings */ = {
@@ -1441,7 +1456,6 @@
 				A3C6983F8768ECD6DBA89E0F /* ofxSliderGroup.cpp in Sources */,
 				413A3F52C6AC90B4F28A6A1C /* ofxToggle.cpp in Sources */,
 				E717C5A73BE4076EDBC728DC /* IpEndpointName.cpp in Sources */,
-				7CF3B6962368B95200BDCE8A /* ethanWhitneyScene.cpp in Sources */,
 				F0509CA2E805D1D5F70A87D0 /* NetworkingUtils.cpp in Sources */,
 				C9651B24B869083F299EFA4D /* UdpSocket.cpp in Sources */,
 				A857235EB7F8624F0C02D157 /* OscOutboundPacketStream.cpp in Sources */,
@@ -1464,6 +1478,8 @@
 				74B90FB956C1C60D24304221 /* ofxBaseMidi.cpp in Sources */,
 				D7E2DC735C3A66B8E967C993 /* ofxMidi.cpp in Sources */,
 				BC6E787BF912B9C5DEA2B374 /* ofxMidiIn.cpp in Sources */,
+				7CF3B69E2368C5DE00BDCE8A /* ethanWhitneyScene.cpp in Sources */,
+				7CF3B6A52368C64400BDCE8A /* ethanMolnarScene.cpp in Sources */,
 				9C0AA1FE3B5813762A475049 /* ofxMidiMessage.cpp in Sources */,
 				904469BEC8D0230A1F01AC92 /* ofxMidiOut.cpp in Sources */,
 				5AC25FD9FFC0B9238EDC98FE /* ofxMidiRecorder.cpp in Sources */,

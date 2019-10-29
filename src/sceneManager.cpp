@@ -11,6 +11,7 @@
 #include "exampleScene.h"
 #include "mitScene1.h"
 #include "ethanWhitneyScene.h"
+#include "ethanMolnarScene.h"
 #include "pbeshaiVideo1.h"
 
 
@@ -32,6 +33,7 @@ void sceneManager::setup(){
     
     font.load("fonts/ProggySmall.fon", 8, false ,false, false, 0, 96);
  
+    scenes.push_back(new ethanMolnarScene());
     scenes.push_back(new ethanWhitneyScene());
     scenes.push_back(new pbeshaiVideo1());
     scenes.push_back(new mitScene1());
