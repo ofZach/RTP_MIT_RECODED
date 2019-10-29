@@ -14,6 +14,7 @@
 		28815921C1CDCE1F6C1FBE91 /* easing_terms_of_use.html in Sources */ = {isa = PBXBuildFile; fileRef = 1EE75986ABBB33F56547087D /* easing_terms_of_use.html */; };
 		28DC652211D4AF8CC023D568 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97E9772CB5B04FB62A872480 /* tinyxml.cpp */; };
 		2DE293FAAF850C0ABF02DB62 /* exampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59429ADBB14FCD19148E74FB /* exampleScene.cpp */; };
+		2F41A3412368CFC8000F345C /* gauravVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F41A33F2368CFC8000F345C /* gauravVera.cpp */; };
 		32E2318B89B6217AE6052155 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 723AE465948C9C9893893BC8 /* tinyxmlparser.cpp */; };
 		3A47706C1DF9A0D4045568C0 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D015FA91E7717ECC9591593E /* ofxGuiGroup.cpp */; };
 		3E241715CC075642FF6CC167 /* ofxEasingSine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EE2AC96F0D3984D98A9D0F /* ofxEasingSine.cpp */; };
@@ -126,6 +127,8 @@
 		2B137DAD58C3B84288E3E0D4 /* RtMidi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RtMidi.h; path = local_addons/ofxMidi/libs/rtmidi/RtMidi.h; sourceTree = SOURCE_ROOT; };
 		2B37A0AC02ED7403F4D39D79 /* ofxEasingCirc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingCirc.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingCirc.cpp; sourceTree = SOURCE_ROOT; };
 		2E28CEAA9B004BC9CB9CACF5 /* ofxRtMidiOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRtMidiOut.h; path = local_addons/ofxMidi/src/desktop/ofxRtMidiOut.h; sourceTree = SOURCE_ROOT; };
+		2F41A33F2368CFC8000F345C /* gauravVera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauravVera.cpp; sourceTree = "<group>"; };
+		2F41A3402368CFC8000F345C /* gauravVera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauravVera.h; sourceTree = "<group>"; };
 		2FA456AAAC9E15C35DB6F114 /* ossl_typ.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ossl_typ.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ossl_typ.h; sourceTree = SOURCE_ROOT; };
 		3123FC43CDB08480B2226A91 /* baseScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = baseScene.h; path = src/scenes/baseScene.h; sourceTree = SOURCE_ROOT; };
 		31844D3C2E199532EF876682 /* ofxEasingBounce.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingBounce.h; path = local_addons/ofxTween/src/Easings/ofxEasingBounce.h; sourceTree = SOURCE_ROOT; };
@@ -558,6 +561,16 @@
 			name = src;
 			sourceTree = "<group>";
 		};
+		2F41A33E2368CFC8000F345C /* gauravVera */ = {
+			isa = PBXGroup;
+			children = (
+				2F41A33F2368CFC8000F345C /* gauravVera.cpp */,
+				2F41A3402368CFC8000F345C /* gauravVera.h */,
+			);
+			name = gauravVera;
+			path = scenes/gauravVera;
+			sourceTree = "<group>";
+		};
 		30CB364908817057B430D528 /* osc */ = {
 			isa = PBXGroup;
 			children = (
@@ -580,6 +593,7 @@
 		36BF1C038F5AEC4D85473FE4 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2F41A33E2368CFC8000F345C /* gauravVera */,
 				7CF3B6A22368C64400BDCE8A /* ethanMolnarScene */,
 				7CF3B69B2368C5DD00BDCE8A /* ethanWhitneyScene */,
 				C1868819252A931A515C8E7D /* emptyScene */,
@@ -1493,6 +1507,7 @@
 				6F2D739BB67B61B0D43AB5BD /* ofxOscReceiver.cpp in Sources */,
 				866ACEB977FAB3191AD48906 /* ofxOscSender.cpp in Sources */,
 				F4BA53EB83A682CF0A3B4E02 /* ofxXmlPoco.cpp in Sources */,
+				2F41A3412368CFC8000F345C /* gauravVera.cpp in Sources */,
 				28DC652211D4AF8CC023D568 /* tinyxml.cpp in Sources */,
 				F877D69532909AE487E0EF22 /* tinyxmlerror.cpp in Sources */,
 				32E2318B89B6217AE6052155 /* tinyxmlparser.cpp in Sources */,
