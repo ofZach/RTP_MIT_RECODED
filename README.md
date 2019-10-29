@@ -1,11 +1,8 @@
 # re-coded / MIT
 
-## note: this has been modified from github.com/sfpc/recoded for use at MIT media lab.  Please see the original for more details and sketches. 
+## note: this has been modified from [github.com/sfpc/recoded](github.com/sfpc/recoded) for use at MIT Media Lab, Fall 2019.  Please see the original for more details and sketches.
 
 ## Contributing
-
-
-_Although the deadline for submissions for the Day for Night festival has now passed, feel free to contribute a sketch._
 
 This project requires **openFrameworks 0.9.0**. You can [download it from the oF website](http://openframeworks.cc/download/) if you don't already have it installed.
 
@@ -13,15 +10,14 @@ Feel free to create your own fork and open a [pull request](https://help.github.
 
 ### 1. Find an artist to work with
 
-Take a look at the [project wiki](https://github.com/ofZach/dayForNightSFPC/wiki) and find an artist you'd like to work with.
-
+Take a look at the our shared Dropbox and find an artist you'd like to work with.
 
 ### 2. Checkout the project from GitHub
 
 In you openFrameworks `apps` folder, create a new folder for the "recoded" project. Then `cd` into that folder using the terminal and checkout the project from GitHub:
 
 ```bash
-git clone https://github.com/SFPC/recoded.git
+git clone https://github.com/ofZach/RTP_MIT_RECODED
 ```
 
 ### <del>3. Make a branch</del>
@@ -57,7 +53,7 @@ Now you you can drag the new folder in the `scenes` folder into XCode. Make sure
 
 ![XCode Settings](https://dl.dropboxusercontent.com/u/2100102/sfpc/xcode-drag-files.png)
 
-### 5. Submitting Changes
+### 5. Submitting changes
 
 There are two different workflows for submitting changes:
 
@@ -88,7 +84,6 @@ Now push your changes to the repo:
 git push
 ```
 
-
 #### If you're making architectural changes
 
 It's probably better to push your branch instead of merging directly into `master`, then submit a pull request.
@@ -104,4 +99,4 @@ Now push your branch to GitHub:
 git push origin branchName
 ```
 
-Now submit a pull request via the [GitHub web interface](https://github.com/SFPC/recoded/compare).
+Now submit a pull request via the [GitHub web interface](https://github.com/ofZach/RTP_MIT_RECODED/compare).

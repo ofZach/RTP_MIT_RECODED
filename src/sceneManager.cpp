@@ -13,6 +13,7 @@
 #include "ethanWhitneyScene.h"
 #include "ethanMolnarScene.h"
 #include "pbeshaiVideo1.h"
+#include "pbeshaiMolnar1.h"
 
 
 //#include "testingScene.h"
@@ -35,6 +36,7 @@ void sceneManager::setup(){
  
     scenes.push_back(new ethanMolnarScene());
     scenes.push_back(new ethanWhitneyScene());
+    scenes.push_back(new pbeshaiMolnar1());
     scenes.push_back(new pbeshaiVideo1());
     scenes.push_back(new mitScene1());
     scenes.push_back(new exampleScene());
