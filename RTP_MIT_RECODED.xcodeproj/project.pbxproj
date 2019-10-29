@@ -22,7 +22,6 @@
 		413A3F52C6AC90B4F28A6A1C /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448869D12B9D05298EF975CB /* ofxToggle.cpp */; };
 		4DC711D98736D4736C9FBB13 /* ofxEasingQuart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E95AF96B31E9295114E3DD2 /* ofxEasingQuart.cpp */; };
 		5AC25FD9FFC0B9238EDC98FE /* ofxMidiRecorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8100B11C33F4BE20C5DA069 /* ofxMidiRecorder.cpp */; };
-		60911436B9B59435E5B03267 /* ofxDelaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DFCBA9A2908595C116E9FD5 /* ofxDelaunay.cpp */; };
 		631702104AFC104323A9EB79 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */; };
 		6C503756DAFDCF2FEEE0EAA0 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A844876A71DBD7546201CC6 /* ofxOscMessage.cpp */; };
 		6CBBDD45DC862E68E613A67F /* ofxEasingLinear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97476EA8DD0AD87624ED8624 /* ofxEasingLinear.cpp */; };
@@ -30,7 +29,6 @@
 		6F2D739BB67B61B0D43AB5BD /* ofxOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B34D2935437BD95ED6DA2A59 /* ofxOscReceiver.cpp */; };
 		74B90FB956C1C60D24304221 /* ofxBaseMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7051ABC229EA2BD7B02CCF8B /* ofxBaseMidi.cpp */; };
 		786B04644A4B7B5D8697D5B0 /* ofxEasingQuint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B841694F14059BC544EE4894 /* ofxEasingQuint.cpp */; };
-		7C8C5576ACA0D4AAE43ABA3C /* ofxPoissonDiskSampling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40FBB41106C9FD6D36549E7D /* ofxPoissonDiskSampling.cpp */; };
 		7F208A71CF13CBC28D2CD896 /* ofxEasingExpo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97D85E05E62C393BE2F7222C /* ofxEasingExpo.cpp */; };
 		800429C3408CE8521C357F20 /* interactionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB25C0CD00F1B962AECE31E7 /* interactionManager.cpp */; };
 		817603EE655EE3365B256E5A /* ofxInputField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2271EF8762ACE471CF677BE2 /* ofxInputField.cpp */; };
@@ -66,7 +64,6 @@
 		F0509CA2E805D1D5F70A87D0 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F72D5263CF8609CF22E13BD6 /* NetworkingUtils.cpp */; };
 		F371BA47826BCB4729114673 /* ofxEasingCubic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445850DAC24250B23EDA5291 /* ofxEasingCubic.cpp */; };
 		F4BA53EB83A682CF0A3B4E02 /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D4C5CC8CBB1FFDE41AE089E /* ofxXmlPoco.cpp */; };
-		F77003A47A355BEF27251C2D /* Delaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0934A02BAA991F930233893 /* Delaunay.cpp */; };
 		F877D69532909AE487E0EF22 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 572960DD09FAC11DCF63ED27 /* tinyxmlerror.cpp */; };
 		F8E1A8FE5B019C4E173B25A4 /* ofxEasingBounce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F939C74F1DADFB669D3BD763 /* ofxEasingBounce.cpp */; };
 		F95B04FD042E7407B70EE321 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01571FD18D74B633FA614437 /* OscReceivedElements.cpp */; };
@@ -98,7 +95,6 @@
 		0CA5F082FB29DA3CAC43022F /* ofxRtMidiIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxRtMidiIn.cpp; path = local_addons/ofxMidi/src/desktop/ofxRtMidiIn.cpp; sourceTree = SOURCE_ROOT; };
 		0D4C5CC8CBB1FFDE41AE089E /* ofxXmlPoco.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxXmlPoco.cpp; path = ../../addons/ofxPoco/src/ofxXmlPoco.cpp; sourceTree = SOURCE_ROOT; };
 		0D596DC5745156266A4BB46B /* dh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dh.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/dh.h; sourceTree = SOURCE_ROOT; };
-		0F6615AAD3C44C85E945017C /* ofxDelaunay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxDelaunay.h; path = local_addons/ofxDelaunay/src/ofxDelaunay.h; sourceTree = SOURCE_ROOT; };
 		100BF3DD9598682646FF5BD3 /* ofxOscParameterSync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxOscParameterSync.h; path = ../../addons/ofxOsc/src/ofxOscParameterSync.h; sourceTree = SOURCE_ROOT; };
 		10E77EFB672AD13F3F3639CB /* baseScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = baseScene.cpp; path = src/scenes/baseScene.cpp; sourceTree = SOURCE_ROOT; };
 		1142EE192FE5E14737557471 /* conf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = conf.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/conf.h; sourceTree = SOURCE_ROOT; };
@@ -139,7 +135,6 @@
 		3E5E131BF25D039CA7195354 /* pkcs12.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pkcs12.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/pkcs12.h; sourceTree = SOURCE_ROOT; };
 		4022FF071CA1A3876BA2A851 /* OscException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OscException.h; path = ../../addons/ofxOsc/libs/oscpack/src/osc/OscException.h; sourceTree = SOURCE_ROOT; };
 		40F75B97F58D2802D7D6FA69 /* ofxEasingSine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingSine.h; path = local_addons/ofxTween/src/Easings/ofxEasingSine.h; sourceTree = SOURCE_ROOT; };
-		40FBB41106C9FD6D36549E7D /* ofxPoissonDiskSampling.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxPoissonDiskSampling.cpp; path = local_addons/ofxPoissonDiskSampling/src/ofxPoissonDiskSampling.cpp; sourceTree = SOURCE_ROOT; };
 		4277585CE79154546004F56F /* ofxMidiOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxMidiOut.cpp; path = local_addons/ofxMidi/src/ofxMidiOut.cpp; sourceTree = SOURCE_ROOT; };
 		42C9C53CA63CC693A1B200FF /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSlider.h; path = ../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
 		445850DAC24250B23EDA5291 /* ofxEasingCubic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingCubic.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingCubic.cpp; sourceTree = SOURCE_ROOT; };
@@ -157,15 +152,12 @@
 		4FC267E1543B3E2200CB0B76 /* opensslv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opensslv.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/opensslv.h; sourceTree = SOURCE_ROOT; };
 		572960DD09FAC11DCF63ED27 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxmlerror.cpp; path = ../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
 		59429ADBB14FCD19148E74FB /* exampleScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exampleScene.cpp; path = src/scenes/exampleScene/exampleScene.cpp; sourceTree = SOURCE_ROOT; };
-		5DCF0F1F355CB0B7915EDB6F /* necessaryLib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = necessaryLib.h; path = local_addons/ofxPoissonDiskSampling/libs/poissondisksampling/include/necessaryLib.h; sourceTree = SOURCE_ROOT; };
 		61797D1C1B3BBE286B96A5AE /* ofxMidiIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxMidiIn.cpp; path = local_addons/ofxMidi/src/ofxMidiIn.cpp; sourceTree = SOURCE_ROOT; };
 		6351ABA165C78353454C856F /* ssl3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ssl3.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ssl3.h; sourceTree = SOURCE_ROOT; };
 		673AFCBC7323D2A93120A7A2 /* ofxOscBundle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxOscBundle.cpp; path = ../../addons/ofxOsc/src/ofxOscBundle.cpp; sourceTree = SOURCE_ROOT; };
 		67DC64ADF8E00E1888BFF187 /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tinyxml.h; path = ../../addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
 		67F87B9938CF91AE54CE05DB /* safestack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = safestack.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/safestack.h; sourceTree = SOURCE_ROOT; };
-		686E501889C51770943DE1B6 /* bluenoise.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bluenoise.h; path = local_addons/ofxPoissonDiskSampling/libs/poissondisksampling/include/bluenoise.h; sourceTree = SOURCE_ROOT; };
 		692E5F5972605BE176E8A98F /* ofxBaseMidi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxBaseMidi.h; path = local_addons/ofxMidi/src/ofxBaseMidi.h; sourceTree = SOURCE_ROOT; };
-		6949BCD05E77A159BAAB4BBB /* nutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nutil.h; path = local_addons/ofxPoissonDiskSampling/libs/poissondisksampling/include/nutil.h; sourceTree = SOURCE_ROOT; };
 		69AD4B9F2ADEFC54570F164D /* ofxEasing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasing.h; path = local_addons/ofxTween/src/Easings/ofxEasing.h; sourceTree = SOURCE_ROOT; };
 		6B3FF5986C8112A3C9256D23 /* ofxEasingCirc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingCirc.h; path = local_addons/ofxTween/src/Easings/ofxEasingCirc.h; sourceTree = SOURCE_ROOT; };
 		6EE05DD94DAD5D94142391A8 /* IpEndpointName.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IpEndpointName.cpp; path = ../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp; sourceTree = SOURCE_ROOT; };
@@ -199,10 +191,8 @@
 		8A844876A71DBD7546201CC6 /* ofxOscMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxOscMessage.cpp; path = ../../addons/ofxOsc/src/ofxOscMessage.cpp; sourceTree = SOURCE_ROOT; };
 		8C0215FD4B5831FD7F3F4B11 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OscPrintReceivedElements.h; path = ../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
 		8C4A0379B06B3C8F5B02C3B7 /* cast.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cast.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/cast.h; sourceTree = SOURCE_ROOT; };
-		8DFCBA9A2908595C116E9FD5 /* ofxDelaunay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxDelaunay.cpp; path = local_addons/ofxDelaunay/src/ofxDelaunay.cpp; sourceTree = SOURCE_ROOT; };
 		8EE0153D58719DDBFBB7AEE0 /* dtls1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dtls1.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/dtls1.h; sourceTree = SOURCE_ROOT; };
 		8FD1797ECDDC571B75C21646 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxLabel.h; path = ../../addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
-		9072804F7805E2AEB02413EE /* vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = local_addons/ofxPoissonDiskSampling/libs/poissondisksampling/include/vec.h; sourceTree = SOURCE_ROOT; };
 		96107BE04BB2E12F8568954F /* md4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = md4.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/md4.h; sourceTree = SOURCE_ROOT; };
 		96B94BA52E4E7CBA6EC68BF4 /* hmac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hmac.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/hmac.h; sourceTree = SOURCE_ROOT; };
 		96D65B036A026EFE2A9037DA /* ofxEasing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasing.cpp; path = local_addons/ofxTween/src/Easings/ofxEasing.cpp; sourceTree = SOURCE_ROOT; };
@@ -232,7 +222,6 @@
 		B34D2935437BD95ED6DA2A59 /* ofxOscReceiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxOscReceiver.cpp; path = ../../addons/ofxOsc/src/ofxOscReceiver.cpp; sourceTree = SOURCE_ROOT; };
 		B5A1F17DA429FA5534A97689 /* ofxMidi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxMidi.cpp; path = local_addons/ofxMidi/src/ofxMidi.cpp; sourceTree = SOURCE_ROOT; };
 		B63793AAC401CFEE868708F2 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxXmlSettings.cpp; path = ../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
-		B6607A8367801C798C27B569 /* Delaunay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Delaunay.h; path = local_addons/ofxDelaunay/libs/Delaunay/src/Delaunay.h; sourceTree = SOURCE_ROOT; };
 		B74A5563DCF8A69DE537F533 /* md5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = md5.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/md5.h; sourceTree = SOURCE_ROOT; };
 		B77A201949C223753FEC1842 /* ofxRtMidiIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRtMidiIn.h; path = local_addons/ofxMidi/src/desktop/ofxRtMidiIn.h; sourceTree = SOURCE_ROOT; };
 		B841694F14059BC544EE4894 /* ofxEasingQuint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingQuint.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingQuint.cpp; sourceTree = SOURCE_ROOT; };
@@ -269,7 +258,6 @@
 		DF354C691EEE9F314CC31547 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OscOutboundPacketStream.h; path = ../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h; sourceTree = SOURCE_ROOT; };
 		E04E12C046019C8B7EBCA065 /* idea.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = idea.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/idea.h; sourceTree = SOURCE_ROOT; };
 		E08CDF91C7486B32A9FDF74C /* opensslconf_osx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opensslconf_osx.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/opensslconf_osx.h; sourceTree = SOURCE_ROOT; };
-		E0934A02BAA991F930233893 /* Delaunay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Delaunay.cpp; path = local_addons/ofxDelaunay/libs/Delaunay/src/Delaunay.cpp; sourceTree = SOURCE_ROOT; };
 		E10975EDE00B1AFEED19CBFF /* ssl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ssl.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ssl.h; sourceTree = SOURCE_ROOT; };
 		E42962AC2163EDD300A6A9E2 /* ofCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ofCamera.cpp; path = ../../libs/openFrameworks/3d/ofCamera.cpp; sourceTree = SOURCE_ROOT; };
 		E42962AD2163EDD300A6A9E2 /* ofMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofMesh.h; path = ../../libs/openFrameworks/3d/ofMesh.h; sourceTree = SOURCE_ROOT; };
@@ -465,7 +453,6 @@
 		EFEC140C917CC285CAAAADA4 /* ofxEasingBack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingBack.h; path = local_addons/ofxTween/src/Easings/ofxEasingBack.h; sourceTree = SOURCE_ROOT; };
 		F090B503ECACBEA13FD43F3D /* opensslconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opensslconf.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/opensslconf.h; sourceTree = SOURCE_ROOT; };
 		F20DB77CFF47D59CAFCDF1DE /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxOscSender.h; path = ../../addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
-		F2F1FE3C014899A1FA12044E /* ofxPoissonDiskSampling.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPoissonDiskSampling.h; path = local_addons/ofxPoissonDiskSampling/src/ofxPoissonDiskSampling.h; sourceTree = SOURCE_ROOT; };
 		F36E485F173FD29D85CEE198 /* md2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = md2.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/md2.h; sourceTree = SOURCE_ROOT; };
 		F3ADE2710E475AA280A46ACE /* rc2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rc2.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/rc2.h; sourceTree = SOURCE_ROOT; };
 		F43C2065E6EEA7D46A085215 /* ofxEasingCubic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingCubic.h; path = local_addons/ofxTween/src/Easings/ofxEasingCubic.h; sourceTree = SOURCE_ROOT; };
@@ -504,14 +491,6 @@
 			name = ofxPoco;
 			sourceTree = "<group>";
 		};
-		0B2E2887AA21E4BBC5ABF122 /* Delaunay */ = {
-			isa = PBXGroup;
-			children = (
-				5F810F423CFEEF7D30252583 /* src */,
-			);
-			name = Delaunay;
-			sourceTree = "<group>";
-		};
 		0EFE45161A4E28BDE46D84D0 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -528,14 +507,6 @@
 				2B137DAD58C3B84288E3E0D4 /* RtMidi.h */,
 			);
 			name = rtmidi;
-			sourceTree = "<group>";
-		};
-		112BBC162BF71DE75D16E21B /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				B0663E87C3B3B06D705B6745 /* poissondisksampling */,
-			);
-			name = libs;
 			sourceTree = "<group>";
 		};
 		13C2436A78CDB4354594CA7D /* include */ = {
@@ -571,15 +542,6 @@
 				182DB62B7EAA9CF47D6BC1DA /* ofxTween.h */,
 			);
 			name = src;
-			sourceTree = "<group>";
-		};
-		2C30E1A20D54D9EE2CB190CA /* ofxDelaunay */ = {
-			isa = PBXGroup;
-			children = (
-				37AA09217BA6B88114662D3C /* libs */,
-				55096CCD59920F232EED029F /* src */,
-			);
-			name = ofxDelaunay;
 			sourceTree = "<group>";
 		};
 		30CB364908817057B430D528 /* osc */ = {
@@ -622,14 +584,6 @@
 				81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */,
 			);
 			name = frameworks;
-			sourceTree = "<group>";
-		};
-		37AA09217BA6B88114662D3C /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				0B2E2887AA21E4BBC5ABF122 /* Delaunay */,
-			);
-			name = libs;
 			sourceTree = "<group>";
 		};
 		38871A5825686AE018EC2BF0 /* libs */ = {
@@ -685,24 +639,6 @@
 			name = libs;
 			sourceTree = "<group>";
 		};
-		55096CCD59920F232EED029F /* src */ = {
-			isa = PBXGroup;
-			children = (
-				8DFCBA9A2908595C116E9FD5 /* ofxDelaunay.cpp */,
-				0F6615AAD3C44C85E945017C /* ofxDelaunay.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		5F810F423CFEEF7D30252583 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E0934A02BAA991F930233893 /* Delaunay.cpp */,
-				B6607A8367801C798C27B569 /* Delaunay.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 		60AF3D0E4702418D1231ED27 /* ofxTween */ = {
 			isa = PBXGroup;
 			children = (
@@ -723,9 +659,7 @@
 		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
-				2C30E1A20D54D9EE2CB190CA /* ofxDelaunay */,
 				DB7BFB74948E142FC40C8045 /* ofxMidi */,
-				F9CD5E0A2B8B52D114AF8E0A /* ofxPoissonDiskSampling */,
 				784A92E9A2282A54926D33D5 /* ofxParameterMidiSync */,
 				60AF3D0E4702418D1231ED27 /* ofxTween */,
 			);
@@ -841,15 +775,6 @@
 			name = ofxParameterMidiSync;
 			sourceTree = "<group>";
 		};
-		7F6448B5D7B2662096520B17 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				40FBB41106C9FD6D36549E7D /* ofxPoissonDiskSampling.cpp */,
-				F2F1FE3C014899A1FA12044E /* ofxPoissonDiskSampling.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 		7F6D532CA91E20040D9531D8 /* Easings */ = {
 			isa = PBXGroup;
 			children = (
@@ -949,14 +874,6 @@
 				4581B326630EC957ED91E25E /* ofxToggle.h */,
 			);
 			name = src;
-			sourceTree = "<group>";
-		};
-		B0663E87C3B3B06D705B6745 /* poissondisksampling */ = {
-			isa = PBXGroup;
-			children = (
-				F674E451903A8A5AC2872CC5 /* include */,
-			);
-			name = poissondisksampling;
 			sourceTree = "<group>";
 		};
 		B2C98B62869583DB9FE30DA7 /* openssl */ = {
@@ -1353,26 +1270,6 @@
 			name = mitScene1;
 			sourceTree = "<group>";
 		};
-		F674E451903A8A5AC2872CC5 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				686E501889C51770943DE1B6 /* bluenoise.h */,
-				5DCF0F1F355CB0B7915EDB6F /* necessaryLib.h */,
-				6949BCD05E77A159BAAB4BBB /* nutil.h */,
-				9072804F7805E2AEB02413EE /* vec.h */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		F9CD5E0A2B8B52D114AF8E0A /* ofxPoissonDiskSampling */ = {
-			isa = PBXGroup;
-			children = (
-				112BBC162BF71DE75D16E21B /* libs */,
-				7F6448B5D7B2662096520B17 /* src */,
-			);
-			name = ofxPoissonDiskSampling;
-			sourceTree = "<group>";
-		};
 		FF8CDF57858E9B94E3237115 /* ip */ = {
 			isa = PBXGroup;
 			children = (
@@ -1521,8 +1418,6 @@
 				F877D69532909AE487E0EF22 /* tinyxmlerror.cpp in Sources */,
 				32E2318B89B6217AE6052155 /* tinyxmlparser.cpp in Sources */,
 				0C626D3D484EA5FB87A6AD23 /* ofxXmlSettings.cpp in Sources */,
-				F77003A47A355BEF27251C2D /* Delaunay.cpp in Sources */,
-				60911436B9B59435E5B03267 /* ofxDelaunay.cpp in Sources */,
 				DA10ED23BD58D4D33988D3CE /* RtMidi.cpp in Sources */,
 				4068C0ABA32B9D8203E7997C /* ofxRtMidiIn.cpp in Sources */,
 				AA4631C023A0DBA27AB435EB /* ofxRtMidiOut.cpp in Sources */,
@@ -1531,7 +1426,6 @@
 				BC6E787BF912B9C5DEA2B374 /* ofxMidiIn.cpp in Sources */,
 				9C0AA1FE3B5813762A475049 /* ofxMidiMessage.cpp in Sources */,
 				904469BEC8D0230A1F01AC92 /* ofxMidiOut.cpp in Sources */,
-				7C8C5576ACA0D4AAE43ABA3C /* ofxPoissonDiskSampling.cpp in Sources */,
 				5AC25FD9FFC0B9238EDC98FE /* ofxMidiRecorder.cpp in Sources */,
 				FEED1B8413938441AF5C13E3 /* ofxParameterMidiInfo.cpp in Sources */,
 				E555C7BF901ADF7AD6922BCA /* ofxParameterMidiSync.cpp in Sources */,
