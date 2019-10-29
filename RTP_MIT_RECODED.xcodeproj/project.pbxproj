@@ -23,6 +23,7 @@
 		413A3F52C6AC90B4F28A6A1C /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448869D12B9D05298EF975CB /* ofxToggle.cpp */; };
 		44162B02236782EF000CBAB9 /* pbeshaiVideo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44162B00236782EF000CBAB9 /* pbeshaiVideo1.cpp */; };
 		44162B112368BFF7000CBAB9 /* pbeshaiMolnar1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44162B102368BFF7000CBAB9 /* pbeshaiMolnar1.cpp */; };
+		44162B1B2368C723000CBAB9 /* pbeshaiSchwartz1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44162B192368C723000CBAB9 /* pbeshaiSchwartz1.cpp */; };
 		4DC711D98736D4736C9FBB13 /* ofxEasingQuart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E95AF96B31E9295114E3DD2 /* ofxEasingQuart.cpp */; };
 		5AC25FD9FFC0B9238EDC98FE /* ofxMidiRecorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8100B11C33F4BE20C5DA069 /* ofxMidiRecorder.cpp */; };
 		631702104AFC104323A9EB79 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */; };
@@ -150,6 +151,9 @@
 		44162B0F2368BFF7000CBAB9 /* pbeshaiMolnar1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbeshaiMolnar1.h; sourceTree = "<group>"; };
 		44162B102368BFF7000CBAB9 /* pbeshaiMolnar1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pbeshaiMolnar1.cpp; sourceTree = "<group>"; };
 		44162B132368C002000CBAB9 /* exampleCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exampleCode.cpp; sourceTree = "<group>"; };
+		44162B192368C723000CBAB9 /* pbeshaiSchwartz1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pbeshaiSchwartz1.cpp; sourceTree = "<group>"; };
+		44162B1A2368C723000CBAB9 /* pbeshaiSchwartz1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbeshaiSchwartz1.h; sourceTree = "<group>"; };
+		44162B1D2368C736000CBAB9 /* exampleCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exampleCode.cpp; sourceTree = "<group>"; };
 		445850DAC24250B23EDA5291 /* ofxEasingCubic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingCubic.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingCubic.cpp; sourceTree = SOURCE_ROOT; };
 		448869D12B9D05298EF975CB /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxToggle.cpp; path = ../../addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
 		4577B15B4EA8356A26832F9B /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSliderGroup.h; path = ../../addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
@@ -604,6 +608,7 @@
 				10E77EFB672AD13F3F3639CB /* baseScene.cpp */,
 				7FE5F37869AABB8C93D219FC /* appConstants.h */,
 				44162B0E2368BFF7000CBAB9 /* pbeshaiMolnar1 */,
+				44162B182368C723000CBAB9 /* pbeshaiSchwartz1 */,
 				44162AFF236782EF000CBAB9 /* pbeshaiVideo1 */,
 				F3F372983B5FDFFC4D8C781F /* mitScene1 */,
 			);
@@ -693,6 +698,26 @@
 			);
 			name = pbeshaiMolnar1;
 			path = bin/data/scenes/pbeshaiMolnar1;
+			sourceTree = SOURCE_ROOT;
+		};
+		44162B182368C723000CBAB9 /* pbeshaiSchwartz1 */ = {
+			isa = PBXGroup;
+			children = (
+				44162B1C2368C736000CBAB9 /* pbeshaiSchwartz1 */,
+				44162B192368C723000CBAB9 /* pbeshaiSchwartz1.cpp */,
+				44162B1A2368C723000CBAB9 /* pbeshaiSchwartz1.h */,
+			);
+			name = pbeshaiSchwartz1;
+			path = scenes/pbeshaiSchwartz1;
+			sourceTree = "<group>";
+		};
+		44162B1C2368C736000CBAB9 /* pbeshaiSchwartz1 */ = {
+			isa = PBXGroup;
+			children = (
+				44162B1D2368C736000CBAB9 /* exampleCode.cpp */,
+			);
+			name = pbeshaiSchwartz1;
+			path = bin/data/scenes/pbeshaiSchwartz1;
 			sourceTree = SOURCE_ROOT;
 		};
 		480A780D8D0308AE4A368801 /* ofxGui */ = {
@@ -1515,6 +1540,7 @@
 				44162B112368BFF7000CBAB9 /* pbeshaiMolnar1.cpp in Sources */,
 				DA10ED23BD58D4D33988D3CE /* RtMidi.cpp in Sources */,
 				4068C0ABA32B9D8203E7997C /* ofxRtMidiIn.cpp in Sources */,
+				44162B1B2368C723000CBAB9 /* pbeshaiSchwartz1.cpp in Sources */,
 				AA4631C023A0DBA27AB435EB /* ofxRtMidiOut.cpp in Sources */,
 				74B90FB956C1C60D24304221 /* ofxBaseMidi.cpp in Sources */,
 				D7E2DC735C3A66B8E967C993 /* ofxMidi.cpp in Sources */,

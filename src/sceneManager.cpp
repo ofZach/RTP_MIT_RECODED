@@ -14,6 +14,7 @@
 #include "ethanMolnarScene.h"
 #include "pbeshaiVideo1.h"
 #include "pbeshaiMolnar1.h"
+#include "pbeshaiSchwartz1.h"
 
 
 //#include "testingScene.h"
@@ -33,9 +34,9 @@ void sceneManager::setup(){
     bDrawGui = true;
     
     font.load("fonts/ProggySmall.fon", 8, false ,false, false, 0, 96);
- 
     scenes.push_back(new ethanMolnarScene());
     scenes.push_back(new ethanWhitneyScene());
+    scenes.push_back(new pbeshaiSchwartz1());
     scenes.push_back(new pbeshaiMolnar1());
     scenes.push_back(new pbeshaiVideo1());
     scenes.push_back(new mitScene1());
