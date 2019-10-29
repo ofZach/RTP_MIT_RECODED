@@ -20,6 +20,7 @@
 		4068C0ABA32B9D8203E7997C /* ofxRtMidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5F082FB29DA3CAC43022F /* ofxRtMidiIn.cpp */; };
 		40F8E3F7627F83C74FD9086A /* ofxOscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 673AFCBC7323D2A93120A7A2 /* ofxOscBundle.cpp */; };
 		413A3F52C6AC90B4F28A6A1C /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448869D12B9D05298EF975CB /* ofxToggle.cpp */; };
+		44162B02236782EF000CBAB9 /* pbeshaiVideo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44162B00236782EF000CBAB9 /* pbeshaiVideo1.cpp */; };
 		4DC711D98736D4736C9FBB13 /* ofxEasingQuart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E95AF96B31E9295114E3DD2 /* ofxEasingQuart.cpp */; };
 		5AC25FD9FFC0B9238EDC98FE /* ofxMidiRecorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8100B11C33F4BE20C5DA069 /* ofxMidiRecorder.cpp */; };
 		631702104AFC104323A9EB79 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */; };
@@ -138,6 +139,9 @@
 		40F75B97F58D2802D7D6FA69 /* ofxEasingSine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingSine.h; path = local_addons/ofxTween/src/Easings/ofxEasingSine.h; sourceTree = SOURCE_ROOT; };
 		4277585CE79154546004F56F /* ofxMidiOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxMidiOut.cpp; path = local_addons/ofxMidi/src/ofxMidiOut.cpp; sourceTree = SOURCE_ROOT; };
 		42C9C53CA63CC693A1B200FF /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSlider.h; path = ../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
+		44162B00236782EF000CBAB9 /* pbeshaiVideo1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pbeshaiVideo1.cpp; sourceTree = "<group>"; };
+		44162B01236782EF000CBAB9 /* pbeshaiVideo1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbeshaiVideo1.h; sourceTree = "<group>"; };
+		44162B042367839A000CBAB9 /* exampleCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exampleCode.cpp; sourceTree = "<group>"; };
 		445850DAC24250B23EDA5291 /* ofxEasingCubic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingCubic.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingCubic.cpp; sourceTree = SOURCE_ROOT; };
 		448869D12B9D05298EF975CB /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxToggle.cpp; path = ../../addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
 		4577B15B4EA8356A26832F9B /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSliderGroup.h; path = ../../addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
@@ -577,6 +581,7 @@
 				EAC398346BE53FFF8AEEF458 /* typographyManager.cpp */,
 				10E77EFB672AD13F3F3639CB /* baseScene.cpp */,
 				7FE5F37869AABB8C93D219FC /* appConstants.h */,
+				44162AFF236782EF000CBAB9 /* pbeshaiVideo1 */,
 				F3F372983B5FDFFC4D8C781F /* mitScene1 */,
 			);
 			name = scenes;
@@ -626,6 +631,26 @@
 			);
 			name = src;
 			sourceTree = "<group>";
+		};
+		44162AFF236782EF000CBAB9 /* pbeshaiVideo1 */ = {
+			isa = PBXGroup;
+			children = (
+				44162B032367839A000CBAB9 /* pbeshaiVideo1 */,
+				44162B00236782EF000CBAB9 /* pbeshaiVideo1.cpp */,
+				44162B01236782EF000CBAB9 /* pbeshaiVideo1.h */,
+			);
+			name = pbeshaiVideo1;
+			path = scenes/pbeshaiVideo1;
+			sourceTree = "<group>";
+		};
+		44162B032367839A000CBAB9 /* pbeshaiVideo1 */ = {
+			isa = PBXGroup;
+			children = (
+				44162B042367839A000CBAB9 /* exampleCode.cpp */,
+			);
+			name = pbeshaiVideo1;
+			path = bin/data/scenes/pbeshaiVideo1;
+			sourceTree = SOURCE_ROOT;
 		};
 		480A780D8D0308AE4A368801 /* ofxGui */ = {
 			isa = PBXGroup;
@@ -1402,6 +1427,7 @@
 				0E88A75C2E994C3D685709DC /* typographyManager.cpp in Sources */,
 				6F0D599D9FD124B23D0E0F8D /* baseScene.cpp in Sources */,
 				B7D58E16975420B1293DD11E /* mitScene1.cpp in Sources */,
+				44162B02236782EF000CBAB9 /* pbeshaiVideo1.cpp in Sources */,
 				955F720CEA06F043A060E5EE /* sceneManager.cpp in Sources */,
 				800429C3408CE8521C357F20 /* interactionManager.cpp in Sources */,
 				FA0D4902FAA63D187EA61B31 /* ofxBaseGui.cpp in Sources */,
