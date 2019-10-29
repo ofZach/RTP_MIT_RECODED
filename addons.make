@@ -2,8 +2,6 @@ ofxGui
 ofxOsc
 ofxPoco
 ofxXmlSettings
-local_addons/ofxDelaunay
 local_addons/ofxMidi
-local_addons/ofxPoissonDiskSampling
 local_addons/ofxParameterMidiSync
 local_addons/ofxTween
