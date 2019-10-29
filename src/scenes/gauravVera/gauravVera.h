@@ -22,6 +22,7 @@ public:
 //    int d = 60;  //rect base size (range 40-120)
 //    int s = 100;  //spacing between rectangles (range 50-150)
 //    
+    int instances = 3;
     
 //    ofParameter<float> param;
 };
