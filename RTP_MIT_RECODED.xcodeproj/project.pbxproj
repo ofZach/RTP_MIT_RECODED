@@ -69,6 +69,7 @@
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
 		E555C7BF901ADF7AD6922BCA /* ofxParameterMidiSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D208A7A259877247A4E20DC3 /* ofxParameterMidiSync.cpp */; };
 		E717C5A73BE4076EDBC728DC /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EE05DD94DAD5D94142391A8 /* IpEndpointName.cpp */; };
+		EF195279236A2526006024BD /* aaronVeraMolnar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF195277236A2526006024BD /* aaronVeraMolnar.cpp */; };
 		F0509CA2E805D1D5F70A87D0 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F72D5263CF8609CF22E13BD6 /* NetworkingUtils.cpp */; };
 		F371BA47826BCB4729114673 /* ofxEasingCubic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445850DAC24250B23EDA5291 /* ofxEasingCubic.cpp */; };
 		F4BA53EB83A682CF0A3B4E02 /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D4C5CC8CBB1FFDE41AE089E /* ofxXmlPoco.cpp */; };
@@ -477,6 +478,8 @@
 		EAC398346BE53FFF8AEEF458 /* typographyManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = typographyManager.cpp; path = src/scenes/typographyManager.cpp; sourceTree = SOURCE_ROOT; };
 		EAFA8681058B5F1F30BFFD60 /* ofxOscArg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxOscArg.h; path = ../../addons/ofxOsc/src/ofxOscArg.h; sourceTree = SOURCE_ROOT; };
 		EB25C0CD00F1B962AECE31E7 /* interactionManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = interactionManager.cpp; path = src/interactionManager.cpp; sourceTree = SOURCE_ROOT; };
+		EF195277236A2526006024BD /* aaronVeraMolnar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aaronVeraMolnar.cpp; sourceTree = "<group>"; };
+		EF195278236A2526006024BD /* aaronVeraMolnar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaronVeraMolnar.h; sourceTree = "<group>"; };
 		EFB77AB55CB8361477C5C905 /* pem2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pem2.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/pem2.h; sourceTree = SOURCE_ROOT; };
 		EFBE84525195E3DA7BD72A56 /* sceneManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sceneManager.h; path = src/sceneManager.h; sourceTree = SOURCE_ROOT; };
 		EFEC140C917CC285CAAAADA4 /* ofxEasingBack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingBack.h; path = local_addons/ofxTween/src/Easings/ofxEasingBack.h; sourceTree = SOURCE_ROOT; };
@@ -605,6 +608,7 @@
 		36BF1C038F5AEC4D85473FE4 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EF195276236A2526006024BD /* aaronVeraMolnar */,
 				2F41A33E2368CFC8000F345C /* gauravVera */,
 				7CF3B6A22368C64400BDCE8A /* ethanMolnarScene */,
 				7CF3B69B2368C5DD00BDCE8A /* ethanWhitneyScene */,
@@ -1428,6 +1432,16 @@
 			name = ofxOsc;
 			sourceTree = "<group>";
 		};
+		EF195276236A2526006024BD /* aaronVeraMolnar */ = {
+			isa = PBXGroup;
+			children = (
+				EF195277236A2526006024BD /* aaronVeraMolnar.cpp */,
+				EF195278236A2526006024BD /* aaronVeraMolnar.h */,
+			);
+			name = aaronVeraMolnar;
+			path = scenes/aaronVeraMolnar;
+			sourceTree = "<group>";
+		};
 		F3F372983B5FDFFC4D8C781F /* mitScene1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1591,6 +1605,7 @@
 				44162B112368BFF7000CBAB9 /* pbeshaiMolnar1.cpp in Sources */,
 				DA10ED23BD58D4D33988D3CE /* RtMidi.cpp in Sources */,
 				4068C0ABA32B9D8203E7997C /* ofxRtMidiIn.cpp in Sources */,
+				EF195279236A2526006024BD /* aaronVeraMolnar.cpp in Sources */,
 				44162B1B2368C723000CBAB9 /* pbeshaiSchwartz1.cpp in Sources */,
 				AA4631C023A0DBA27AB435EB /* ofxRtMidiOut.cpp in Sources */,
 				74B90FB956C1C60D24304221 /* ofxBaseMidi.cpp in Sources */,
