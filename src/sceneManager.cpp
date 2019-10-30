@@ -17,6 +17,7 @@
 #include "pbeshaiSchwartz1.h"
 #include "gauravVera.h"
 #include "pbeshaiWhitney1.h"
+#include "pbeshaiKnowlton1.h"
 
 
 //#include "testingScene.h"
@@ -37,6 +38,7 @@ void sceneManager::setup(){
     
     font.load("fonts/ProggySmall.fon", 8, false ,false, false, 0, 96);
     
+    scenes.push_back(new pbeshaiKnowlton1());
     scenes.push_back(new pbeshaiWhitney1());
     scenes.push_back(new gauravVera());
     scenes.push_back(new ethanMolnarScene());
