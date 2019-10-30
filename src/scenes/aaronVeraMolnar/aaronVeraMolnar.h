@@ -13,8 +13,7 @@ public:
     
 //    ofParameter<float> param;
     ofParameter<float> padding;
-    ofParameter<int> howManyRepetitions;
-    ofParameter<int> howManyX;
-    ofParameter<int> howManyY;
-    ofParameter<float> rotationY;
+    ofParameter<int> howManyInside;
+    ofParameter<int> howManyXY;
+    ofParameter<float> rotation;
 };

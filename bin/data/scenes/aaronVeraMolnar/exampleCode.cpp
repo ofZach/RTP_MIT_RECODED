@@ -1,4 +1,16 @@
-// code goes here!
-
-//if you want to show a parameter's value, which highlights when it changes you need to enclose it's name in double square brackets.
-// for a parameter named myParam you shoudl put [[myParam]] in the pseudo code below.
+for (int j = 0; j < [[howManyXY]]; j++) {
+    for (int i = 0; i < [[howManyXY]]; i++) {
+        
+        // iterate on repetitions
+        for (int rep = 0; rep < [[howManyInside]]; rep++) {
+            
+            // padding percentage
+            float paddingFactor = 1.0 - padding;
+                
+            ofRotateDeg([[rotation]]);
+                
+            // draw rectangle
+            ofDrawRectangle(p, [[padding]], rep);
+        }
+    }
+}

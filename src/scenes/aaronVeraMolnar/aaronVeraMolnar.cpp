@@ -12,10 +12,9 @@ void aaronVeraMolnar::setup(){
 // param was declared in aaronVeraMolnar.h
     
     parameters.add(padding.set("padding", 0.1, 0.0, 1.0));
-    parameters.add(howManyRepetitions.set("howManyRepetitions", 10, 1, 20));
-    parameters.add(howManyX.set("howManyX", 5, 1, 10));
-    parameters.add(howManyY.set("howManyY", 5, 1, 10));
-    parameters.add(rotationY.set("rotationY", 5, 1, 10));
+    parameters.add(howManyInside.set("howManyInside", 10, 1, 20));
+    parameters.add(howManyXY.set("howManyXY", 5, 1, 5));
+    parameters.add(rotation.set("rotation", 0, -10, 10));
     
     setAuthor("aaron montoya-moraga");
     setOriginalArtist("Vera Molnar");
@@ -25,8 +24,8 @@ void aaronVeraMolnar::setup(){
 
 void aaronVeraMolnar::update(){
     
-    sizeX = dimensions.getWidth() / howManyX;
-    sizeY = dimensions.getHeight() / howManyY;
+    sizeX = dimensions.getWidth() / howManyXY;
+    sizeY = dimensions.getHeight() / howManyXY;
     
 }
 
@@ -37,8 +36,8 @@ void aaronVeraMolnar::draw(){
     ofNoFill();
     
     // iterate on x,y
-    for (int j = 0; j < howManyY; j++) {
-        for (int i = 0; i < howManyX; i++) {
+    for (int j = 0; j < howManyXY; j++) {
+        for (int i = 0; i < howManyXY; i++) {
             
             // create a point p
             glm::vec3 p;
@@ -46,28 +45,31 @@ void aaronVeraMolnar::draw(){
             p.x = sizeX/2 + i*sizeX;
             p.y = sizeY/2 + j*sizeY;
             
+            ofPushMatrix();
+            
             // iterate on repetitions
-            for (int rep = 0; rep < howManyRepetitions; rep++) {
+            for (int rep = 0; rep < howManyInside; rep++) {
+                
                 // repetition percentage
-                float repetitionFactor = float(howManyRepetitions - rep) / howManyRepetitions;
+                float repetitionFactor = float(howManyInside - rep) / howManyInside;
+                
                 // padding percentage
                 float paddingFactor = 1.0 - padding;
+                
                 // color dependent on x,y,repetition
                 ofSetColor(float(p.x/dimensions.getWidth())*(255), float(p.y/dimensions.getHeight())*(255), repetitionFactor*(255));
                 
-                ofPushMatrix();
-                
-                ofTranslate(repetitionFactor, rotationY*repetitionFactor);
+                ofRotateDeg(rotation);
                 
                 // draw rectangle
                 ofDrawRectangle(p, sizeX * repetitionFactor * paddingFactor, sizeY * repetitionFactor * paddingFactor);
                 
-                ofPopMatrix();
             }
+            
+            ofPopMatrix();
         }
     }
     
-    
     ofPopStyle();
-    
+
 }
