@@ -14,11 +14,9 @@
 #include "ethanMolnarScene.h"
 #include "pbeshaiVideo1.h"
 #include "pbeshaiMolnar1.h"
-<<<<<<< HEAD
 #include "pbeshaiSchwartz1.h"
-=======
 #include "gauravVera.h"
->>>>>>> master
+
 
 
 //#include "testingScene.h"
