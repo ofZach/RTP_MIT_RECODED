@@ -25,6 +25,7 @@
 		44162B112368BFF7000CBAB9 /* pbeshaiMolnar1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44162B102368BFF7000CBAB9 /* pbeshaiMolnar1.cpp */; };
 		44162B1B2368C723000CBAB9 /* pbeshaiSchwartz1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44162B192368C723000CBAB9 /* pbeshaiSchwartz1.cpp */; };
 		44162B212368D1AD000CBAB9 /* pbeshaiWhitney1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44162B1F2368D1AD000CBAB9 /* pbeshaiWhitney1.cpp */; };
+		44162B27236A022B000CBAB9 /* pbeshaiKnowlton1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44162B25236A022B000CBAB9 /* pbeshaiKnowlton1.cpp */; };
 		4DC711D98736D4736C9FBB13 /* ofxEasingQuart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E95AF96B31E9295114E3DD2 /* ofxEasingQuart.cpp */; };
 		5AC25FD9FFC0B9238EDC98FE /* ofxMidiRecorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8100B11C33F4BE20C5DA069 /* ofxMidiRecorder.cpp */; };
 		631702104AFC104323A9EB79 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */; };
@@ -158,6 +159,9 @@
 		44162B1F2368D1AD000CBAB9 /* pbeshaiWhitney1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pbeshaiWhitney1.cpp; sourceTree = "<group>"; };
 		44162B202368D1AD000CBAB9 /* pbeshaiWhitney1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbeshaiWhitney1.h; sourceTree = "<group>"; };
 		44162B232368D1B6000CBAB9 /* exampleCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exampleCode.cpp; sourceTree = "<group>"; };
+		44162B25236A022B000CBAB9 /* pbeshaiKnowlton1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pbeshaiKnowlton1.cpp; sourceTree = "<group>"; };
+		44162B26236A022B000CBAB9 /* pbeshaiKnowlton1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbeshaiKnowlton1.h; sourceTree = "<group>"; };
+		44162B29236A0238000CBAB9 /* exampleCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exampleCode.cpp; sourceTree = "<group>"; };
 		445850DAC24250B23EDA5291 /* ofxEasingCubic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingCubic.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingCubic.cpp; sourceTree = SOURCE_ROOT; };
 		448869D12B9D05298EF975CB /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxToggle.cpp; path = ../../addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
 		4577B15B4EA8356A26832F9B /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSliderGroup.h; path = ../../addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
@@ -611,6 +615,7 @@
 				EAC398346BE53FFF8AEEF458 /* typographyManager.cpp */,
 				10E77EFB672AD13F3F3639CB /* baseScene.cpp */,
 				7FE5F37869AABB8C93D219FC /* appConstants.h */,
+				44162B24236A022B000CBAB9 /* pbeshaiKnowlton1 */,
 				44162B0E2368BFF7000CBAB9 /* pbeshaiMolnar1 */,
 				44162B182368C723000CBAB9 /* pbeshaiSchwartz1 */,
 				44162AFF236782EF000CBAB9 /* pbeshaiVideo1 */,
@@ -743,6 +748,26 @@
 			);
 			name = pbeshaiWhitney1;
 			path = bin/data/scenes/pbeshaiWhitney1;
+			sourceTree = SOURCE_ROOT;
+		};
+		44162B24236A022B000CBAB9 /* pbeshaiKnowlton1 */ = {
+			isa = PBXGroup;
+			children = (
+				44162B28236A0238000CBAB9 /* pbeshaiKnowlton1 */,
+				44162B25236A022B000CBAB9 /* pbeshaiKnowlton1.cpp */,
+				44162B26236A022B000CBAB9 /* pbeshaiKnowlton1.h */,
+			);
+			name = pbeshaiKnowlton1;
+			path = scenes/pbeshaiKnowlton1;
+			sourceTree = "<group>";
+		};
+		44162B28236A0238000CBAB9 /* pbeshaiKnowlton1 */ = {
+			isa = PBXGroup;
+			children = (
+				44162B29236A0238000CBAB9 /* exampleCode.cpp */,
+			);
+			name = pbeshaiKnowlton1;
+			path = bin/data/scenes/pbeshaiKnowlton1;
 			sourceTree = SOURCE_ROOT;
 		};
 		480A780D8D0308AE4A368801 /* ofxGui */ = {
@@ -1525,6 +1550,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				44162B27236A022B000CBAB9 /* pbeshaiKnowlton1.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				A0C015CC66A25C7CEDF8B659 /* emptyScene.cpp in Sources */,
 				2DE293FAAF850C0ABF02DB62 /* exampleScene.cpp in Sources */,
