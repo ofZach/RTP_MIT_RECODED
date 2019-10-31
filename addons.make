@@ -5,3 +5,7 @@ ofxXmlSettings
 local_addons/ofxMidi
 local_addons/ofxParameterMidiSync
 local_addons/ofxTween
+local_addons/ofxFaceTracker2
+local_addons/ofxCv
+local_addons/ofxOpenCv
+local_addons/ofxDelaunay

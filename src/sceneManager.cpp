@@ -19,7 +19,7 @@
 #include "gauravVera.h"
 #include "pbeshaiWhitney1.h"
 #include "pbeshaiKnowlton1.h"
-
+//#include "pbeshaiBurson1.h" // NOTE: requires facetracker data
 
 //#include "testingScene.h"
 
@@ -39,6 +39,7 @@ void sceneManager::setup(){
     
     font.load("fonts/ProggySmall.fon", 8, false ,false, false, 0, 96);
     
+//    scenes.push_back(new pbeshaiBurson1()); // NOTE: this requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
     scenes.push_back(new aaronVeraMolnar());
     scenes.push_back(new pbeshaiKnowlton1());
     scenes.push_back(new pbeshaiWhitney1());
