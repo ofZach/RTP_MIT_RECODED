@@ -1,4 +1,20 @@
-// code goes here!
+float rectSizeX = width/[[numberRows]];
+float rectSizeY = height/[[numberRows]];
 
-//if you want to show a parameter's value, which highlights when it changes you need to enclose it's name in double square brackets.
-// for a parameter named myParam you shoudl put [[myParam]] in the pseudo code below.
+// upper row has as many squares as numberRows
+for (int i = 0; i < [[numberRows]]; i++) {
+    // draw as many squares on this row as each
+    for (int j = 0; j < numberRows-i; j++) {
+        
+        ofSetLineWidth([[strokeWidth]]);
+        
+        // foreground rectangle
+        ofDrawRectangle(posX, posY, rectSizeX, rectSizeY);
+        
+        // background rectangle
+        ofDrawRectangle(posX + [[depth]], posY - [[depth]], rectSizeX, rectSizeY);
+        
+        // lines between squares
+        ofDrawLines([[depth]]);
+    }
+}

@@ -10,6 +10,7 @@
 #include "baseScene.h"
 #include "exampleScene.h"
 #include "mitScene1.h"
+#include "aaronMurielCooper.h"
 #include "aaronVeraMolnar.h"
 #include "ethanWhitneyScene.h"
 #include "ethanMolnarScene.h"
@@ -40,6 +41,7 @@ void sceneManager::setup(){
     font.load("fonts/ProggySmall.fon", 8, false ,false, false, 0, 96);
     
 //    scenes.push_back(new pbeshaiBurson1()); // NOTE: this requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
+    scenes.push_back(new aaronMurielCooper());
     scenes.push_back(new aaronVeraMolnar());
     scenes.push_back(new pbeshaiKnowlton1());
     scenes.push_back(new pbeshaiWhitney1());
