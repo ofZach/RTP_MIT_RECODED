@@ -21,6 +21,15 @@
 #include "pbeshaiWhitney1.h"
 #include "pbeshaiKnowlton1.h"
 #include "lizVera.h"
+#include "hannahVera.h"
+#include "hannahMuriel.h"
+#include "hannahSchwartz.h"
+#include "hannahWhitney.h"
+#include "mengfeiKen.h"
+#include "mengfeiVera.h"
+#include "mengfeiMuriel.h"
+#include "mengfeiLillian.h"
+#include "mengfeiWhitney.h"
 
 //#include "pbeshaiBurson1.h" // NOTE: requires facetracker data
 
@@ -48,6 +57,16 @@ void sceneManager::setup(){
 //    scenes.push_back(new pbeshaiBurson1()); // NOTE: this requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
     
     
+//    scenes.push_back(new mengfeiKen());
+//    scenes.push_back(new mengfeiVera());
+//    scenes.push_back(new mengfeiMuriel());
+//    scenes.push_back(new mengfeiLillian());
+//    scenes.push_back(new mengfeiWhitney());
+    
+    scenes.push_back(new hannahVera());
+    scenes.push_back(new hannahMuriel());
+    scenes.push_back(new hannahWhitney());
+    scenes.push_back(new hannahSchwartz());
     scenes.push_back(new lizVera());
     scenes.push_back(new aaronMurielCooper());
     scenes.push_back(new aaronVeraMolnar());

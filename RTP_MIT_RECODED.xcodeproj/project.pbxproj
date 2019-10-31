@@ -26,6 +26,10 @@
 		2FDBEC73236B176000825426 /* lizVesulka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC68236B176000825426 /* lizVesulka.cpp */; };
 		2FDBEC74236B176000825426 /* mengfeiKen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC6B236B176000825426 /* mengfeiKen.cpp */; };
 		2FDBEC75236B176000825426 /* mengfeiVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC6E236B176000825426 /* mengfeiVera.cpp */; };
+		2FDBEC82236B18D100825426 /* hannahWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC77236B18D100825426 /* hannahWhitney.cpp */; };
+		2FDBEC83236B18D100825426 /* hannahVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC7B236B18D100825426 /* hannahVera.cpp */; };
+		2FDBEC84236B18D100825426 /* hannahSchwartz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC7D236B18D100825426 /* hannahSchwartz.cpp */; };
+		2FDBEC85236B18D100825426 /* hannahMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC81236B18D100825426 /* hannahMuriel.cpp */; };
 		32E2318B89B6217AE6052155 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 723AE465948C9C9893893BC8 /* tinyxmlparser.cpp */; };
 		390AAD72EB181C94BB981D03 /* ofxFaceTracker2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 167FF882C7890E264E24376F /* ofxFaceTracker2.cpp */; };
 		3A47706C1DF9A0D4045568C0 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D015FA91E7717ECC9591593E /* ofxGuiGroup.cpp */; };
@@ -248,6 +252,14 @@
 		2FDBEC6C236B176000825426 /* mengfeiKen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mengfeiKen.h; sourceTree = "<group>"; };
 		2FDBEC6E236B176000825426 /* mengfeiVera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mengfeiVera.cpp; sourceTree = "<group>"; };
 		2FDBEC6F236B176000825426 /* mengfeiVera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mengfeiVera.h; sourceTree = "<group>"; };
+		2FDBEC77236B18D100825426 /* hannahWhitney.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahWhitney.cpp; sourceTree = "<group>"; };
+		2FDBEC78236B18D100825426 /* hannahWhitney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahWhitney.h; sourceTree = "<group>"; };
+		2FDBEC7A236B18D100825426 /* hannahVera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahVera.h; sourceTree = "<group>"; };
+		2FDBEC7B236B18D100825426 /* hannahVera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahVera.cpp; sourceTree = "<group>"; };
+		2FDBEC7D236B18D100825426 /* hannahSchwartz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahSchwartz.cpp; sourceTree = "<group>"; };
+		2FDBEC7E236B18D100825426 /* hannahSchwartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahSchwartz.h; sourceTree = "<group>"; };
+		2FDBEC80236B18D100825426 /* hannahMuriel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahMuriel.h; sourceTree = "<group>"; };
+		2FDBEC81236B18D100825426 /* hannahMuriel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahMuriel.cpp; sourceTree = "<group>"; };
 		30EC225DE277BC20B85714D0 /* mat.inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.inl.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.inl.hpp; sourceTree = SOURCE_ROOT; };
 		30F9C61E50AB0C197FD6557D /* RunningBackground.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RunningBackground.cpp; path = local_addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp; sourceTree = SOURCE_ROOT; };
 		3123FC43CDB08480B2226A91 /* baseScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = baseScene.h; path = src/scenes/baseScene.h; sourceTree = SOURCE_ROOT; };
@@ -1320,6 +1332,46 @@
 			path = scenes/mengfeiVera;
 			sourceTree = "<group>";
 		};
+		2FDBEC76236B18D100825426 /* hannahWhitney */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC77236B18D100825426 /* hannahWhitney.cpp */,
+				2FDBEC78236B18D100825426 /* hannahWhitney.h */,
+			);
+			name = hannahWhitney;
+			path = scenes/hannahWhitney;
+			sourceTree = "<group>";
+		};
+		2FDBEC79236B18D100825426 /* hannahVera */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC7A236B18D100825426 /* hannahVera.h */,
+				2FDBEC7B236B18D100825426 /* hannahVera.cpp */,
+			);
+			name = hannahVera;
+			path = scenes/hannahVera;
+			sourceTree = "<group>";
+		};
+		2FDBEC7C236B18D100825426 /* hannahSchwartz */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC7D236B18D100825426 /* hannahSchwartz.cpp */,
+				2FDBEC7E236B18D100825426 /* hannahSchwartz.h */,
+			);
+			name = hannahSchwartz;
+			path = scenes/hannahSchwartz;
+			sourceTree = "<group>";
+		};
+		2FDBEC7F236B18D100825426 /* hannahMuriel */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC80236B18D100825426 /* hannahMuriel.h */,
+				2FDBEC81236B18D100825426 /* hannahMuriel.cpp */,
+			);
+			name = hannahMuriel;
+			path = scenes/hannahMuriel;
+			sourceTree = "<group>";
+		};
 		30CB364908817057B430D528 /* osc */ = {
 			isa = PBXGroup;
 			children = (
@@ -1342,6 +1394,10 @@
 		36BF1C038F5AEC4D85473FE4 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2FDBEC7F236B18D100825426 /* hannahMuriel */,
+				2FDBEC7C236B18D100825426 /* hannahSchwartz */,
+				2FDBEC79236B18D100825426 /* hannahVera */,
+				2FDBEC76236B18D100825426 /* hannahWhitney */,
 				2FDBEC67236B176000825426 /* lizVesulka */,
 				2FDBEC6A236B176000825426 /* mengfeiKen */,
 				2FDBEC64236B175F00825426 /* mengfeiLillian */,
@@ -2981,6 +3037,7 @@
 				C9651B24B869083F299EFA4D /* UdpSocket.cpp in Sources */,
 				A857235EB7F8624F0C02D157 /* OscOutboundPacketStream.cpp in Sources */,
 				9753D2F373BDF97B89D59B33 /* OscPrintReceivedElements.cpp in Sources */,
+				2FDBEC85236B18D100825426 /* hannahMuriel.cpp in Sources */,
 				F95B04FD042E7407B70EE321 /* OscReceivedElements.cpp in Sources */,
 				014058944CFE6AE1A2171D12 /* OscTypes.cpp in Sources */,
 				40F8E3F7627F83C74FD9086A /* ofxOscBundle.cpp in Sources */,
@@ -2989,6 +3046,7 @@
 				DBB73811B127DAE7DE28C895 /* ofxOscParameterSync.cpp in Sources */,
 				6F2D739BB67B61B0D43AB5BD /* ofxOscReceiver.cpp in Sources */,
 				866ACEB977FAB3191AD48906 /* ofxOscSender.cpp in Sources */,
+				2FDBEC82236B18D100825426 /* hannahWhitney.cpp in Sources */,
 				F4BA53EB83A682CF0A3B4E02 /* ofxXmlPoco.cpp in Sources */,
 				28DC652211D4AF8CC023D568 /* tinyxml.cpp in Sources */,
 				F877D69532909AE487E0EF22 /* tinyxmlerror.cpp in Sources */,
@@ -2998,6 +3056,7 @@
 				2FDBEC71236B176000825426 /* mengfeiWhitney.cpp in Sources */,
 				4068C0ABA32B9D8203E7997C /* ofxRtMidiIn.cpp in Sources */,
 				AA4631C023A0DBA27AB435EB /* ofxRtMidiOut.cpp in Sources */,
+				2FDBEC83236B18D100825426 /* hannahVera.cpp in Sources */,
 				74B90FB956C1C60D24304221 /* ofxBaseMidi.cpp in Sources */,
 				D7E2DC735C3A66B8E967C993 /* ofxMidi.cpp in Sources */,
 				BC6E787BF912B9C5DEA2B374 /* ofxMidiIn.cpp in Sources */,
@@ -3011,6 +3070,7 @@
 				E4A6432D701334C97F89FFDD /* ofxEasingBack.cpp in Sources */,
 				F8E1A8FE5B019C4E173B25A4 /* ofxEasingBounce.cpp in Sources */,
 				9BBCA851C530275D30E57BD7 /* ofxEasingCirc.cpp in Sources */,
+				2FDBEC84236B18D100825426 /* hannahSchwartz.cpp in Sources */,
 				F371BA47826BCB4729114673 /* ofxEasingCubic.cpp in Sources */,
 				A24426F12D75CFAD158C927E /* ofxEasingElastic.cpp in Sources */,
 				7F208A71CF13CBC28D2CD896 /* ofxEasingExpo.cpp in Sources */,
