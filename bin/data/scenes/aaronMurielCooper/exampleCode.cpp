@@ -1,12 +1,8 @@
-paintBackground();
-
-drawText();
-
-rectSizeX = width/[[numberRows]];
-rectSizeY = height/[[numberRows]];
+float rectSizeX = width/[[numberRows]];
+float rectSizeY = height/[[numberRows]];
 
 // upper row has as many squares as numberRows
-for (int i = 0; i < numberRows; i++) {
+for (int i = 0; i < [[numberRows]]; i++) {
     // draw as many squares on this row as each
     for (int j = 0; j < numberRows-i; j++) {
         
