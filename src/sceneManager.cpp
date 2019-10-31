@@ -10,6 +10,7 @@
 #include "baseScene.h"
 #include "exampleScene.h"
 #include "mitScene1.h"
+#include "aaronLillianSchwartz.h"
 #include "aaronMurielCooper.h"
 #include "aaronVeraMolnar.h"
 #include "ethanWhitneyScene.h"
@@ -63,6 +64,7 @@ void sceneManager::setup(){
 //    scenes.push_back(new mengfeiLillian());
 //    scenes.push_back(new mengfeiWhitney());
     
+    scenes.push_back(new aaronLillianSchwartz());
     scenes.push_back(new hannahVera());
     scenes.push_back(new hannahMuriel());
     scenes.push_back(new hannahWhitney());
