@@ -7,9 +7,9 @@ void pbeshaiBurson1::setup(){
   // if your original code use an ofxPanel instance dont use it here, instead
   // add your parameters to the "parameters" instance as follows.
   // param was declared in pbeshaiBurson1.h
-  parameters.add(param1.set("image1", 5, 0, 30));
+  parameters.add(param1.set("image1", 6, 0, 30));
   parameters.add(param2.set("image2", 17, 0, 30));
-  parameters.add(param3.set("blend", 1, 0, 1));
+  parameters.add(param3.set("blend", 0.74, 0, 1));
   
   setAuthor("Peter Beshai");
   setOriginalArtist("Nancy Burson");

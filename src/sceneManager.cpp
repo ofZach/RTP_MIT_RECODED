@@ -30,8 +30,7 @@
 #include "mengfeiMuriel.h"
 #include "mengfeiLillian.h"
 #include "mengfeiWhitney.h"
-
-//#include "pbeshaiBurson1.h" // NOTE: requires facetracker data
+#include "pbeshaiBurson1.h" // NOTE: requires facetracker data
 
 //#include "testingScene.h"
 
@@ -53,10 +52,14 @@ void sceneManager::setup(){
     
     
     
-    
-//    scenes.push_back(new pbeshaiBurson1()); // NOTE: this requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
-    
-    
+    // NOTE: pbeshaiBurson1 requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
+//    scenes.push_back(new pbeshaiBurson1());     // has recording (requires facetrakcer data)
+    scenes.push_back(new pbeshaiVideo1());      // has recording
+    scenes.push_back(new pbeshaiKnowlton1());   // has recording
+    scenes.push_back(new pbeshaiWhitney1());    // has recording
+    scenes.push_back(new pbeshaiSchwartz1());   // has recording
+    scenes.push_back(new pbeshaiMolnar1());     // has recording
+  
 //    scenes.push_back(new mengfeiKen());
 //    scenes.push_back(new mengfeiVera());
 //    scenes.push_back(new mengfeiMuriel());
@@ -70,14 +73,9 @@ void sceneManager::setup(){
     scenes.push_back(new lizVera());
     scenes.push_back(new aaronMurielCooper());
     scenes.push_back(new aaronVeraMolnar());
-    scenes.push_back(new pbeshaiKnowlton1());
-    scenes.push_back(new pbeshaiWhitney1());
     scenes.push_back(new gauravVera());
     scenes.push_back(new ethanMolnarScene());
     scenes.push_back(new ethanWhitneyScene());
-    scenes.push_back(new pbeshaiSchwartz1());
-    scenes.push_back(new pbeshaiMolnar1());
-    scenes.push_back(new pbeshaiVideo1());
     scenes.push_back(new mitScene1());
     scenes.push_back(new exampleScene());
     
