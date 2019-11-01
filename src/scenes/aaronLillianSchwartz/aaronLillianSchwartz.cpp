@@ -4,10 +4,8 @@
 void aaronLillianSchwartz::setup(){
   
     // setup parameters
-    // if your original code use an ofxPanel instance dont use it here, instead
-    // add your parameters to the "parameters" instance as follows.
-    // param was declared in aaronLillianSchwartz.h
-    // parameters.add(param.set("param", 5, 0, 100));
+    parameters.add(speedParticles.set("speedParticles", 1.5, 0.0, 3.0));
+    parameters.add(speedColor.set("speedColor", 1.5, 0.0, 3.0));
 
     setAuthor("aaron montoya-moraga");
     setOriginalArtist("Lillian F. Schwartz");
@@ -20,6 +18,8 @@ void aaronLillianSchwartz::setup(){
 
 void aaronLillianSchwartz::update(){
     
+    // reload shader file every sixty frames
+    // helpful for doing live changes on the shader file
     if (ofGetFrameNum() % 60) {
         shader.load("", "scenes/aaronLillianSchwartz/shader.frag");
     };
@@ -28,15 +28,21 @@ void aaronLillianSchwartz::update(){
 
 void aaronLillianSchwartz::draw(){
     
+    ofPushStyle();
+    
     ofSetColor(255);
     
     shader.begin();
     
-    shader.setUniform1f("time", ofGetElapsedTimef());
-    shader.setUniform2f("mouse", 60.0, 100.0);
+    shader.setUniform2f("u_resolution", dimensions.getWidth(), dimensions.getHeight());
+    shader.setUniform1f("u_time", ofGetElapsedTimef());
+    shader.setUniform1f("u_speedParticles", speedParticles);
+    shader.setUniform1f("u_speedColor", speedColor);
     
     ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
     
     shader.end();
+    
+    ofPopStyle();
     
 }
