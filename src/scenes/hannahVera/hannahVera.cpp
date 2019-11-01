@@ -9,8 +9,8 @@ void hannahVera::setup(){
 // param was declared in mitScene1.h
     //parameters.add(param.set("param", 5, 0, 100));
 
-    parameters.add(noise.set("Noise", 0, 0, 100));
-    parameters.add(space.set("Spacing", 20, 0, 100));
+    parameters.add(noise.set("noise", 0, 0, 100));
+    parameters.add(space.set("space", 20, 0, 100));
     
     setAuthor("Hannah Lienhard");
     setOriginalArtist("Vera Molnar");

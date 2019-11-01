@@ -9,8 +9,8 @@ void hannahWhitney::setup(){
 // param was declared in mitScene1.h
     //parameters.add(param.set("param", 5, 0, 100));
 
-    parameters.add(speed.set("Speed", 1, 0, 5));
-    parameters.add(noise.set("Noise", 10, 0, 100));
+    parameters.add(speed.set("speed", 1, 0, 5));
+    parameters.add(noise.set("noise", 10, 0, 100));
     
     setAuthor("Hannah Lienhard");
     setOriginalArtist("John Whitney");
