@@ -5,7 +5,7 @@ for(int i = 0; i < 13; i++){
         int x = 29+55*j;
         int y = 29+55*i;
         for(float loop = 1; loop < random(40)+2; loop+=loop_inc){
-            if(random()>(1-[[Density])){
+            if(random()>(1-[[Density]])){
                 addVertex(x + ([[Side Length]]+random([[Random]]))/loop,
                                 y - ([[Side Length]]+random([[Random]]))/loop);
                 lineTo(x + ([[Side Length]]+random([[Random]]))/loop,

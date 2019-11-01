@@ -12,7 +12,7 @@ void ethanMolnarScene::setup(){
     
     density.set("Density", .7, 0, 1);
     side_length.set("Side Length", 25, 5, 50);
-    random.set("Randomness", 5, 0, 20);
+    random.set("Random", 5, 0, 20);
     inc.set("Loop Tightness", .4, 0, .5);
     
     
