@@ -18,7 +18,7 @@ void karstenJohnMaeda::setup(){
     parameters.add(noiseFactor.set("noiseFactor", 0.05, 0.0, 0.1));
     parameters.add(rot.set("rot", 0.271, 0.0, 1.0));
     
-    ofTrueTypeFontSettings settings("nicokaku_v1.ttf", 264);
+    ofTrueTypeFontSettings settings("scenes/karstenJohnMaeda/nicokaku_v1.ttf", 264);
     settings.antialiased = true;
     settings.direction = OF_TTF_LEFT_TO_RIGHT;
     settings.contours = true;

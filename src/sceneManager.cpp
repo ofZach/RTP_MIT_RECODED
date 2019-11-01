@@ -85,7 +85,11 @@ void sceneManager::setup(){
     
      scenes.push_back(new karstenVasulka());
      scenes.push_back(new karstenJohnMaeda());
+    
+    ofFile fileTest("model/face.tracker");
+    if (fileTest.exists()){
      scenes.push_back(new karstenFaceMirror());
+    }
      scenes.push_back(new karstenVeraMolnar());
      scenes.push_back(new karstenKenKnowlton());
      scenes.push_back(new karstenJohnWhitney());
