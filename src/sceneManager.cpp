@@ -187,8 +187,8 @@ void sceneManager::setup(){
     scenes.push_back(new ethanMolnarScene());
     scenes.push_back(new ethanWhitneyScene());
     
-    scenes.push_back(new mitScene1());
-    scenes.push_back(new exampleScene());
+//    scenes.push_back(new mitScene1());
+//    scenes.push_back(new exampleScene());
 
 #ifdef RANDOMIZE_SCENES
     ofRandomize(scenes);
@@ -651,15 +651,15 @@ void sceneManager::draw(){
         y = 10 + 13;
     }
     
-    const int lineWithActiveParamDim = 120*0.3;
-    const int lineWithoutActiveParamDim = 130*0.3;
-    const int commentDim = 70*0.3;
+    const int lineWithActiveParamDim = 255*0.9;
+    const int lineWithoutActiveParamDim = 255*0.9;
+    const int commentDim = 255*0.5;
     currentLine = 0;
     bool nonEmptyLetter = false;
     
     for (int i = 0; i < letters.size() * pct; i++){
         
-        int lineBrightness = 165;
+        int lineBrightness = 255;
         if (lineHasAnimParam[currentLine] < 0) {
             lineBrightness -= maxTotalActivation * lineWithoutActiveParamDim;
         } else {
@@ -671,7 +671,7 @@ void sceneManager::draw(){
         if (letters[i].type == CHARACTER_CODE) {
             ofSetColor(lineBrightness);
         } else if (letters[i].type == CHARACTER_PARAM) {
-            int charBrightness = TM.paramEnergy[letters[i].idOfChar]*(255-lineWithActiveParamDim);
+            int charBrightness = TM.paramEnergy[letters[i].idOfChar]*(255);
             ofSetColor(min(lineBrightness + charBrightness, 255));
         } else if (letters[i].type == CHARACTER_COMMENT) {
             ofSetColor(max(lineBrightness - commentDim * (1.0-maxTotalActivation), 0.0));
