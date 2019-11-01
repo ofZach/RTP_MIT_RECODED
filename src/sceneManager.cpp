@@ -125,8 +125,8 @@ void sceneManager::setup(){
     //-------------------------------  manaswi
     
     scenes.push_back(new manaswiJohnWhitney());
-//    scenes.push_back(new manaswiKenKnowlton());   // waiting on data for these to work
-//    scenes.push_back(new manaswiRosaMenkman());
+    scenes.push_back(new manaswiKenKnowlton());
+    scenes.push_back(new manaswiRosaMenkman());
     scenes.push_back(new manaswiVeraMolnar());
     
     
