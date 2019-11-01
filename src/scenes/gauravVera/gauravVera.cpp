@@ -22,7 +22,7 @@ void gauravVera::setup(){
      parameters.add(d.set("d", 60, 40, 120));
      parameters.add(s.set("s", 100, 50, 150));
 
-    setAuthor("Gaurav");
+    setAuthor("Gaurav Rajaram Patekar");
     setOriginalArtist("Vera Molnar");
 
     loadCode("scenes/gauravVera/exampleCode.cpp");

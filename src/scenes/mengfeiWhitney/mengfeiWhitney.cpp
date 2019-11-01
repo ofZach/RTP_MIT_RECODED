@@ -9,7 +9,7 @@ void mengfeiWhitney::setup(){
     // param was declared in mengfeiWhitney.h
     // parameters.add(param.set("param", 5, 0, 100));
 
-    setAuthor("Mengfei");
+    setAuthor("Mengfei Wang");
     setOriginalArtist("John Whitney");
 
     

@@ -9,7 +9,7 @@ void mengfeiKen::setup(){
     // param was declared in mengfeiKen.h
     // parameters.add(param.set("param", 5, 0, 100));
 
-    setAuthor("Mengfei");
+    setAuthor("Mengfei Wang");
     setOriginalArtist("Ken Knowlton");
 
     parameters.add(gap.set("gap", 20, 10, 100));

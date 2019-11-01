@@ -9,7 +9,7 @@ void mengfeiVera::setup(){
     // param was declared in mengfeiVera.h
     // parameters.add(param.set("param", 5, 0, 100));
 
-    setAuthor("Mengfei");
+    setAuthor("Mengfei Wang");
     setOriginalArtist("Vera Molnar");
 
     parameters.add(color.set("color", 255, 0, 255));

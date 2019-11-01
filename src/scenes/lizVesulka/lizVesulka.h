@@ -11,5 +11,13 @@ public:
     void update();
     void draw();
     
+    
+    ofBoxPrimitive box;
+    ofVideoPlayer TransitMovie;
+    
+    ofParameter < float > rotate;
+    ofParameter < float > rotate2;
+    ofParameter < int > size;
+    
 //    ofParameter<float> param;
 };

@@ -9,7 +9,7 @@ void mengfeiMuriel::setup(){
     // param was declared in mengfeiMuriel.h
     // parameters.add(param.set("param", 5, 0, 100));
 
-    setAuthor("Mengfei");
+    setAuthor("Mengfei Wang");
     setOriginalArtist("John Maeda");
 
     parameters.add(r.set("number of rows", 200, 1, 1000));

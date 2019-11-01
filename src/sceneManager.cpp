@@ -32,6 +32,15 @@
 #include "mengfeiLillian.h"
 #include "mengfeiWhitney.h"
 #include "pbeshaiBurson1.h" // NOTE: requires facetracker data
+#include "hannahMuriel2.h"
+#include "lizVesulka.h"
+#include "liangMuriel.h"
+#include "liangVasulka.h"
+
+#include "gauravMuriel.h"
+#include "gauravMuriel2.h"
+#include "gauravWhitney2.h"
+
 
 //#include "testingScene.h"
 
@@ -53,13 +62,29 @@ void sceneManager::setup(){
     
     
     
+    
+    //------------------------------- gaurav
+    
+    scenes.push_back(new gauravWhitney2());
+    scenes.push_back(new gauravMuriel2());
+    scenes.push_back(new gauravMuriel());
+    
+    scenes.push_back(new gauravVera());
+    
+    //------------------------------- liang
+    
+    
+    scenes.push_back(new liangVasulka());
+    scenes.push_back(new liangMuriel());
+    
+    
     //------------------------------- mengfei
     
     scenes.push_back(new mengfeiKen());
-     scenes.push_back(new mengfeiLillian());
-     scenes.push_back(new mengfeiMuriel());
-        scenes.push_back(new mengfeiVera());
-     scenes.push_back(new mengfeiWhitney());
+    scenes.push_back(new mengfeiLillian());
+    scenes.push_back(new mengfeiMuriel());
+    scenes.push_back(new mengfeiVera());
+    scenes.push_back(new mengfeiWhitney());
     
     
     
@@ -80,20 +105,22 @@ void sceneManager::setup(){
     //------------------------------- hannah
     scenes.push_back(new hannahVera());
     scenes.push_back(new hannahMuriel());
+    scenes.push_back(new hannahMuriel2());
     scenes.push_back(new hannahWhitney());
     scenes.push_back(new hannahSchwartz());
     
     
     //------------------------------- liz
     scenes.push_back(new lizVera());
+    scenes.push_back(new lizVesulka());
+    
     
     //------------------------------- aaron
     scenes.push_back(new aaronLillianSchwartz());
     scenes.push_back(new aaronMurielCooper());
     scenes.push_back(new aaronVeraMolnar());
     
-    //------------------------------- gaurav
-    scenes.push_back(new gauravVera());
+    
     
     //------------------------------- ethan
     scenes.push_back(new ethanMolnarScene());

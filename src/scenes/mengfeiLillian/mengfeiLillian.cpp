@@ -9,7 +9,7 @@ void mengfeiLillian::setup(){
     // param was declared in mengfeiLillian.h
     // parameters.add(param.set("param", 5, 0, 100));
 
-    setAuthor("Mengfei");
+    setAuthor("Mengfei Wang");
     setOriginalArtist("Lillian Schwartz");
 
     

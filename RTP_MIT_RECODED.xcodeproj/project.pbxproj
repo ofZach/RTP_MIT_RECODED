@@ -23,6 +23,12 @@
 		28815921C1CDCE1F6C1FBE91 /* easing_terms_of_use.html in Sources */ = {isa = PBXBuildFile; fileRef = 1EE75986ABBB33F56547087D /* easing_terms_of_use.html */; };
 		28DC652211D4AF8CC023D568 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97E9772CB5B04FB62A872480 /* tinyxml.cpp */; };
 		2DE293FAAF850C0ABF02DB62 /* exampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59429ADBB14FCD19148E74FB /* exampleScene.cpp */; };
+		2FDBEC89236BE3CB00825426 /* hannahMuriel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC87236BE3CB00825426 /* hannahMuriel2.cpp */; };
+		2FDBEC90236C264E00825426 /* liangVasulka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC8C236C264E00825426 /* liangVasulka.cpp */; };
+		2FDBEC91236C264E00825426 /* liangMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC8F236C264E00825426 /* liangMuriel.cpp */; };
+		2FDBEC9B236C2D8D00825426 /* gauravMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC94236C2D8D00825426 /* gauravMuriel.cpp */; };
+		2FDBEC9C236C2D8D00825426 /* gauravMuriel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC96236C2D8D00825426 /* gauravMuriel2.cpp */; };
+		2FDBEC9D236C2D8D00825426 /* gauravWhitney2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC9A236C2D8D00825426 /* gauravWhitney2.cpp */; };
 		30B185B3791FE460B590DF5A /* lizVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522B9FAAB2DD704E3D3FB058 /* lizVera.cpp */; };
 		32E2318B89B6217AE6052155 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 723AE465948C9C9893893BC8 /* tinyxmlparser.cpp */; };
 		390AAD72EB181C94BB981D03 /* ofxFaceTracker2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 167FF882C7890E264E24376F /* ofxFaceTracker2.cpp */; };
@@ -245,6 +251,18 @@
 		2E28CEAA9B004BC9CB9CACF5 /* ofxRtMidiOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRtMidiOut.h; path = local_addons/ofxMidi/src/desktop/ofxRtMidiOut.h; sourceTree = SOURCE_ROOT; };
 		2F715BBD4565BBC1C888AACF /* imgproc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgproc.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc.hpp; sourceTree = SOURCE_ROOT; };
 		2FA456AAAC9E15C35DB6F114 /* ossl_typ.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ossl_typ.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ossl_typ.h; sourceTree = SOURCE_ROOT; };
+		2FDBEC87236BE3CB00825426 /* hannahMuriel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahMuriel2.cpp; sourceTree = "<group>"; };
+		2FDBEC88236BE3CB00825426 /* hannahMuriel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahMuriel2.h; sourceTree = "<group>"; };
+		2FDBEC8B236C264E00825426 /* liangVasulka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liangVasulka.h; sourceTree = "<group>"; };
+		2FDBEC8C236C264E00825426 /* liangVasulka.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = liangVasulka.cpp; sourceTree = "<group>"; };
+		2FDBEC8E236C264E00825426 /* liangMuriel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liangMuriel.h; sourceTree = "<group>"; };
+		2FDBEC8F236C264E00825426 /* liangMuriel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = liangMuriel.cpp; sourceTree = "<group>"; };
+		2FDBEC93236C2D8D00825426 /* gauravMuriel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauravMuriel.h; sourceTree = "<group>"; };
+		2FDBEC94236C2D8D00825426 /* gauravMuriel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauravMuriel.cpp; sourceTree = "<group>"; };
+		2FDBEC96236C2D8D00825426 /* gauravMuriel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauravMuriel2.cpp; sourceTree = "<group>"; };
+		2FDBEC97236C2D8D00825426 /* gauravMuriel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauravMuriel2.h; sourceTree = "<group>"; };
+		2FDBEC99236C2D8D00825426 /* gauravWhitney2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauravWhitney2.h; sourceTree = "<group>"; };
+		2FDBEC9A236C2D8D00825426 /* gauravWhitney2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauravWhitney2.cpp; sourceTree = "<group>"; };
 		30EC225DE277BC20B85714D0 /* mat.inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.inl.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.inl.hpp; sourceTree = SOURCE_ROOT; };
 		30F9C61E50AB0C197FD6557D /* RunningBackground.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RunningBackground.cpp; path = local_addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp; sourceTree = SOURCE_ROOT; };
 		3123FC43CDB08480B2226A91 /* baseScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = baseScene.h; path = src/scenes/baseScene.h; sourceTree = SOURCE_ROOT; };
@@ -1292,6 +1310,65 @@
 			name = pbeshaiSchwartz1;
 			sourceTree = "<group>";
 		};
+		2FDBEC86236BE3CB00825426 /* hannahMuriel2 */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC87236BE3CB00825426 /* hannahMuriel2.cpp */,
+				2FDBEC88236BE3CB00825426 /* hannahMuriel2.h */,
+			);
+			path = hannahMuriel2;
+			sourceTree = "<group>";
+		};
+		2FDBEC8A236C264E00825426 /* liangVasulka */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC8B236C264E00825426 /* liangVasulka.h */,
+				2FDBEC8C236C264E00825426 /* liangVasulka.cpp */,
+			);
+			name = liangVasulka;
+			path = scenes/liangVasulka;
+			sourceTree = "<group>";
+		};
+		2FDBEC8D236C264E00825426 /* liangMuriel */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC8E236C264E00825426 /* liangMuriel.h */,
+				2FDBEC8F236C264E00825426 /* liangMuriel.cpp */,
+			);
+			name = liangMuriel;
+			path = scenes/liangMuriel;
+			sourceTree = "<group>";
+		};
+		2FDBEC92236C2D8D00825426 /* gauravMuriel */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC93236C2D8D00825426 /* gauravMuriel.h */,
+				2FDBEC94236C2D8D00825426 /* gauravMuriel.cpp */,
+			);
+			name = gauravMuriel;
+			path = scenes/gauravMuriel;
+			sourceTree = "<group>";
+		};
+		2FDBEC95236C2D8D00825426 /* gauravMuriel2 */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC96236C2D8D00825426 /* gauravMuriel2.cpp */,
+				2FDBEC97236C2D8D00825426 /* gauravMuriel2.h */,
+			);
+			name = gauravMuriel2;
+			path = scenes/gauravMuriel2;
+			sourceTree = "<group>";
+		};
+		2FDBEC98236C2D8D00825426 /* gauravWhitney2 */ = {
+			isa = PBXGroup;
+			children = (
+				2FDBEC99236C2D8D00825426 /* gauravWhitney2.h */,
+				2FDBEC9A236C2D8D00825426 /* gauravWhitney2.cpp */,
+			);
+			name = gauravWhitney2;
+			path = scenes/gauravWhitney2;
+			sourceTree = "<group>";
+		};
 		30CB364908817057B430D528 /* osc */ = {
 			isa = PBXGroup;
 			children = (
@@ -1314,6 +1391,12 @@
 		36BF1C038F5AEC4D85473FE4 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2FDBEC92236C2D8D00825426 /* gauravMuriel */,
+				2FDBEC95236C2D8D00825426 /* gauravMuriel2 */,
+				2FDBEC98236C2D8D00825426 /* gauravWhitney2 */,
+				760FA8A8A0B2E0844670A081 /* gauravVera */,
+				2FDBEC8D236C264E00825426 /* liangMuriel */,
+				2FDBEC8A236C264E00825426 /* liangVasulka */,
 				17F5B70DFC54D8E0940B783D /* lizVera */,
 				9B44AC3FDC75F196E0719A1B /* lizVesulka */,
 				108D53EF601F1518F5726C73 /* ethanMolnarScene */,
@@ -1322,6 +1405,7 @@
 				C1868819252A931A515C8E7D /* emptyScene */,
 				9F6C7F243E6CB96737BE345F /* hannahWhitney */,
 				97DF82799163FAABD458900A /* hannahVera */,
+				2FDBEC86236BE3CB00825426 /* hannahMuriel2 */,
 				0C7089822044E8A8103B26E0 /* hannahMuriel */,
 				58431FDA05B5B444B8939F42 /* hannahSchwartz */,
 				39BAC5F6447319B74F7D342C /* exampleScene */,
@@ -1342,7 +1426,6 @@
 				EF3492F7236B291C00AFF3AC /* aaronLillianSchwartz */,
 				CBACD1EE9DA5703B58A90DC1 /* aaronMurielCooper */,
 				B81635D663CE86F43758F548 /* aaronVeraMolnar */,
-				760FA8A8A0B2E0844670A081 /* gauravVera */,
 				7FE5F37869AABB8C93D219FC /* appConstants.h */,
 				F3F372983B5FDFFC4D8C781F /* mitScene1 */,
 			);
@@ -3012,6 +3095,7 @@
 				A0C015CC66A25C7CEDF8B659 /* emptyScene.cpp in Sources */,
 				03FB07DE0C1FCF8EDE942888 /* hannahMuriel.cpp in Sources */,
 				2DE293FAAF850C0ABF02DB62 /* exampleScene.cpp in Sources */,
+				2FDBEC9B236C2D8D00825426 /* gauravMuriel.cpp in Sources */,
 				E613EEED7B6C33AD98157D23 /* mengfeiKen.cpp in Sources */,
 				F9D8B86464FB3CE9B182BEBE /* pbeshaiVideo1.cpp in Sources */,
 				078C26726009EC0942404451 /* mengfeiMuriel.cpp in Sources */,
@@ -3045,11 +3129,14 @@
 				A3C6983F8768ECD6DBA89E0F /* ofxSliderGroup.cpp in Sources */,
 				413A3F52C6AC90B4F28A6A1C /* ofxToggle.cpp in Sources */,
 				E717C5A73BE4076EDBC728DC /* IpEndpointName.cpp in Sources */,
+				2FDBEC9D236C2D8D00825426 /* gauravWhitney2.cpp in Sources */,
 				F0509CA2E805D1D5F70A87D0 /* NetworkingUtils.cpp in Sources */,
+				2FDBEC9C236C2D8D00825426 /* gauravMuriel2.cpp in Sources */,
 				C9651B24B869083F299EFA4D /* UdpSocket.cpp in Sources */,
 				A857235EB7F8624F0C02D157 /* OscOutboundPacketStream.cpp in Sources */,
 				9753D2F373BDF97B89D59B33 /* OscPrintReceivedElements.cpp in Sources */,
 				F95B04FD042E7407B70EE321 /* OscReceivedElements.cpp in Sources */,
+				2FDBEC90236C264E00825426 /* liangVasulka.cpp in Sources */,
 				014058944CFE6AE1A2171D12 /* OscTypes.cpp in Sources */,
 				40F8E3F7627F83C74FD9086A /* ofxOscBundle.cpp in Sources */,
 				6C503756DAFDCF2FEEE0EAA0 /* ofxOscMessage.cpp in Sources */,
@@ -3083,6 +3170,7 @@
 				7F208A71CF13CBC28D2CD896 /* ofxEasingExpo.cpp in Sources */,
 				6CBBDD45DC862E68E613A67F /* ofxEasingLinear.cpp in Sources */,
 				84AEC832490AA6A22BA5E6C4 /* ofxEasingQuad.cpp in Sources */,
+				2FDBEC89236BE3CB00825426 /* hannahMuriel2.cpp in Sources */,
 				4DC711D98736D4736C9FBB13 /* ofxEasingQuart.cpp in Sources */,
 				786B04644A4B7B5D8697D5B0 /* ofxEasingQuint.cpp in Sources */,
 				3E241715CC075642FF6CC167 /* ofxEasingSine.cpp in Sources */,
@@ -3090,6 +3178,7 @@
 				390AAD72EB181C94BB981D03 /* ofxFaceTracker2.cpp in Sources */,
 				1670245F051D5CB01D778E59 /* ofxFaceTracker2Instance.cpp in Sources */,
 				A5C96FD47551B932AD5D5F93 /* ofxFaceTracker2Landmarks.cpp in Sources */,
+				2FDBEC91236C264E00825426 /* liangMuriel.cpp in Sources */,
 				DEA28D558FA3E857B7411213 /* ETF.cpp in Sources */,
 				18C0E0CEDF310D309E0DBFDE /* fdog.cpp in Sources */,
 				C81AF2A69DB606B1565AAE34 /* Calibration.cpp in Sources */,
