@@ -11,5 +11,10 @@ public:
     void update();
     void draw();
     
+    
+    ofParameter <float> color;
+    ofParameter <int> seed;
+    ofParameter <int> vertexnumber;
+    
 //    ofParameter<float> param;
 };

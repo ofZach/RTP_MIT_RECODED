@@ -11,5 +11,10 @@ public:
     void update();
     void draw();
     
+    ofParameter <float> n;
+    ofParameter <float> radiusX;
+    ofParameter <float> radiusY;
+    ofParameter <int> number;
+    
 //    ofParameter<float> param;
 };

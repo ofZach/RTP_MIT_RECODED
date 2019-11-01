@@ -11,5 +11,11 @@ public:
     void update();
     void draw();
     
+    
+    ofTrueTypeFont font;
+    
+    ofParameter <float> para;
+    ofParameter <int> r;
+    
 //    ofParameter<float> param;
 };

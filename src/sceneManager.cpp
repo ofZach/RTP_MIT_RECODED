@@ -53,34 +53,54 @@ void sceneManager::setup(){
     
     
     
+    //------------------------------- mengfei
+    
+    scenes.push_back(new mengfeiKen());
+     scenes.push_back(new mengfeiLillian());
+     scenes.push_back(new mengfeiMuriel());
+        scenes.push_back(new mengfeiVera());
+     scenes.push_back(new mengfeiWhitney());
+    
+    
+    
+    
+    
+//------------------------------- peter
     // NOTE: pbeshaiBurson1 requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
 //    scenes.push_back(new pbeshaiBurson1());     // has recording (requires facetrakcer data)
-    
     scenes.push_back(new pbeshaiVideo1());      // has recording
     scenes.push_back(new pbeshaiKnowlton1());   // has recording
     scenes.push_back(new pbeshaiWhitney1());    // has recording
     scenes.push_back(new pbeshaiSchwartz1());   // has recording
     scenes.push_back(new pbeshaiMolnar1());     // has recording
-//    scenes.push_back(new mengfeiKen());
-//    scenes.push_back(new mengfeiVera());
-//    scenes.push_back(new mengfeiMuriel());
-//    scenes.push_back(new mengfeiLillian());
-//    scenes.push_back(new mengfeiWhitney());
+    
+
+    
+    
+    //------------------------------- hannah
     scenes.push_back(new hannahVera());
     scenes.push_back(new hannahMuriel());
     scenes.push_back(new hannahWhitney());
     scenes.push_back(new hannahSchwartz());
+    
+    
+    //------------------------------- liz
     scenes.push_back(new lizVera());
+    
+    //------------------------------- aaron
     scenes.push_back(new aaronLillianSchwartz());
     scenes.push_back(new aaronMurielCooper());
     scenes.push_back(new aaronVeraMolnar());
+    
+    //------------------------------- gaurav
     scenes.push_back(new gauravVera());
+    
+    //------------------------------- ethan
     scenes.push_back(new ethanMolnarScene());
     scenes.push_back(new ethanWhitneyScene());
+    
     scenes.push_back(new mitScene1());
     scenes.push_back(new exampleScene());
-    
-
 
 #ifdef RANDOMIZE_SCENES
     ofRandomize(scenes);

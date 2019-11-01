@@ -11,5 +11,12 @@ public:
     void update();
     void draw();
     
+    
+    ofVideoGrabber grabber;
+    ofTrueTypeFont font;
+    ofVideoPlayer player;
+    ofParameter <int> gap;
+    ofParameter <int> threshold;
+    
 //    ofParameter<float> param;
 };
