@@ -26,6 +26,10 @@
 		2F740D08236C3650001BF92F /* aliceWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D07236C364F001BF92F /* aliceWhitney.cpp */; };
 		2F740D0C236C376D001BF92F /* aaronRosaMenkman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D0B236C376C001BF92F /* aaronRosaMenkman.cpp */; };
 		2F740D10236C3BCC001BF92F /* hannahMuriel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D0E236C3BCB001BF92F /* hannahMuriel2.cpp */; };
+		2F740D1D236C3F39001BF92F /* manaswiJohnWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D13236C3F39001BF92F /* manaswiJohnWhitney.cpp */; };
+		2F740D1E236C3F39001BF92F /* manaswiVeraMolnar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D15236C3F39001BF92F /* manaswiVeraMolnar.cpp */; };
+		2F740D1F236C3F39001BF92F /* manaswiKenKnowlton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D19236C3F39001BF92F /* manaswiKenKnowlton.cpp */; };
+		2F740D20236C3F39001BF92F /* manaswiRosaMenkman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D1C236C3F39001BF92F /* manaswiRosaMenkman.cpp */; };
 		2FDBEC90236C264E00825426 /* liangVasulka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC8C236C264E00825426 /* liangVasulka.cpp */; };
 		2FDBEC91236C264E00825426 /* liangMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC8F236C264E00825426 /* liangMuriel.cpp */; };
 		2FDBEC9B236C2D8D00825426 /* gauravMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC94236C2D8D00825426 /* gauravMuriel.cpp */; };
@@ -258,6 +262,14 @@
 		2F740D0B236C376C001BF92F /* aaronRosaMenkman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aaronRosaMenkman.cpp; sourceTree = "<group>"; };
 		2F740D0E236C3BCB001BF92F /* hannahMuriel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahMuriel2.cpp; sourceTree = "<group>"; };
 		2F740D0F236C3BCB001BF92F /* hannahMuriel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahMuriel2.h; sourceTree = "<group>"; };
+		2F740D12236C3F39001BF92F /* manaswiJohnWhitney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manaswiJohnWhitney.h; sourceTree = "<group>"; };
+		2F740D13236C3F39001BF92F /* manaswiJohnWhitney.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = manaswiJohnWhitney.cpp; sourceTree = "<group>"; };
+		2F740D15236C3F39001BF92F /* manaswiVeraMolnar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = manaswiVeraMolnar.cpp; sourceTree = "<group>"; };
+		2F740D16236C3F39001BF92F /* manaswiVeraMolnar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manaswiVeraMolnar.h; sourceTree = "<group>"; };
+		2F740D18236C3F39001BF92F /* manaswiKenKnowlton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manaswiKenKnowlton.h; sourceTree = "<group>"; };
+		2F740D19236C3F39001BF92F /* manaswiKenKnowlton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = manaswiKenKnowlton.cpp; sourceTree = "<group>"; };
+		2F740D1B236C3F39001BF92F /* manaswiRosaMenkman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manaswiRosaMenkman.h; sourceTree = "<group>"; };
+		2F740D1C236C3F39001BF92F /* manaswiRosaMenkman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = manaswiRosaMenkman.cpp; sourceTree = "<group>"; };
 		2FA456AAAC9E15C35DB6F114 /* ossl_typ.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ossl_typ.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ossl_typ.h; sourceTree = SOURCE_ROOT; };
 		2FDBEC8B236C264E00825426 /* liangVasulka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liangVasulka.h; sourceTree = "<group>"; };
 		2FDBEC8C236C264E00825426 /* liangVasulka.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = liangVasulka.cpp; sourceTree = "<group>"; };
@@ -1337,6 +1349,42 @@
 			path = scenes/hannahMuriel2;
 			sourceTree = "<group>";
 		};
+		2F740D11236C3F39001BF92F /* manaswiJohnWhitney */ = {
+			isa = PBXGroup;
+			children = (
+				2F740D12236C3F39001BF92F /* manaswiJohnWhitney.h */,
+				2F740D13236C3F39001BF92F /* manaswiJohnWhitney.cpp */,
+			);
+			path = manaswiJohnWhitney;
+			sourceTree = "<group>";
+		};
+		2F740D14236C3F39001BF92F /* manaswiVeraMolnar */ = {
+			isa = PBXGroup;
+			children = (
+				2F740D15236C3F39001BF92F /* manaswiVeraMolnar.cpp */,
+				2F740D16236C3F39001BF92F /* manaswiVeraMolnar.h */,
+			);
+			path = manaswiVeraMolnar;
+			sourceTree = "<group>";
+		};
+		2F740D17236C3F39001BF92F /* manaswiKenKnowlton */ = {
+			isa = PBXGroup;
+			children = (
+				2F740D18236C3F39001BF92F /* manaswiKenKnowlton.h */,
+				2F740D19236C3F39001BF92F /* manaswiKenKnowlton.cpp */,
+			);
+			path = manaswiKenKnowlton;
+			sourceTree = "<group>";
+		};
+		2F740D1A236C3F39001BF92F /* manaswiRosaMenkman */ = {
+			isa = PBXGroup;
+			children = (
+				2F740D1B236C3F39001BF92F /* manaswiRosaMenkman.h */,
+				2F740D1C236C3F39001BF92F /* manaswiRosaMenkman.cpp */,
+			);
+			path = manaswiRosaMenkman;
+			sourceTree = "<group>";
+		};
 		2FCC9EA6E8606F55425E4959 /* pbeshaiSchwartz1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1456,6 +1504,10 @@
 				B81635D663CE86F43758F548 /* aaronVeraMolnar */,
 				2F740D09236C376C001BF92F /* aaronRosaMenkman */,
 				7FE5F37869AABB8C93D219FC /* appConstants.h */,
+				2F740D11236C3F39001BF92F /* manaswiJohnWhitney */,
+				2F740D17236C3F39001BF92F /* manaswiKenKnowlton */,
+				2F740D1A236C3F39001BF92F /* manaswiRosaMenkman */,
+				2F740D14236C3F39001BF92F /* manaswiVeraMolnar */,
 				F3F372983B5FDFFC4D8C781F /* mitScene1 */,
 			);
 			name = scenes;
@@ -3119,6 +3171,7 @@
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				30B185B3791FE460B590DF5A /* lizVera.cpp in Sources */,
 				409915A5BD6342A10718433E /* ethanMolnarScene.cpp in Sources */,
+				2F740D20236C3F39001BF92F /* manaswiRosaMenkman.cpp in Sources */,
 				6DEF396AF4051957D00613D2 /* hannahVera.cpp in Sources */,
 				3E92C77E1FFA9160EBFEC26F /* pbeshaiKnowlton1.cpp in Sources */,
 				A0C015CC66A25C7CEDF8B659 /* emptyScene.cpp in Sources */,
@@ -3133,6 +3186,7 @@
 				5D78FCB30BFFBD00AFDD81F7 /* pbeshaiWhitney1.cpp in Sources */,
 				DDCF4765F3AFE93BA6CDDB53 /* pbeshaiBurson1.cpp in Sources */,
 				0E88A75C2E994C3D685709DC /* typographyManager.cpp in Sources */,
+				2F740D1D236C3F39001BF92F /* manaswiJohnWhitney.cpp in Sources */,
 				6F0D599D9FD124B23D0E0F8D /* baseScene.cpp in Sources */,
 				09902FAEB66DD2AB83770AE3 /* lizVesulka.cpp in Sources */,
 				4E828A8DA860E65865C8AE80 /* mengfeiVera.cpp in Sources */,
@@ -3213,6 +3267,7 @@
 				DEA28D558FA3E857B7411213 /* ETF.cpp in Sources */,
 				18C0E0CEDF310D309E0DBFDE /* fdog.cpp in Sources */,
 				C81AF2A69DB606B1565AAE34 /* Calibration.cpp in Sources */,
+				2F740D1E236C3F39001BF92F /* manaswiVeraMolnar.cpp in Sources */,
 				14554865E39B5D253DCFFB23 /* ContourFinder.cpp in Sources */,
 				7C157C6D23D66D93A33267B1 /* Distance.cpp in Sources */,
 				B1730298DA0566DA0584461F /* Flow.cpp in Sources */,
@@ -3226,6 +3281,7 @@
 				B5C802AFE1A326D1112E9C59 /* ofxCvColorImage.cpp in Sources */,
 				B656F1B94D664D81AC043E06 /* ofxCvContourFinder.cpp in Sources */,
 				5FF53F0F4A2EF1116658212E /* ofxCvFloatImage.cpp in Sources */,
+				2F740D1F236C3F39001BF92F /* manaswiKenKnowlton.cpp in Sources */,
 				3DEFA8613050BA9E58974DF2 /* ofxCvGrayscaleImage.cpp in Sources */,
 				17669AF3B4078817F6485F8F /* ofxCvHaarFinder.cpp in Sources */,
 				AE7B721059BBAECBAB5EE6F7 /* ofxCvImage.cpp in Sources */,

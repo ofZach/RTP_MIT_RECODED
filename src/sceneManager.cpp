@@ -43,6 +43,10 @@
 #include "gauravWhitney2.h"
 
 #include "aliceWhitney.h"
+#include "manaswiVeraMolnar.h"
+#include "manaswiJohnWhitney.h"
+#include "manaswiKenKnowlton.h"
+#include "manaswiRosaMenkman.h"
 
 
 
@@ -66,6 +70,19 @@ void sceneManager::setup(){
     
     
     
+    
+    
+    //-------------------------------  manaswi
+    
+    scenes.push_back(new manaswiJohnWhitney());
+//    scenes.push_back(new manaswiKenKnowlton());   // waiting on data for these to work
+//    scenes.push_back(new manaswiRosaMenkman());
+    scenes.push_back(new manaswiVeraMolnar());
+    
+    
+    
+    //-------------------------------  alice
+    
     scenes.push_back(new aliceWhitney());
     
     
@@ -74,7 +91,6 @@ void sceneManager::setup(){
     scenes.push_back(new gauravWhitney2());
     scenes.push_back(new gauravMuriel2());
     scenes.push_back(new gauravMuriel());
-    
     scenes.push_back(new gauravVera());
     
     //------------------------------- liang
@@ -92,13 +108,16 @@ void sceneManager::setup(){
     scenes.push_back(new mengfeiVera());
     scenes.push_back(new mengfeiWhitney());
     
-    
-    
-    
-    
+
 //------------------------------- peter
     // NOTE: pbeshaiBurson1 requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
-//    scenes.push_back(new pbeshaiBurson1());     // has recording (requires facetrakcer data)
+    
+    ofFile file("shape_predictor_68_face_landmarks.dat");
+    if (file.exists()){
+        
+         scenes.push_back(new pbeshaiBurson1());
+    }
+    
     scenes.push_back(new pbeshaiVideo1());      // has recording
     scenes.push_back(new pbeshaiKnowlton1());   // has recording
     scenes.push_back(new pbeshaiWhitney1());    // has recording
