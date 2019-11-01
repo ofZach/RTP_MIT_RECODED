@@ -31,7 +31,7 @@ void hannahMuriel2::draw(){
     ofSetColor(250,30,30);
     float w = 30;
     
-    ofSeedRandom(mouseX);
+    ofSeedRandom(0);
     
     for (int j = 0; j < 8; j=j+1){
         ofSetColor(250,30,30);
