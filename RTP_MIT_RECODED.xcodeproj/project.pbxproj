@@ -25,7 +25,7 @@
 		2DE293FAAF850C0ABF02DB62 /* exampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59429ADBB14FCD19148E74FB /* exampleScene.cpp */; };
 		2F740D08236C3650001BF92F /* aliceWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D07236C364F001BF92F /* aliceWhitney.cpp */; };
 		2F740D0C236C376D001BF92F /* aaronRosaMenkman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D0B236C376C001BF92F /* aaronRosaMenkman.cpp */; };
-		2FDBEC89236BE3CB00825426 /* hannahMuriel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC87236BE3CB00825426 /* hannahMuriel2.cpp */; };
+		2F740D10236C3BCC001BF92F /* hannahMuriel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D0E236C3BCB001BF92F /* hannahMuriel2.cpp */; };
 		2FDBEC90236C264E00825426 /* liangVasulka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC8C236C264E00825426 /* liangVasulka.cpp */; };
 		2FDBEC91236C264E00825426 /* liangMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC8F236C264E00825426 /* liangMuriel.cpp */; };
 		2FDBEC9B236C2D8D00825426 /* gauravMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC94236C2D8D00825426 /* gauravMuriel.cpp */; };
@@ -256,9 +256,9 @@
 		2F740D07236C364F001BF92F /* aliceWhitney.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aliceWhitney.cpp; sourceTree = "<group>"; };
 		2F740D0A236C376C001BF92F /* aaronRosaMenkman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaronRosaMenkman.h; sourceTree = "<group>"; };
 		2F740D0B236C376C001BF92F /* aaronRosaMenkman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aaronRosaMenkman.cpp; sourceTree = "<group>"; };
+		2F740D0E236C3BCB001BF92F /* hannahMuriel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahMuriel2.cpp; sourceTree = "<group>"; };
+		2F740D0F236C3BCB001BF92F /* hannahMuriel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahMuriel2.h; sourceTree = "<group>"; };
 		2FA456AAAC9E15C35DB6F114 /* ossl_typ.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ossl_typ.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ossl_typ.h; sourceTree = SOURCE_ROOT; };
-		2FDBEC87236BE3CB00825426 /* hannahMuriel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahMuriel2.cpp; sourceTree = "<group>"; };
-		2FDBEC88236BE3CB00825426 /* hannahMuriel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahMuriel2.h; sourceTree = "<group>"; };
 		2FDBEC8B236C264E00825426 /* liangVasulka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liangVasulka.h; sourceTree = "<group>"; };
 		2FDBEC8C236C264E00825426 /* liangVasulka.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = liangVasulka.cpp; sourceTree = "<group>"; };
 		2FDBEC8E236C264E00825426 /* liangMuriel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liangMuriel.h; sourceTree = "<group>"; };
@@ -1327,6 +1327,16 @@
 			path = scenes/aaronRosaMenkman;
 			sourceTree = "<group>";
 		};
+		2F740D0D236C3BCB001BF92F /* hannahMuriel2 */ = {
+			isa = PBXGroup;
+			children = (
+				2F740D0E236C3BCB001BF92F /* hannahMuriel2.cpp */,
+				2F740D0F236C3BCB001BF92F /* hannahMuriel2.h */,
+			);
+			name = hannahMuriel2;
+			path = scenes/hannahMuriel2;
+			sourceTree = "<group>";
+		};
 		2FCC9EA6E8606F55425E4959 /* pbeshaiSchwartz1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1334,15 +1344,6 @@
 				5B3CDAF9189DBDB96374A8FD /* pbeshaiSchwartz1.h */,
 			);
 			name = pbeshaiSchwartz1;
-			sourceTree = "<group>";
-		};
-		2FDBEC86236BE3CB00825426 /* hannahMuriel2 */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC87236BE3CB00825426 /* hannahMuriel2.cpp */,
-				2FDBEC88236BE3CB00825426 /* hannahMuriel2.h */,
-			);
-			path = hannahMuriel2;
 			sourceTree = "<group>";
 		};
 		2FDBEC8A236C264E00825426 /* liangVasulka */ = {
@@ -1431,11 +1432,11 @@
 				C1868819252A931A515C8E7D /* emptyScene */,
 				9F6C7F243E6CB96737BE345F /* hannahWhitney */,
 				97DF82799163FAABD458900A /* hannahVera */,
-				2FDBEC86236BE3CB00825426 /* hannahMuriel2 */,
 				0C7089822044E8A8103B26E0 /* hannahMuriel */,
 				58431FDA05B5B444B8939F42 /* hannahSchwartz */,
 				39BAC5F6447319B74F7D342C /* exampleScene */,
 				FAB4489571573B4BD044F2BA /* pbeshaiVideo1 */,
+				2F740D0D236C3BCB001BF92F /* hannahMuriel2 */,
 				7CC4234946AA16310171C5CE /* typographyManager.hpp */,
 				17B8EF26E5443F7DA7CC4DEB /* pbeshaiMolnar1 */,
 				BEC61A4D796CADC14662FE36 /* pbeshaiWhitney1 */,
@@ -3189,6 +3190,7 @@
 				FEED1B8413938441AF5C13E3 /* ofxParameterMidiInfo.cpp in Sources */,
 				E555C7BF901ADF7AD6922BCA /* ofxParameterMidiSync.cpp in Sources */,
 				28815921C1CDCE1F6C1FBE91 /* easing_terms_of_use.html in Sources */,
+				2F740D10236C3BCC001BF92F /* hannahMuriel2.cpp in Sources */,
 				DDA5BD53D959C614F985AA30 /* ofxEasing.cpp in Sources */,
 				E4A6432D701334C97F89FFDD /* ofxEasingBack.cpp in Sources */,
 				F8E1A8FE5B019C4E173B25A4 /* ofxEasingBounce.cpp in Sources */,
@@ -3200,7 +3202,6 @@
 				6CBBDD45DC862E68E613A67F /* ofxEasingLinear.cpp in Sources */,
 				2F740D08236C3650001BF92F /* aliceWhitney.cpp in Sources */,
 				84AEC832490AA6A22BA5E6C4 /* ofxEasingQuad.cpp in Sources */,
-				2FDBEC89236BE3CB00825426 /* hannahMuriel2.cpp in Sources */,
 				4DC711D98736D4736C9FBB13 /* ofxEasingQuart.cpp in Sources */,
 				786B04644A4B7B5D8697D5B0 /* ofxEasingQuint.cpp in Sources */,
 				3E241715CC075642FF6CC167 /* ofxEasingSine.cpp in Sources */,
