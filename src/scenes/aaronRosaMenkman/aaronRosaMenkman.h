@@ -11,5 +11,9 @@ public:
     void update();
     void draw();
     
-//    ofParameter<float> param;
+    ofParameter<float> sweepSpeed;
+    ofParameter<int> glitchFlavor;
+    
+    ofImage original;
+    ofImage newImage;
 };

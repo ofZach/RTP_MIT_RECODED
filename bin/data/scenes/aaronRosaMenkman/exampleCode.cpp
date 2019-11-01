@@ -1,4 +1,15 @@
-// code goes here!
+void setup() {
+    original.load("medialab.jpg");
+}
 
-//if you want to show a parameter's value, which highlights when it changes you need to enclose it's name in double square brackets.
-// for a parameter named myParam you shoudl put [[myParam]] in the pseudo code below.
+ 
+void update(){
+    
+    whereToGlitch = buffer.size() * sin([[sweepSpeed]]*elapsedTime);
+    
+    originalImage[whereToGlitch].glitch([[glitchFlavor]]);
+    
+    newImage.load(glitchedImage);
+    newImage.draw(0,0);
+}
+
