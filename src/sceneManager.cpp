@@ -238,7 +238,7 @@ void sceneManager::setup(){
   //dimmedSceneFbo.allocate(VISUALS_WIDTH, VISUALS_HEIGHT, GL_RGBA, 4);
     codeFbo.allocate(VISUALS_WIDTH, VISUALS_HEIGHT, GL_RGB, 1);
     
-    codeFbo.getTexture().setTextureMinMagFilter(GL_NEAREST, GL_NEAREST);
+   // codeFbo.getTexture().setTextureMinMagFilter(GL_NEAREST, GL_NEAREST);
     
   //dimmerShader.load("scenes/dimmer");
 

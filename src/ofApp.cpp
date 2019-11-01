@@ -51,7 +51,7 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	ofBackground(0);
+	ofBackground(10);
 	ofPushMatrix();
 
 
@@ -64,7 +64,12 @@ void ofApp::draw(){
 
     
 #ifndef BIG_TV
+    
+    ofPushMatrix();
+    ofTranslate(0,(1080-960));
+    ofScale(960.0/720.0, 960.0/720.0);
 	SM.draw();
+    ofPopMatrix();
     
 #endif
     
@@ -84,10 +89,22 @@ void ofApp::draw(){
     
     
 #ifndef BIG_TV
-	ofPushMatrix();
-	ofTranslate(720,0);
-	SM.codeFbo.draw(0, 0, 720,720);
-	ofPopMatrix();
+	
+    
+    ofPushMatrix();
+    ofTranslate(960,(1080-960));
+    ofScale(960.0/720.0, 960.0/720.0);
+    SM.codeFbo.draw(0,0);
+//    ofLine(0,0,720, 720);
+//    ofLine(0,720,0, 720);
+    
+    ofPopMatrix();
+    
+    //ofPushMatrix();
+	
+    //ofTranslate(720,0);
+	//SM.codeFbo.draw(0, 0, 720,720);
+	//ofPopMatrix();
      SM.drawGui();
 #endif
     
