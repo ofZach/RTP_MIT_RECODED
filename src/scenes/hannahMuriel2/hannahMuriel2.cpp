@@ -9,8 +9,8 @@ void hannahMuriel2::setup(){
 // param was declared in mitScene1.h
     //parameters.add(param.set("param", 5, 0, 100));
 
-    parameters.add(red.set("Red", 6, 0, 100));
-    parameters.add(blue.set("Blue", 4, 0, 100));
+    parameters.add(red.set("red", 6, 0, 100));
+    parameters.add(blue.set("blue", 4, 0, 100));
     
     setAuthor("Hannah Lienhard");
     setOriginalArtist("Muriel Cooper");

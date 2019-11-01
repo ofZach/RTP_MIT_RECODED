@@ -9,8 +9,8 @@ void hannahSchwartz::setup(){
 // param was declared in mitScene1.h
     //parameters.add(param.set("param", 5, 0, 100));
 
-    parameters.add(speed.set("Speed", 200, -600, 600));
-    parameters.add(color.set("Color", 10, 0, 100));
+    parameters.add(speed.set("speed", 200, -600, 600));
+    parameters.add(color.set("color", 10, 0, 100));
     
     setAuthor("Hannah Lienhard");
     setOriginalArtist("Lillian Schwartz");
