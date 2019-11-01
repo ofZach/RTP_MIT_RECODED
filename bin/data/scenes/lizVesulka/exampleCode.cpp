@@ -1,4 +1,10 @@
-// code goes here!
+void draw(){
 
-//if you want to show a parameter's value, which highlights when it changes you need to enclose it's name in double square brackets.
-// for a parameter named myParam you shoudl put [[myParam]] in the pseudo code below.
+    TransitMovie.draw();
+    
+    box.setPosition(width.5, height*.50, 0);
+    box.rotate([[rotate]], 1.0, 0.0, 0.0);
+    box.rotate([[rotate2]], 0, 1.0, 0.0);
+}
+
+

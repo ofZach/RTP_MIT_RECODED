@@ -1,4 +1,10 @@
-// code goes here!
-
-//if you want to show a parameter's value, which highlights when it changes you need to enclose it's name in double square brackets.
-// for a parameter named myParam you shoudl put [[myParam]] in the pseudo code below.
+void draw(){
+    
+    ofBackground(255);
+    ofSetColor([[color]]);
+    ofSeedRandom([[randomSeed]]*100);
+    for (int i = 0; i < 25; i++){
+        ofDrawRectangle(50 + i*20,50 + ofRandom(-1,1) * [[randomness]],10,500 + ofRandom(-1,1) * [[randomness]]);
+    }
+   
+}
