@@ -32,7 +32,7 @@ void hannahMuriel2::draw(){
     float w = 30;
     
     ofSeedRandom(ofGetSeconds() * 1000);
-    
+
     for (int j = 0; j < 8; j=j+1){
         ofSetColor(250,30,30);
         ofDrawRectangle(300, 300, 540-(j-j*red1)*59, 540-(j-j*red1)*59);
