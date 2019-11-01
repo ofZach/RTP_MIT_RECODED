@@ -1,4 +1,23 @@
-// code goes here!
+SeedRandom([[seedrandom]]);
 
-//if you want to show a parameter's value, which highlights when it changes you need to enclose it's name in double square brackets.
-// for a parameter named myParam you shoudl put [[myParam]] in the pseudo code below.
+for (int i = 0; i < GetWidth(); i += [[gap]])
+{
+    for (int j = 0; j < GetHeight(); j += [[gap]])
+    {
+        if (Random(10)*sin(5*i) + 5*cos(10*j) <= [[noise1]])
+        {
+            SetColor(0);
+            DrawRectangle(i, j, 10, 10);
+        }
+        else if (28*sin(20 * i) + 6 * cos(50 * j) > [[noise2]])
+        {
+            SetColor(255);
+            DrawRectangle(i, j, 30, 30);
+        }
+        else
+        {
+            SetColor(127);
+            DrawRectangle(i, j, 10, 10);
+        }
+    }
+}

@@ -12,8 +12,8 @@ void mengfeiMuriel::setup(){
     setAuthor("Mengfei Wang");
     setOriginalArtist("John Maeda");
 
-    parameters.add(r.set("number of rows", 200, 1, 1000));
-    parameters.add(para.set("function parameter", 0.25, 0.1, 1));
+    parameters.add(r.set("r", 200, 1, 1000));
+    parameters.add(para.set("para", 0.25, 0.1, 1));
 
     //set settings of the font
     ofTrueTypeFontSettings settings("scenes/mengfeiMuriel/huaifangti.ttf",125);

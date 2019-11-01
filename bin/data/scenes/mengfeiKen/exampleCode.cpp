@@ -1,4 +1,15 @@
-// code goes here!
-
-//if you want to show a parameter's value, which highlights when it changes you need to enclose it's name in double square brackets.
-// for a parameter named myParam you shoudl put [[myParam]] in the pseudo code below.
+for (int i = 0; i < grabber.getWidth(); i += [[gap]])
+{
+    for (int j = 0; j < grabber.getHeight(); j += [[gap]])
+    {
+        Color color = grabber.getPixels().getColor(i, j);
+        float brightness = color.getBrightness();
+        
+        SetColor(color);
+        
+        if (brightness > [[threshold]])
+        {
+            font.drawString("Create", i, j);
+        }
+    }
+}

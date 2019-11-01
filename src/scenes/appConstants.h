@@ -73,3 +73,5 @@
 #define OSC_PORT 12345       // send on this port
 
 //#define USE_SERIAL // Uncomment this line to use serial/talk to arduino
+
+//#define USE_FACE_TRACKING_SKETCHES

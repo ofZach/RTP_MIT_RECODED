@@ -13,10 +13,10 @@ void mengfeiWhitney::setup(){
     setOriginalArtist("John Whitney");
 
     
-    parameters.add(n.set("triangle size", 7, 2, 20));
-    parameters.add(radiusX.set("trajectory's x coordinate", 200, 100, 300));
-    parameters.add(radiusY.set("trajectory's y coordinate", 200, 100, 300));
-    parameters.add(number.set("number of triangles", 15, 5, 100));
+    parameters.add(n.set("n", 7, 2, 20));
+    parameters.add(radiusX.set("radiusX", 200, 100, 300));
+    parameters.add(radiusY.set("radiusY", 200, 100, 300));
+    parameters.add(number.set("number", 15, 5, 100));
     
     
     loadCode("scenes/mengfeiWhitney/exampleCode.cpp");

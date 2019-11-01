@@ -79,6 +79,29 @@ void sceneManager::setup(){
     
     
     
+    //-------------------------------  alice
+    
+    scenes.push_back(new aliceWhitney());
+    
+    
+    //------------------------------- gaurav
+    
+    scenes.push_back(new gauravWhitney2());
+    scenes.push_back(new gauravMuriel2());
+    scenes.push_back(new gauravMuriel());
+    scenes.push_back(new gauravVera());
+    
+    
+    
+    //------------------------------- mengfei
+    
+    scenes.push_back(new mengfeiKen());
+    scenes.push_back(new mengfeiLillian());
+    scenes.push_back(new mengfeiMuriel());
+    scenes.push_back(new mengfeiVera());
+    scenes.push_back(new mengfeiWhitney());
+    
+    
     
     // ----------------------- karsten
     
@@ -86,10 +109,13 @@ void sceneManager::setup(){
      scenes.push_back(new karstenVasulka());
      scenes.push_back(new karstenJohnMaeda());
     
+#ifdef USE_FACE_TRACKING_SKETCHES
     ofFile fileTest("model/face.tracker");
     if (fileTest.exists()){
      scenes.push_back(new karstenFaceMirror());
     }
+#endif
+    
      scenes.push_back(new karstenVeraMolnar());
      scenes.push_back(new karstenKenKnowlton());
      scenes.push_back(new karstenJohnWhitney());
@@ -104,18 +130,7 @@ void sceneManager::setup(){
     scenes.push_back(new manaswiVeraMolnar());
     
     
-    
-    //-------------------------------  alice
-    
-    scenes.push_back(new aliceWhitney());
-    
-    
-    //------------------------------- gaurav
-    
-    scenes.push_back(new gauravWhitney2());
-    scenes.push_back(new gauravMuriel2());
-    scenes.push_back(new gauravMuriel());
-    scenes.push_back(new gauravVera());
+   
     
     //------------------------------- liang
     
@@ -124,23 +139,19 @@ void sceneManager::setup(){
     scenes.push_back(new liangMuriel());
     
     
-    //------------------------------- mengfei
-    
-    scenes.push_back(new mengfeiKen());
-    scenes.push_back(new mengfeiLillian());
-    scenes.push_back(new mengfeiMuriel());
-    scenes.push_back(new mengfeiVera());
-    scenes.push_back(new mengfeiWhitney());
     
 
 //------------------------------- peter
     // NOTE: pbeshaiBurson1 requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
     
+    #ifdef USE_FACE_TRACKING_SKETCHES
     ofFile file("shape_predictor_68_face_landmarks.dat");
     if (file.exists()){
         
          scenes.push_back(new pbeshaiBurson1());
     }
+#endif
+    
     
     scenes.push_back(new pbeshaiVideo1());      // has recording
     scenes.push_back(new pbeshaiKnowlton1());   // has recording
