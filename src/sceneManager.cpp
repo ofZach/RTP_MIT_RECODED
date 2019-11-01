@@ -42,6 +42,9 @@
 #include "gauravMuriel2.h"
 #include "gauravWhitney2.h"
 
+#include "aliceWhitney.h"
+
+
 
 //#include "testingScene.h"
 
@@ -62,6 +65,8 @@ void sceneManager::setup(){
     font.load("fonts/ProggySmall.fon", 8, false ,false, false, 0, 96);
     
     
+    
+    scenes.push_back(new aliceWhitney());
     
     
     //------------------------------- gaurav

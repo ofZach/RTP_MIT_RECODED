@@ -23,6 +23,8 @@
 		28815921C1CDCE1F6C1FBE91 /* easing_terms_of_use.html in Sources */ = {isa = PBXBuildFile; fileRef = 1EE75986ABBB33F56547087D /* easing_terms_of_use.html */; };
 		28DC652211D4AF8CC023D568 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97E9772CB5B04FB62A872480 /* tinyxml.cpp */; };
 		2DE293FAAF850C0ABF02DB62 /* exampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59429ADBB14FCD19148E74FB /* exampleScene.cpp */; };
+		2F740D08236C3650001BF92F /* aliceWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D07236C364F001BF92F /* aliceWhitney.cpp */; };
+		2F740D0C236C376D001BF92F /* aaronRosaMenkman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F740D0B236C376C001BF92F /* aaronRosaMenkman.cpp */; };
 		2FDBEC89236BE3CB00825426 /* hannahMuriel2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC87236BE3CB00825426 /* hannahMuriel2.cpp */; };
 		2FDBEC90236C264E00825426 /* liangVasulka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC8C236C264E00825426 /* liangVasulka.cpp */; };
 		2FDBEC91236C264E00825426 /* liangMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC8F236C264E00825426 /* liangMuriel.cpp */; };
@@ -250,6 +252,10 @@
 		2E1AAD8ED653B6AAE3F21A7A /* block.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = block.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/block.hpp; sourceTree = SOURCE_ROOT; };
 		2E28CEAA9B004BC9CB9CACF5 /* ofxRtMidiOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRtMidiOut.h; path = local_addons/ofxMidi/src/desktop/ofxRtMidiOut.h; sourceTree = SOURCE_ROOT; };
 		2F715BBD4565BBC1C888AACF /* imgproc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgproc.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc.hpp; sourceTree = SOURCE_ROOT; };
+		2F740D06236C364F001BF92F /* aliceWhitney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliceWhitney.h; sourceTree = "<group>"; };
+		2F740D07236C364F001BF92F /* aliceWhitney.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aliceWhitney.cpp; sourceTree = "<group>"; };
+		2F740D0A236C376C001BF92F /* aaronRosaMenkman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaronRosaMenkman.h; sourceTree = "<group>"; };
+		2F740D0B236C376C001BF92F /* aaronRosaMenkman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aaronRosaMenkman.cpp; sourceTree = "<group>"; };
 		2FA456AAAC9E15C35DB6F114 /* ossl_typ.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ossl_typ.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ossl_typ.h; sourceTree = SOURCE_ROOT; };
 		2FDBEC87236BE3CB00825426 /* hannahMuriel2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahMuriel2.cpp; sourceTree = "<group>"; };
 		2FDBEC88236BE3CB00825426 /* hannahMuriel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahMuriel2.h; sourceTree = "<group>"; };
@@ -1301,6 +1307,26 @@
 			name = ofxDelaunay;
 			sourceTree = "<group>";
 		};
+		2F740D05236C364F001BF92F /* aliceWhitney */ = {
+			isa = PBXGroup;
+			children = (
+				2F740D06236C364F001BF92F /* aliceWhitney.h */,
+				2F740D07236C364F001BF92F /* aliceWhitney.cpp */,
+			);
+			name = aliceWhitney;
+			path = scenes/aliceWhitney;
+			sourceTree = "<group>";
+		};
+		2F740D09236C376C001BF92F /* aaronRosaMenkman */ = {
+			isa = PBXGroup;
+			children = (
+				2F740D0A236C376C001BF92F /* aaronRosaMenkman.h */,
+				2F740D0B236C376C001BF92F /* aaronRosaMenkman.cpp */,
+			);
+			name = aaronRosaMenkman;
+			path = scenes/aaronRosaMenkman;
+			sourceTree = "<group>";
+		};
 		2FCC9EA6E8606F55425E4959 /* pbeshaiSchwartz1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1416,6 +1442,7 @@
 				CD913CA4CD6384EC59C0092E /* pbeshaiBurson1 */,
 				2FCC9EA6E8606F55425E4959 /* pbeshaiSchwartz1 */,
 				3123FC43CDB08480B2226A91 /* baseScene.h */,
+				2F740D05236C364F001BF92F /* aliceWhitney */,
 				EAC398346BE53FFF8AEEF458 /* typographyManager.cpp */,
 				10E77EFB672AD13F3F3639CB /* baseScene.cpp */,
 				C28D2E1A1F45642E79288C85 /* mengfeiLillian */,
@@ -1426,6 +1453,7 @@
 				EF3492F7236B291C00AFF3AC /* aaronLillianSchwartz */,
 				CBACD1EE9DA5703B58A90DC1 /* aaronMurielCooper */,
 				B81635D663CE86F43758F548 /* aaronVeraMolnar */,
+				2F740D09236C376C001BF92F /* aaronRosaMenkman */,
 				7FE5F37869AABB8C93D219FC /* appConstants.h */,
 				F3F372983B5FDFFC4D8C781F /* mitScene1 */,
 			);
@@ -3108,6 +3136,7 @@
 				09902FAEB66DD2AB83770AE3 /* lizVesulka.cpp in Sources */,
 				4E828A8DA860E65865C8AE80 /* mengfeiVera.cpp in Sources */,
 				0FD283ABEDEEB914DBF0B417 /* mengfeiWhitney.cpp in Sources */,
+				2F740D0C236C376D001BF92F /* aaronRosaMenkman.cpp in Sources */,
 				BE1D9697CDA373A72FFCE27D /* hannahSchwartz.cpp in Sources */,
 				B758B8BA2F6A1532C27D92CE /* pbeshaiSchwartz1.cpp in Sources */,
 				FEE74E1013488F9FA2B0CA0B /* aaronVeraMolnar.cpp in Sources */,
@@ -3169,6 +3198,7 @@
 				A24426F12D75CFAD158C927E /* ofxEasingElastic.cpp in Sources */,
 				7F208A71CF13CBC28D2CD896 /* ofxEasingExpo.cpp in Sources */,
 				6CBBDD45DC862E68E613A67F /* ofxEasingLinear.cpp in Sources */,
+				2F740D08236C3650001BF92F /* aliceWhitney.cpp in Sources */,
 				84AEC832490AA6A22BA5E6C4 /* ofxEasingQuad.cpp in Sources */,
 				2FDBEC89236BE3CB00825426 /* hannahMuriel2.cpp in Sources */,
 				4DC711D98736D4736C9FBB13 /* ofxEasingQuart.cpp in Sources */,
