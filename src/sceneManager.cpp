@@ -35,6 +35,7 @@
 #include "karstenJohnWhitney.h"
 #include "karstenKenKnowlton.h"
 #include "karstenVasulka.h"
+#include "karstenFaceMirror.h"
 //#include "karstenJohnMaeda.h" // throws EXC_BAD_ACCESS error
 //#include "testingScene.h"
 
@@ -59,6 +60,7 @@ void sceneManager::setup(){
     // NOTE: pbeshaiBurson1 requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
 //    scenes.push_back(new pbeshaiBurson1());     // has recording (requires facetrakcer data)
 //    scenes.push_back(new karstenJohnMaeda()); // throws EXC_BAD_ACCESS error
+    scenes.push_back(new karstenFaceMirror());
     scenes.push_back(new karstenVasulka());
     scenes.push_back(new karstenKenKnowlton());
     scenes.push_back(new karstenJohnWhitney());
