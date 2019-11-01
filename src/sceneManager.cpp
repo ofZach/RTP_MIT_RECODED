@@ -31,7 +31,11 @@
 #include "mengfeiLillian.h"
 #include "mengfeiWhitney.h"
 #include "pbeshaiBurson1.h" // NOTE: requires facetracker data
-
+#include "karstenVeraMolnar.h"
+#include "karstenJohnWhitney.h"
+#include "karstenKenKnowlton.h"
+#include "karstenVasulka.h"
+//#include "karstenJohnMaeda.h" // throws EXC_BAD_ACCESS error
 //#include "testingScene.h"
 
 
@@ -54,6 +58,11 @@ void sceneManager::setup(){
     
     // NOTE: pbeshaiBurson1 requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
 //    scenes.push_back(new pbeshaiBurson1());     // has recording (requires facetrakcer data)
+//    scenes.push_back(new karstenJohnMaeda()); // throws EXC_BAD_ACCESS error
+    scenes.push_back(new karstenVasulka());
+    scenes.push_back(new karstenKenKnowlton());
+    scenes.push_back(new karstenJohnWhitney());
+    scenes.push_back(new karstenVeraMolnar());   
     scenes.push_back(new pbeshaiVideo1());      // has recording
     scenes.push_back(new pbeshaiKnowlton1());   // has recording
     scenes.push_back(new pbeshaiWhitney1());    // has recording
