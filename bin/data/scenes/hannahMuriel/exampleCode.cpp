@@ -1,7 +1,7 @@
 void draw(){
     ofBackground(229,229,222);
     
-    float  time = ofGetElapsedTimef()*speed;
+    float  time = ofGetElapsedTimef()*[[speed]];
     
     for (int i = 100; i < 600; i = i+100+time) {
         for (int j = 150; j < 500; j = j+100+time){
