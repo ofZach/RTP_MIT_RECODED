@@ -16,7 +16,7 @@ void aaronMurielCooper::setup(){
     setOriginalArtist("Muriel Cooper");
     
     // load fonts
-    caslonBold10.load("fonts//LibreCaslonText-Bold.ttf", 20);
+    caslonBold10.load("fonts/LibreCaslonText-Bold.ttf", 20);
     caslonRegular10.load("fonts/LibreCaslonText-Regular.ttf", 20);
     caslonRegular06.load("fonts/LibreCaslonText-Regular.ttf", 12);
 

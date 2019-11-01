@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		014058944CFE6AE1A2171D12 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF2C3D22217F4607658D67D /* OscTypes.cpp */; };
+		03FB07DE0C1FCF8EDE942888 /* hannahMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24275195CBCFF366BBF92954 /* hannahMuriel.cpp */; };
+		078C26726009EC0942404451 /* mengfeiMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7786ADBE18B906C9E1CE17 /* mengfeiMuriel.cpp */; };
+		09902FAEB66DD2AB83770AE3 /* lizVesulka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E92C6B22AFF8596B315FFC1 /* lizVesulka.cpp */; };
 		0C626D3D484EA5FB87A6AD23 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B63793AAC401CFEE868708F2 /* ofxXmlSettings.cpp */; };
 		0E12501C76392FA5CCCF941A /* ethanWhitneyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 249A8F9B05F41C6BB2E1FB91 /* ethanWhitneyScene.cpp */; };
 		0E459598E225E56585AC1CD9 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48DCDAD346F8188ABA98C64A /* ofxPanel.cpp */; };
 		0E88A75C2E994C3D685709DC /* typographyManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAC398346BE53FFF8AEEF458 /* typographyManager.cpp */; };
+		0FD283ABEDEEB914DBF0B417 /* mengfeiWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FF4397BB01F6F375B318FC /* mengfeiWhitney.cpp */; };
 		14554865E39B5D253DCFFB23 /* ContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5EAFAA0C95AA9D6B9DC637 /* ContourFinder.cpp */; };
 		1670245F051D5CB01D778E59 /* ofxFaceTracker2Instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3FA5ECED10F3FAFC05A44C3 /* ofxFaceTracker2Instance.cpp */; };
 		17669AF3B4078817F6485F8F /* ofxCvHaarFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B95E77AB55FD75C57FA5457 /* ofxCvHaarFinder.cpp */; };
@@ -19,17 +23,7 @@
 		28815921C1CDCE1F6C1FBE91 /* easing_terms_of_use.html in Sources */ = {isa = PBXBuildFile; fileRef = 1EE75986ABBB33F56547087D /* easing_terms_of_use.html */; };
 		28DC652211D4AF8CC023D568 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97E9772CB5B04FB62A872480 /* tinyxml.cpp */; };
 		2DE293FAAF850C0ABF02DB62 /* exampleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59429ADBB14FCD19148E74FB /* exampleScene.cpp */; };
-		2FDBEC5D236B15AF00825426 /* lizVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC5B236B15AF00825426 /* lizVera.cpp */; };
-		2FDBEC70236B176000825426 /* mengfeiMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC60236B175F00825426 /* mengfeiMuriel.cpp */; };
-		2FDBEC71236B176000825426 /* mengfeiWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC63236B175F00825426 /* mengfeiWhitney.cpp */; };
-		2FDBEC72236B176000825426 /* mengfeiLillian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC66236B175F00825426 /* mengfeiLillian.cpp */; };
-		2FDBEC73236B176000825426 /* lizVesulka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC68236B176000825426 /* lizVesulka.cpp */; };
-		2FDBEC74236B176000825426 /* mengfeiKen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC6B236B176000825426 /* mengfeiKen.cpp */; };
-		2FDBEC75236B176000825426 /* mengfeiVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC6E236B176000825426 /* mengfeiVera.cpp */; };
-		2FDBEC82236B18D100825426 /* hannahWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC77236B18D100825426 /* hannahWhitney.cpp */; };
-		2FDBEC83236B18D100825426 /* hannahVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC7B236B18D100825426 /* hannahVera.cpp */; };
-		2FDBEC84236B18D100825426 /* hannahSchwartz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC7D236B18D100825426 /* hannahSchwartz.cpp */; };
-		2FDBEC85236B18D100825426 /* hannahMuriel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBEC81236B18D100825426 /* hannahMuriel.cpp */; };
+		30B185B3791FE460B590DF5A /* lizVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522B9FAAB2DD704E3D3FB058 /* lizVera.cpp */; };
 		32E2318B89B6217AE6052155 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 723AE465948C9C9893893BC8 /* tinyxmlparser.cpp */; };
 		390AAD72EB181C94BB981D03 /* ofxFaceTracker2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 167FF882C7890E264E24376F /* ofxFaceTracker2.cpp */; };
 		3A47706C1DF9A0D4045568C0 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D015FA91E7717ECC9591593E /* ofxGuiGroup.cpp */; };
@@ -42,6 +36,8 @@
 		413A3F52C6AC90B4F28A6A1C /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 448869D12B9D05298EF975CB /* ofxToggle.cpp */; };
 		49497EC5A6804D3D22460577 /* Kalman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C34BBC30CCF58B92294493 /* Kalman.cpp */; };
 		4DC711D98736D4736C9FBB13 /* ofxEasingQuart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E95AF96B31E9295114E3DD2 /* ofxEasingQuart.cpp */; };
+		4E7A4B71966FFFBFAEE53C04 /* mengfeiLillian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 714E4C4AE8BF961732BD7F2E /* mengfeiLillian.cpp */; };
+		4E828A8DA860E65865C8AE80 /* mengfeiVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F16D1D987AAEF8DBBF788 /* mengfeiVera.cpp */; };
 		5AC25FD9FFC0B9238EDC98FE /* ofxMidiRecorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8100B11C33F4BE20C5DA069 /* ofxMidiRecorder.cpp */; };
 		5D78FCB30BFFBD00AFDD81F7 /* pbeshaiWhitney1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E685C8418AE2C43709CCBF9D /* pbeshaiWhitney1.cpp */; };
 		5FF53F0F4A2EF1116658212E /* ofxCvFloatImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D98B7EAAAA1DAB83C104E17B /* ofxCvFloatImage.cpp */; };
@@ -49,10 +45,12 @@
 		631702104AFC104323A9EB79 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */; };
 		6C503756DAFDCF2FEEE0EAA0 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A844876A71DBD7546201CC6 /* ofxOscMessage.cpp */; };
 		6CBBDD45DC862E68E613A67F /* ofxEasingLinear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97476EA8DD0AD87624ED8624 /* ofxEasingLinear.cpp */; };
+		6DEF396AF4051957D00613D2 /* hannahVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F5A1AF425FB1E680586202F /* hannahVera.cpp */; };
 		6F0D599D9FD124B23D0E0F8D /* baseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10E77EFB672AD13F3F3639CB /* baseScene.cpp */; };
 		6F2D739BB67B61B0D43AB5BD /* ofxOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B34D2935437BD95ED6DA2A59 /* ofxOscReceiver.cpp */; };
 		74B90FB956C1C60D24304221 /* ofxBaseMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7051ABC229EA2BD7B02CCF8B /* ofxBaseMidi.cpp */; };
 		786B04644A4B7B5D8697D5B0 /* ofxEasingQuint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B841694F14059BC544EE4894 /* ofxEasingQuint.cpp */; };
+		78E4ECCCC112FFAAEB39FF02 /* hannahWhitney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD9551CBAB2AFE1862D030D6 /* hannahWhitney.cpp */; };
 		7C157C6D23D66D93A33267B1 /* Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE38FCDFA31972A4F6BC0C3F /* Distance.cpp */; };
 		7F208A71CF13CBC28D2CD896 /* ofxEasingExpo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97D85E05E62C393BE2F7222C /* ofxEasingExpo.cpp */; };
 		800429C3408CE8521C357F20 /* interactionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB25C0CD00F1B962AECE31E7 /* interactionManager.cpp */; };
@@ -87,6 +85,7 @@
 		B7D58E16975420B1293DD11E /* mitScene1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1712C2F38F71710AC0300B5F /* mitScene1.cpp */; };
 		B9F620FAD9779D23123E03F0 /* aaronMurielCooper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AAD74134252A5222E3530A0 /* aaronMurielCooper.cpp */; };
 		BC6E787BF912B9C5DEA2B374 /* ofxMidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61797D1C1B3BBE286B96A5AE /* ofxMidiIn.cpp */; };
+		BE1D9697CDA373A72FFCE27D /* hannahSchwartz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21217286064EB882DFE2D15C /* hannahSchwartz.cpp */; };
 		C81AF2A69DB606B1565AAE34 /* Calibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A31EA20683B9BDF8D7139327 /* Calibration.cpp */; };
 		C9651B24B869083F299EFA4D /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28BB671FAE846D1979E878D2 /* UdpSocket.cpp */; };
 		C9D54A57C8C6DBCD4684B16E /* RunningBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F9C61E50AB0C197FD6557D /* RunningBackground.cpp */; };
@@ -102,8 +101,10 @@
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
 		E555C7BF901ADF7AD6922BCA /* ofxParameterMidiSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D208A7A259877247A4E20DC3 /* ofxParameterMidiSync.cpp */; };
+		E613EEED7B6C33AD98157D23 /* mengfeiKen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20C4D520BF99BA31B446019C /* mengfeiKen.cpp */; };
 		E717C5A73BE4076EDBC728DC /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EE05DD94DAD5D94142391A8 /* IpEndpointName.cpp */; };
 		E9514E69458BB4D0F06DC08C /* gauravVera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 643863D4AE8AFECDA4B3D48D /* gauravVera.cpp */; };
+		EF3492FA236B291C00AFF3AC /* aaronLillianSchwartz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF3492F8236B291C00AFF3AC /* aaronLillianSchwartz.cpp */; };
 		F0509CA2E805D1D5F70A87D0 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F72D5263CF8609CF22E13BD6 /* NetworkingUtils.cpp */; };
 		F371BA47826BCB4729114673 /* ofxEasingCubic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445850DAC24250B23EDA5291 /* ofxEasingCubic.cpp */; };
 		F4BA53EB83A682CF0A3B4E02 /* ofxXmlPoco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D4C5CC8CBB1FFDE41AE089E /* ofxXmlPoco.cpp */; };
@@ -152,6 +153,7 @@
 		071EA3B73D98DF044E9E685E /* mask.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mask.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/ptr2d/mask.hpp; sourceTree = SOURCE_ROOT; };
 		07240315F2210E6D0CA4BB3C /* TimerListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TimerListener.h; path = ../../addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h; sourceTree = SOURCE_ROOT; };
 		073FB7F26B061BBBE836363E /* cudastereo.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cudastereo.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudastereo.hpp; sourceTree = SOURCE_ROOT; };
+		076150930842B253DE1A3D28 /* mengfeiVera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mengfeiVera.h; path = src/scenes/mengfeiVera/mengfeiVera.h; sourceTree = SOURCE_ROOT; };
 		079332F969D09A5D19403B6A /* cvaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvaux.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv/cvaux.h; sourceTree = SOURCE_ROOT; };
 		07E1649D22437B2CFB953D44 /* opengl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opengl.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/opengl.hpp; sourceTree = SOURCE_ROOT; };
 		087AD6C6359B9C4CA76A9974 /* motion_core.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = motion_core.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/videostab/motion_core.hpp; sourceTree = SOURCE_ROOT; };
@@ -164,6 +166,7 @@
 		0BF8E4376C436CE4DF3B0553 /* ofxCvImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxCvImage.cpp; path = local_addons/ofxOpenCv/src/ofxCvImage.cpp; sourceTree = SOURCE_ROOT; };
 		0C14AC2B77EEEC56523BE110 /* transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = transform.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/grid/transform.hpp; sourceTree = SOURCE_ROOT; };
 		0C72C0F5E4AE59D31C3F6A46 /* opencl_clamdfft.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opencl_clamdfft.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl/runtime/opencl_clamdfft.hpp; sourceTree = SOURCE_ROOT; };
+		0C9F16D1D987AAEF8DBBF788 /* mengfeiVera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mengfeiVera.cpp; path = src/scenes/mengfeiVera/mengfeiVera.cpp; sourceTree = SOURCE_ROOT; };
 		0CA5F082FB29DA3CAC43022F /* ofxRtMidiIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxRtMidiIn.cpp; path = local_addons/ofxMidi/src/desktop/ofxRtMidiIn.cpp; sourceTree = SOURCE_ROOT; };
 		0D4C5CC8CBB1FFDE41AE089E /* ofxXmlPoco.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxXmlPoco.cpp; path = ../../addons/ofxPoco/src/ofxXmlPoco.cpp; sourceTree = SOURCE_ROOT; };
 		0D596DC5745156266A4BB46B /* dh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dh.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/dh.h; sourceTree = SOURCE_ROOT; };
@@ -209,8 +212,11 @@
 		1FF34C2E06350C5B7A1B4CA7 /* ofxEasingLinear.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingLinear.h; path = local_addons/ofxTween/src/Easings/ofxEasingLinear.h; sourceTree = SOURCE_ROOT; };
 		202F6C92B6226F3F994C3D0B /* viz3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = viz3d.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/viz/viz3d.hpp; sourceTree = SOURCE_ROOT; };
 		20A7826156F1BAEAFDE70846 /* wimage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wimage.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/wimage.hpp; sourceTree = SOURCE_ROOT; };
+		20C4D520BF99BA31B446019C /* mengfeiKen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mengfeiKen.cpp; path = src/scenes/mengfeiKen/mengfeiKen.cpp; sourceTree = SOURCE_ROOT; };
+		20E88A58C2B237F8AF1E7A29 /* mengfeiMuriel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mengfeiMuriel.h; path = src/scenes/mengfeiMuriel/mengfeiMuriel.h; sourceTree = SOURCE_ROOT; };
 		20FF3A64BAAC30387CB04258 /* ofxCvFloatImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxCvFloatImage.h; path = local_addons/ofxOpenCv/src/ofxCvFloatImage.h; sourceTree = SOURCE_ROOT; };
 		2107FBB275538402B466CD8A /* unary_func.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = unary_func.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/expr/unary_func.hpp; sourceTree = SOURCE_ROOT; };
+		21217286064EB882DFE2D15C /* hannahSchwartz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hannahSchwartz.cpp; path = src/scenes/hannahSchwartz/hannahSchwartz.cpp; sourceTree = SOURCE_ROOT; };
 		2136E60E9D5CC919690E64D0 /* bn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bn.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/bn.h; sourceTree = SOURCE_ROOT; };
 		2147A293734A97EF6484F4F0 /* flann_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flann_base.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp; sourceTree = SOURCE_ROOT; };
 		21758E6CAF211DC088E0C7CC /* blowfish.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = blowfish.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/blowfish.h; sourceTree = SOURCE_ROOT; };
@@ -219,6 +225,7 @@
 		2271EF8762ACE471CF677BE2 /* ofxInputField.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxInputField.cpp; path = ../../addons/ofxGui/src/ofxInputField.cpp; sourceTree = SOURCE_ROOT; };
 		238FE0CC22C8226A2C33C991 /* ETF.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ETF.h; path = local_addons/ofxCv/libs/CLD/include/CLD/ETF.h; sourceTree = SOURCE_ROOT; };
 		241B7CF332DDAEA3B7A131AC /* common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/common.hpp; sourceTree = SOURCE_ROOT; };
+		24275195CBCFF366BBF92954 /* hannahMuriel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hannahMuriel.cpp; path = src/scenes/hannahMuriel/hannahMuriel.cpp; sourceTree = SOURCE_ROOT; };
 		248B77F117182B075DE33AA5 /* cudaarithm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cudaarithm.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudaarithm.hpp; sourceTree = SOURCE_ROOT; };
 		249A8F9B05F41C6BB2E1FB91 /* ethanWhitneyScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ethanWhitneyScene.cpp; path = src/scenes/ethanWhitneyScene/ethanWhitneyScene.cpp; sourceTree = SOURCE_ROOT; };
 		24FDD4D6CE7B063D30E2D198 /* core.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp; sourceTree = SOURCE_ROOT; };
@@ -238,28 +245,6 @@
 		2E28CEAA9B004BC9CB9CACF5 /* ofxRtMidiOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRtMidiOut.h; path = local_addons/ofxMidi/src/desktop/ofxRtMidiOut.h; sourceTree = SOURCE_ROOT; };
 		2F715BBD4565BBC1C888AACF /* imgproc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgproc.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc.hpp; sourceTree = SOURCE_ROOT; };
 		2FA456AAAC9E15C35DB6F114 /* ossl_typ.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ossl_typ.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ossl_typ.h; sourceTree = SOURCE_ROOT; };
-		2FDBEC5B236B15AF00825426 /* lizVera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lizVera.cpp; sourceTree = "<group>"; };
-		2FDBEC5C236B15AF00825426 /* lizVera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lizVera.h; sourceTree = "<group>"; };
-		2FDBEC5F236B175F00825426 /* mengfeiMuriel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mengfeiMuriel.h; sourceTree = "<group>"; };
-		2FDBEC60236B175F00825426 /* mengfeiMuriel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mengfeiMuriel.cpp; sourceTree = "<group>"; };
-		2FDBEC62236B175F00825426 /* mengfeiWhitney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mengfeiWhitney.h; sourceTree = "<group>"; };
-		2FDBEC63236B175F00825426 /* mengfeiWhitney.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mengfeiWhitney.cpp; sourceTree = "<group>"; };
-		2FDBEC65236B175F00825426 /* mengfeiLillian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mengfeiLillian.h; sourceTree = "<group>"; };
-		2FDBEC66236B175F00825426 /* mengfeiLillian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mengfeiLillian.cpp; sourceTree = "<group>"; };
-		2FDBEC68236B176000825426 /* lizVesulka.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lizVesulka.cpp; sourceTree = "<group>"; };
-		2FDBEC69236B176000825426 /* lizVesulka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lizVesulka.h; sourceTree = "<group>"; };
-		2FDBEC6B236B176000825426 /* mengfeiKen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mengfeiKen.cpp; sourceTree = "<group>"; };
-		2FDBEC6C236B176000825426 /* mengfeiKen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mengfeiKen.h; sourceTree = "<group>"; };
-		2FDBEC6E236B176000825426 /* mengfeiVera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mengfeiVera.cpp; sourceTree = "<group>"; };
-		2FDBEC6F236B176000825426 /* mengfeiVera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mengfeiVera.h; sourceTree = "<group>"; };
-		2FDBEC77236B18D100825426 /* hannahWhitney.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahWhitney.cpp; sourceTree = "<group>"; };
-		2FDBEC78236B18D100825426 /* hannahWhitney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahWhitney.h; sourceTree = "<group>"; };
-		2FDBEC7A236B18D100825426 /* hannahVera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahVera.h; sourceTree = "<group>"; };
-		2FDBEC7B236B18D100825426 /* hannahVera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahVera.cpp; sourceTree = "<group>"; };
-		2FDBEC7D236B18D100825426 /* hannahSchwartz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahSchwartz.cpp; sourceTree = "<group>"; };
-		2FDBEC7E236B18D100825426 /* hannahSchwartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahSchwartz.h; sourceTree = "<group>"; };
-		2FDBEC80236B18D100825426 /* hannahMuriel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hannahMuriel.h; sourceTree = "<group>"; };
-		2FDBEC81236B18D100825426 /* hannahMuriel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hannahMuriel.cpp; sourceTree = "<group>"; };
 		30EC225DE277BC20B85714D0 /* mat.inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.inl.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.inl.hpp; sourceTree = SOURCE_ROOT; };
 		30F9C61E50AB0C197FD6557D /* RunningBackground.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RunningBackground.cpp; path = local_addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp; sourceTree = SOURCE_ROOT; };
 		3123FC43CDB08480B2226A91 /* baseScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = baseScene.h; path = src/scenes/baseScene.h; sourceTree = SOURCE_ROOT; };
@@ -288,6 +273,7 @@
 		3E0F10E10AB43DDC035DF087 /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = UdpSocket.h; path = ../../addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
 		3E2189A25F668970FF87C40B /* lhash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lhash.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/lhash.h; sourceTree = SOURCE_ROOT; };
 		3E5E131BF25D039CA7195354 /* pkcs12.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pkcs12.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/pkcs12.h; sourceTree = SOURCE_ROOT; };
+		3E92C6B22AFF8596B315FFC1 /* lizVesulka.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lizVesulka.cpp; path = src/scenes/lizVesulka/lizVesulka.cpp; sourceTree = SOURCE_ROOT; };
 		3EE8DE7987963C626941F923 /* objdetect_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = objdetect_c.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect_c.h; sourceTree = SOURCE_ROOT; };
 		3FB407AE047978E3FE1E3CEE /* ocl_perf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ocl_perf.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/ts/ocl_perf.hpp; sourceTree = SOURCE_ROOT; };
 		4022FF071CA1A3876BA2A851 /* OscException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OscException.h; path = ../../addons/ofxOsc/libs/oscpack/src/osc/OscException.h; sourceTree = SOURCE_ROOT; };
@@ -295,6 +281,7 @@
 		40F75B97F58D2802D7D6FA69 /* ofxEasingSine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingSine.h; path = local_addons/ofxTween/src/Easings/ofxEasingSine.h; sourceTree = SOURCE_ROOT; };
 		40FDCE53BE9FF4ECD5E9969B /* ofxGuiUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxGuiUtils.h; path = ../../addons/ofxGui/src/ofxGuiUtils.h; sourceTree = SOURCE_ROOT; };
 		41E55F3CAA7C437F3E254009 /* fdog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fdog.cpp; path = local_addons/ofxCv/libs/CLD/src/fdog.cpp; sourceTree = SOURCE_ROOT; };
+		425946C7C14C326ACAD71559 /* lizVera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lizVera.h; path = src/scenes/lizVera/lizVera.h; sourceTree = SOURCE_ROOT; };
 		427069A55602970E74C5F7EF /* videoio_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = videoio_c.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/videoio/videoio_c.h; sourceTree = SOURCE_ROOT; };
 		4277585CE79154546004F56F /* ofxMidiOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxMidiOut.cpp; path = local_addons/ofxMidi/src/ofxMidiOut.cpp; sourceTree = SOURCE_ROOT; };
 		42C9C53CA63CC693A1B200FF /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxSlider.h; path = ../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
@@ -323,6 +310,7 @@
 		4B7B05CAEA2BA572A6CB9757 /* kdf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdf.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/kdf.h; sourceTree = SOURCE_ROOT; };
 		4B8775340501E3130DE48FC1 /* shape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shape.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/shape.hpp; sourceTree = SOURCE_ROOT; };
 		4C767DE28D328538C775A65E /* warp_reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = warp_reduce.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/warp_reduce.hpp; sourceTree = SOURCE_ROOT; };
+		4C7786ADBE18B906C9E1CE17 /* mengfeiMuriel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mengfeiMuriel.cpp; path = src/scenes/mengfeiMuriel/mengfeiMuriel.cpp; sourceTree = SOURCE_ROOT; };
 		4CD4649362792183448B87C8 /* tuple_adapter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tuple_adapter.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/functional/tuple_adapter.hpp; sourceTree = SOURCE_ROOT; };
 		4CEE1BAAE4B686E1E9BAD424 /* ofxMidiConstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxMidiConstants.h; path = local_addons/ofxMidi/src/ofxMidiConstants.h; sourceTree = SOURCE_ROOT; };
 		4D04AC3C51E65561439A308E /* Wrappers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Wrappers.h; path = local_addons/ofxCv/libs/ofxCv/include/ofxCv/Wrappers.h; sourceTree = SOURCE_ROOT; };
@@ -334,6 +322,7 @@
 		4FC940DD6E74F0B44AA87413 /* pbeshaiMolnar1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pbeshaiMolnar1.cpp; path = src/scenes/pbeshaiMolnar1/pbeshaiMolnar1.cpp; sourceTree = SOURCE_ROOT; };
 		5051EEEEE757F3DDBC19BCDD /* pyr_down.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pyr_down.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/grid/detail/pyr_down.hpp; sourceTree = SOURCE_ROOT; };
 		509EB6C39D83CD9598025B94 /* ContourFinder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ContourFinder.h; path = local_addons/ofxCv/libs/ofxCv/include/ofxCv/ContourFinder.h; sourceTree = SOURCE_ROOT; };
+		522B9FAAB2DD704E3D3FB058 /* lizVera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lizVera.cpp; path = src/scenes/lizVera/lizVera.cpp; sourceTree = SOURCE_ROOT; };
 		52842C1C2725566105D0AD7B /* ofxFaceTracker2Landmarks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxFaceTracker2Landmarks.cpp; path = local_addons/ofxFaceTracker2/src/ofxFaceTracker2Landmarks.cpp; sourceTree = SOURCE_ROOT; };
 		5306824829544E301325FFA5 /* defines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = defines.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h; sourceTree = SOURCE_ROOT; };
 		530A0B02B569670F35D5F0D1 /* imgcodecs_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgcodecs_c.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/imgcodecs/imgcodecs_c.h; sourceTree = SOURCE_ROOT; };
@@ -373,6 +362,7 @@
 		643863D4AE8AFECDA4B3D48D /* gauravVera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gauravVera.cpp; path = src/scenes/gauravVera/gauravVera.cpp; sourceTree = SOURCE_ROOT; };
 		643A4FF91C888AF5182674AA /* RunningBackground.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RunningBackground.h; path = local_addons/ofxCv/libs/ofxCv/include/ofxCv/RunningBackground.h; sourceTree = SOURCE_ROOT; };
 		64B3D9A85215AF099C6FA8F7 /* color_cvt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color_cvt.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/functional/detail/color_cvt.hpp; sourceTree = SOURCE_ROOT; };
+		65FF4397BB01F6F375B318FC /* mengfeiWhitney.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mengfeiWhitney.cpp; path = src/scenes/mengfeiWhitney/mengfeiWhitney.cpp; sourceTree = SOURCE_ROOT; };
 		66888F3D6A4384145837A6C0 /* seam_finders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = seam_finders.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/stitching/detail/seam_finders.hpp; sourceTree = SOURCE_ROOT; };
 		66A4C282434022D18782A87C /* reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = reduce.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/warp/detail/reduce.hpp; sourceTree = SOURCE_ROOT; };
 		66EE6ABDBDDF442D71987DB7 /* autocalib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autocalib.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/stitching/detail/autocalib.hpp; sourceTree = SOURCE_ROOT; };
@@ -393,6 +383,7 @@
 		6E05A74B4FA5B188E88A1154 /* shape_distance.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shape_distance.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/shape/shape_distance.hpp; sourceTree = SOURCE_ROOT; };
 		6E0AAED8EE3300BB0150F787 /* tracking.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tracking.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp; sourceTree = SOURCE_ROOT; };
 		6E82F793E1B5F58A1AAA5809 /* color_cvt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color_cvt.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/functional/color_cvt.hpp; sourceTree = SOURCE_ROOT; };
+		6E8E8D725BEA1B9924DF5F02 /* hannahMuriel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hannahMuriel.h; path = src/scenes/hannahMuriel/hannahMuriel.h; sourceTree = SOURCE_ROOT; };
 		6EE05DD94DAD5D94142391A8 /* IpEndpointName.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IpEndpointName.cpp; path = ../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp; sourceTree = SOURCE_ROOT; };
 		6F0FCA94906ADDEF65256220 /* Kalman.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Kalman.h; path = local_addons/ofxCv/libs/ofxCv/include/ofxCv/Kalman.h; sourceTree = SOURCE_ROOT; };
 		6F45A1D677ACA4037F90C0BD /* flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flann.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann.hpp; sourceTree = SOURCE_ROOT; };
@@ -402,6 +393,7 @@
 		7051ABC229EA2BD7B02CCF8B /* ofxBaseMidi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxBaseMidi.cpp; path = local_addons/ofxMidi/src/ofxBaseMidi.cpp; sourceTree = SOURCE_ROOT; };
 		706CE7C7ADD88B6EEBED6206 /* scan.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scan.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/block/scan.hpp; sourceTree = SOURCE_ROOT; };
 		70AAD97154A7F3A7E07DD2E8 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSliderGroup.cpp; path = ../../addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
+		714E4C4AE8BF961732BD7F2E /* mengfeiLillian.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mengfeiLillian.cpp; path = src/scenes/mengfeiLillian/mengfeiLillian.cpp; sourceTree = SOURCE_ROOT; };
 		716B6DF1FD5503ACF689ABA2 /* opencl_core_wrappers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opencl_core_wrappers.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp; sourceTree = SOURCE_ROOT; };
 		7175C9B1F5304CA63484D896 /* vec_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec_traits.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/vec_traits.hpp; sourceTree = SOURCE_ROOT; };
 		718B33E2C95F054A37B8D125 /* widget_accessor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = widget_accessor.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/viz/widget_accessor.hpp; sourceTree = SOURCE_ROOT; };
@@ -414,6 +406,7 @@
 		73820625E9F5445ABD43EB8F /* ofxCvImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxCvImage.h; path = local_addons/ofxOpenCv/src/ofxCvImage.h; sourceTree = SOURCE_ROOT; };
 		7428C93234279F23A801BBD1 /* x509.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = x509.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/x509.h; sourceTree = SOURCE_ROOT; };
 		74355E6E8404DABFBCA95DA0 /* ethanMolnarScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ethanMolnarScene.cpp; path = src/scenes/ethanMolnarScene/ethanMolnarScene.cpp; sourceTree = SOURCE_ROOT; };
+		7470AA32E978DF895B8D680A /* lizVesulka.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lizVesulka.h; path = src/scenes/lizVesulka/lizVesulka.h; sourceTree = SOURCE_ROOT; };
 		74C4293BBFE1FD25D5D79994 /* frame_source.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = frame_source.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/videostab/frame_source.hpp; sourceTree = SOURCE_ROOT; };
 		7543BF53FF250EB6272A5454 /* binary_op.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = binary_op.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/expr/binary_op.hpp; sourceTree = SOURCE_ROOT; };
 		76B713C20615C4E10F93906A /* comp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = comp.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/comp.h; sourceTree = SOURCE_ROOT; };
@@ -427,6 +420,7 @@
 		7928685F940D72DA99C8497E /* log.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = log.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/videostab/log.hpp; sourceTree = SOURCE_ROOT; };
 		7949E2C14744F18A95E7F5AE /* dynamic_smem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dynamic_smem.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/dynamic_smem.hpp; sourceTree = SOURCE_ROOT; };
 		798379B5500CA5F7564887DA /* OscReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OscReceivedElements.h; path = ../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h; sourceTree = SOURCE_ROOT; };
+		7A8CF084857781C68F17091E /* hannahVera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hannahVera.h; path = src/scenes/hannahVera/hannahVera.h; sourceTree = SOURCE_ROOT; };
 		7AE368395A3E7AF527A5BC41 /* reduce_to_vec.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = reduce_to_vec.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/grid/reduce_to_vec.hpp; sourceTree = SOURCE_ROOT; };
 		7B08E4E649CE19418198659E /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxButton.h; path = ../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
 		7B2BAA0F221902291E676F45 /* ofxOscSender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxOscSender.cpp; path = ../../addons/ofxOsc/src/ofxOscSender.cpp; sourceTree = SOURCE_ROOT; };
@@ -468,8 +462,10 @@
 		88492130D595C6ED84AB94CC /* limits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = limits.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/util/limits.hpp; sourceTree = SOURCE_ROOT; };
 		88BA1C15D48A523CCEF0D979 /* type_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = type_traits.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/util/detail/type_traits.hpp; sourceTree = SOURCE_ROOT; };
 		8905D18B133663CE8349C339 /* functional.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = functional.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/functional.hpp; sourceTree = SOURCE_ROOT; };
+		89665F2CD20CE37F86A0A313 /* hannahSchwartz.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hannahSchwartz.h; path = src/scenes/hannahSchwartz/hannahSchwartz.h; sourceTree = SOURCE_ROOT; };
 		8A844876A71DBD7546201CC6 /* ofxOscMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxOscMessage.cpp; path = ../../addons/ofxOsc/src/ofxOscMessage.cpp; sourceTree = SOURCE_ROOT; };
 		8AC68966E356E8C82C05DA3D /* cv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cv.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv/cv.hpp; sourceTree = SOURCE_ROOT; };
+		8B39E558DB7C17583A56854C /* mengfeiKen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mengfeiKen.h; path = src/scenes/mengfeiKen/mengfeiKen.h; sourceTree = SOURCE_ROOT; };
 		8B4C08E0EA388065EEF0AEE4 /* cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cvconfig.h; sourceTree = SOURCE_ROOT; };
 		8B6572AF4079B752CC76D545 /* intrin_cpp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = intrin_cpp.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/core/hal/intrin_cpp.hpp; sourceTree = SOURCE_ROOT; };
 		8B8BBBF7EFC7EC98576282A7 /* types.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/viz/types.hpp; sourceTree = SOURCE_ROOT; };
@@ -505,6 +501,7 @@
 		97C59491C9FA8C671A88CEA3 /* lsh_table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_table.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_table.h; sourceTree = SOURCE_ROOT; };
 		97D85E05E62C393BE2F7222C /* ofxEasingExpo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingExpo.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingExpo.cpp; sourceTree = SOURCE_ROOT; };
 		97E9772CB5B04FB62A872480 /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml.cpp; path = ../../addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
+		97FA4368CDD3ECFF4D9A80B1 /* hannahWhitney.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hannahWhitney.h; path = src/scenes/hannahWhitney/hannahWhitney.h; sourceTree = SOURCE_ROOT; };
 		9805BFB2B1DF4B14EE8BB52A /* dist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dist.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h; sourceTree = SOURCE_ROOT; };
 		98088B77E20D965FD2238F2D /* vec_math.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec_math.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/util/vec_math.hpp; sourceTree = SOURCE_ROOT; };
 		9836D884B0664946E7EBBF99 /* symhacks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = symhacks.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/symhacks.h; sourceTree = SOURCE_ROOT; };
@@ -523,6 +520,7 @@
 		9E55CBB466522CC37FB180E9 /* minmaxloc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = minmaxloc.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/grid/detail/minmaxloc.hpp; sourceTree = SOURCE_ROOT; };
 		9E95AF96B31E9295114E3DD2 /* ofxEasingQuart.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingQuart.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingQuart.cpp; sourceTree = SOURCE_ROOT; };
 		9EA710687A480F98DDABF393 /* OscHostEndianness.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OscHostEndianness.h; path = ../../addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h; sourceTree = SOURCE_ROOT; };
+		9F5A1AF425FB1E680586202F /* hannahVera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hannahVera.cpp; path = src/scenes/hannahVera/hannahVera.cpp; sourceTree = SOURCE_ROOT; };
 		9F994943A710255BA87F77EA /* ofxFaceTracker2Landmarks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFaceTracker2Landmarks.h; path = local_addons/ofxFaceTracker2/src/ofxFaceTracker2Landmarks.h; sourceTree = SOURCE_ROOT; };
 		9FB3D69D57AB5F33B76FA0AB /* transpose.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = transpose.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/grid/detail/transpose.hpp; sourceTree = SOURCE_ROOT; };
 		A009A0DD442D1492720F4DF4 /* zip.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zip.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/ptr2d/zip.hpp; sourceTree = SOURCE_ROOT; };
@@ -587,6 +585,7 @@
 		B74A5563DCF8A69DE537F533 /* md5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = md5.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/md5.h; sourceTree = SOURCE_ROOT; };
 		B772E603A6D83FA5440455D6 /* superres.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = superres.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/superres.hpp; sourceTree = SOURCE_ROOT; };
 		B77A201949C223753FEC1842 /* ofxRtMidiIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxRtMidiIn.h; path = local_addons/ofxMidi/src/desktop/ofxRtMidiIn.h; sourceTree = SOURCE_ROOT; };
+		B7B31384F22C8A6F5BB87456 /* mengfeiLillian.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mengfeiLillian.h; path = src/scenes/mengfeiLillian/mengfeiLillian.h; sourceTree = SOURCE_ROOT; };
 		B82F4F2ADD3F792FF8F413A1 /* optical_flow.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = optical_flow.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/superres/optical_flow.hpp; sourceTree = SOURCE_ROOT; };
 		B841694F14059BC544EE4894 /* ofxEasingQuint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxEasingQuint.cpp; path = local_addons/ofxTween/src/Easings/ofxEasingQuint.cpp; sourceTree = SOURCE_ROOT; };
 		BA1C9B1FD6F4C0963090EC93 /* ui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/ui.h; sourceTree = SOURCE_ROOT; };
@@ -636,6 +635,7 @@
 		CD7729EC3FD3EA74B8520341 /* simplex_downhill.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simplex_downhill.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/flann/simplex_downhill.h; sourceTree = SOURCE_ROOT; };
 		CD9624C59BAB3D0753C21DBC /* pbeshaiBurson1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pbeshaiBurson1.h; path = src/scenes/pbeshaiBurson1/pbeshaiBurson1.h; sourceTree = SOURCE_ROOT; };
 		CDA42EF87A1D2E071AF69C48 /* ofxFaceTracker2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFaceTracker2.h; path = local_addons/ofxFaceTracker2/src/ofxFaceTracker2.h; sourceTree = SOURCE_ROOT; };
+		CF1505396057EE787DFD7490 /* mengfeiWhitney.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mengfeiWhitney.h; path = src/scenes/mengfeiWhitney/mengfeiWhitney.h; sourceTree = SOURCE_ROOT; };
 		CF6CA69CDA4F0401FEE918D8 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPanel.h; path = ../../addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
 		CFCAA4D953378BD89C6667D4 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSlider.cpp; path = ../../addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
 		D015FA91E7717ECC9591593E /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxGuiGroup.cpp; path = ../../addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
@@ -662,6 +662,7 @@
 		DC70FD43D5E1A12B27E8F950 /* tracking_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tracking_c.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking_c.h; sourceTree = SOURCE_ROOT; };
 		DCF8CF4BD7A22AE087645695 /* timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h; sourceTree = SOURCE_ROOT; };
 		DD3CA7819F0ECBE27C69371E /* srtp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = srtp.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/srtp.h; sourceTree = SOURCE_ROOT; };
+		DD9551CBAB2AFE1862D030D6 /* hannahWhitney.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hannahWhitney.cpp; path = src/scenes/hannahWhitney/hannahWhitney.cpp; sourceTree = SOURCE_ROOT; };
 		DDCBF45295A6ADA11E4EA7DB /* simd_functions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simd_functions.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/util/simd_functions.hpp; sourceTree = SOURCE_ROOT; };
 		DE38FCDFA31972A4F6BC0C3F /* Distance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Distance.cpp; path = local_addons/ofxCv/libs/ofxCv/src/Distance.cpp; sourceTree = SOURCE_ROOT; };
 		DE709FD7F43443CDA5A20B19 /* ofxCvColorImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxCvColorImage.h; path = local_addons/ofxOpenCv/src/ofxCvColorImage.h; sourceTree = SOURCE_ROOT; };
@@ -890,6 +891,8 @@
 		ED87E63B59948062CDA5EE59 /* imatrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imatrix.h; path = local_addons/ofxCv/libs/CLD/include/CLD/imatrix.h; sourceTree = SOURCE_ROOT; };
 		EE069C8D4576E32F23DF8282 /* util_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = util_inl.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/stitching/detail/util_inl.hpp; sourceTree = SOURCE_ROOT; };
 		EF01EDA09FB70440D989718A /* remap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = remap.hpp; path = local_addons/ofxOpenCv/libs/opencv/include/opencv2/cudev/ptr2d/remap.hpp; sourceTree = SOURCE_ROOT; };
+		EF3492F8236B291C00AFF3AC /* aaronLillianSchwartz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aaronLillianSchwartz.cpp; sourceTree = "<group>"; };
+		EF3492F9236B291C00AFF3AC /* aaronLillianSchwartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaronLillianSchwartz.h; sourceTree = "<group>"; };
 		EFB77AB55CB8361477C5C905 /* pem2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pem2.h; path = ../../addons/ofxPoco/libs/openssl/include/openssl/pem2.h; sourceTree = SOURCE_ROOT; };
 		EFBE84525195E3DA7BD72A56 /* sceneManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sceneManager.h; path = src/sceneManager.h; sourceTree = SOURCE_ROOT; };
 		EFEC140C917CC285CAAAADA4 /* ofxEasingBack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxEasingBack.h; path = local_addons/ofxTween/src/Easings/ofxEasingBack.h; sourceTree = SOURCE_ROOT; };
@@ -1042,6 +1045,15 @@
 			name = Delaunay;
 			sourceTree = "<group>";
 		};
+		0C7089822044E8A8103B26E0 /* hannahMuriel */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E8D725BEA1B9924DF5F02 /* hannahMuriel.h */,
+				24275195CBCFF366BBF92954 /* hannahMuriel.cpp */,
+			);
+			name = hannahMuriel;
+			sourceTree = "<group>";
+		};
 		0EFE45161A4E28BDE46D84D0 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -1084,6 +1096,24 @@
 				4FC940DD6E74F0B44AA87413 /* pbeshaiMolnar1.cpp */,
 			);
 			name = pbeshaiMolnar1;
+			sourceTree = "<group>";
+		};
+		17F5B70DFC54D8E0940B783D /* lizVera */ = {
+			isa = PBXGroup;
+			children = (
+				522B9FAAB2DD704E3D3FB058 /* lizVera.cpp */,
+				425946C7C14C326ACAD71559 /* lizVera.h */,
+			);
+			name = lizVera;
+			sourceTree = "<group>";
+		};
+		1B4B8980B6F0694EA440A441 /* mengfeiMuriel */ = {
+			isa = PBXGroup;
+			children = (
+				20E88A58C2B237F8AF1E7A29 /* mengfeiMuriel.h */,
+				4C7786ADBE18B906C9E1CE17 /* mengfeiMuriel.cpp */,
+			);
+			name = mengfeiMuriel;
 			sourceTree = "<group>";
 		};
 		1D2618F1D0C4233D934ED35F /* ts */ = {
@@ -1262,116 +1292,6 @@
 			name = pbeshaiSchwartz1;
 			sourceTree = "<group>";
 		};
-		2FDBEC5A236B15AF00825426 /* lizVera */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC5B236B15AF00825426 /* lizVera.cpp */,
-				2FDBEC5C236B15AF00825426 /* lizVera.h */,
-			);
-			name = lizVera;
-			path = scenes/lizVera;
-			sourceTree = "<group>";
-		};
-		2FDBEC5E236B175F00825426 /* mengfeiMuriel */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC5F236B175F00825426 /* mengfeiMuriel.h */,
-				2FDBEC60236B175F00825426 /* mengfeiMuriel.cpp */,
-			);
-			name = mengfeiMuriel;
-			path = scenes/mengfeiMuriel;
-			sourceTree = "<group>";
-		};
-		2FDBEC61236B175F00825426 /* mengfeiWhitney */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC62236B175F00825426 /* mengfeiWhitney.h */,
-				2FDBEC63236B175F00825426 /* mengfeiWhitney.cpp */,
-			);
-			name = mengfeiWhitney;
-			path = scenes/mengfeiWhitney;
-			sourceTree = "<group>";
-		};
-		2FDBEC64236B175F00825426 /* mengfeiLillian */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC65236B175F00825426 /* mengfeiLillian.h */,
-				2FDBEC66236B175F00825426 /* mengfeiLillian.cpp */,
-			);
-			name = mengfeiLillian;
-			path = scenes/mengfeiLillian;
-			sourceTree = "<group>";
-		};
-		2FDBEC67236B176000825426 /* lizVesulka */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC68236B176000825426 /* lizVesulka.cpp */,
-				2FDBEC69236B176000825426 /* lizVesulka.h */,
-			);
-			name = lizVesulka;
-			path = scenes/lizVesulka;
-			sourceTree = "<group>";
-		};
-		2FDBEC6A236B176000825426 /* mengfeiKen */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC6B236B176000825426 /* mengfeiKen.cpp */,
-				2FDBEC6C236B176000825426 /* mengfeiKen.h */,
-			);
-			name = mengfeiKen;
-			path = scenes/mengfeiKen;
-			sourceTree = "<group>";
-		};
-		2FDBEC6D236B176000825426 /* mengfeiVera */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC6E236B176000825426 /* mengfeiVera.cpp */,
-				2FDBEC6F236B176000825426 /* mengfeiVera.h */,
-			);
-			name = mengfeiVera;
-			path = scenes/mengfeiVera;
-			sourceTree = "<group>";
-		};
-		2FDBEC76236B18D100825426 /* hannahWhitney */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC77236B18D100825426 /* hannahWhitney.cpp */,
-				2FDBEC78236B18D100825426 /* hannahWhitney.h */,
-			);
-			name = hannahWhitney;
-			path = scenes/hannahWhitney;
-			sourceTree = "<group>";
-		};
-		2FDBEC79236B18D100825426 /* hannahVera */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC7A236B18D100825426 /* hannahVera.h */,
-				2FDBEC7B236B18D100825426 /* hannahVera.cpp */,
-			);
-			name = hannahVera;
-			path = scenes/hannahVera;
-			sourceTree = "<group>";
-		};
-		2FDBEC7C236B18D100825426 /* hannahSchwartz */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC7D236B18D100825426 /* hannahSchwartz.cpp */,
-				2FDBEC7E236B18D100825426 /* hannahSchwartz.h */,
-			);
-			name = hannahSchwartz;
-			path = scenes/hannahSchwartz;
-			sourceTree = "<group>";
-		};
-		2FDBEC7F236B18D100825426 /* hannahMuriel */ = {
-			isa = PBXGroup;
-			children = (
-				2FDBEC80236B18D100825426 /* hannahMuriel.h */,
-				2FDBEC81236B18D100825426 /* hannahMuriel.cpp */,
-			);
-			name = hannahMuriel;
-			path = scenes/hannahMuriel;
-			sourceTree = "<group>";
-		};
 		30CB364908817057B430D528 /* osc */ = {
 			isa = PBXGroup;
 			children = (
@@ -1394,36 +1314,37 @@
 		36BF1C038F5AEC4D85473FE4 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
-				2FDBEC7F236B18D100825426 /* hannahMuriel */,
-				2FDBEC7C236B18D100825426 /* hannahSchwartz */,
-				2FDBEC79236B18D100825426 /* hannahVera */,
-				2FDBEC76236B18D100825426 /* hannahWhitney */,
-				2FDBEC67236B176000825426 /* lizVesulka */,
-				2FDBEC6A236B176000825426 /* mengfeiKen */,
-				2FDBEC64236B175F00825426 /* mengfeiLillian */,
-				2FDBEC5E236B175F00825426 /* mengfeiMuriel */,
-				2FDBEC6D236B176000825426 /* mengfeiVera */,
-				2FDBEC61236B175F00825426 /* mengfeiWhitney */,
-				2FDBEC5A236B15AF00825426 /* lizVera */,
+				17F5B70DFC54D8E0940B783D /* lizVera */,
+				9B44AC3FDC75F196E0719A1B /* lizVesulka */,
 				108D53EF601F1518F5726C73 /* ethanMolnarScene */,
+				EB73E922E7ED29614A576888 /* ethanWhitneyScene */,
 				22FC0245F710A78A2E770ACD /* pbeshaiKnowlton1 */,
 				C1868819252A931A515C8E7D /* emptyScene */,
+				9F6C7F243E6CB96737BE345F /* hannahWhitney */,
+				97DF82799163FAABD458900A /* hannahVera */,
+				0C7089822044E8A8103B26E0 /* hannahMuriel */,
+				58431FDA05B5B444B8939F42 /* hannahSchwartz */,
 				39BAC5F6447319B74F7D342C /* exampleScene */,
 				FAB4489571573B4BD044F2BA /* pbeshaiVideo1 */,
 				7CC4234946AA16310171C5CE /* typographyManager.hpp */,
 				17B8EF26E5443F7DA7CC4DEB /* pbeshaiMolnar1 */,
 				BEC61A4D796CADC14662FE36 /* pbeshaiWhitney1 */,
 				CD913CA4CD6384EC59C0092E /* pbeshaiBurson1 */,
+				2FCC9EA6E8606F55425E4959 /* pbeshaiSchwartz1 */,
 				3123FC43CDB08480B2226A91 /* baseScene.h */,
 				EAC398346BE53FFF8AEEF458 /* typographyManager.cpp */,
 				10E77EFB672AD13F3F3639CB /* baseScene.cpp */,
-				2FCC9EA6E8606F55425E4959 /* pbeshaiSchwartz1 */,
+				C28D2E1A1F45642E79288C85 /* mengfeiLillian */,
+				1B4B8980B6F0694EA440A441 /* mengfeiMuriel */,
+				5C917FD6A5F9D6DD09ECBB77 /* mengfeiKen */,
+				91FA02294F2CDCEEE914085F /* mengfeiVera */,
+				4C6CE671AC32A71C4C8DBB65 /* mengfeiWhitney */,
+				EF3492F7236B291C00AFF3AC /* aaronLillianSchwartz */,
+				CBACD1EE9DA5703B58A90DC1 /* aaronMurielCooper */,
 				B81635D663CE86F43758F548 /* aaronVeraMolnar */,
 				760FA8A8A0B2E0844670A081 /* gauravVera */,
-				EB73E922E7ED29614A576888 /* ethanWhitneyScene */,
 				7FE5F37869AABB8C93D219FC /* appConstants.h */,
 				F3F372983B5FDFFC4D8C781F /* mitScene1 */,
-				CBACD1EE9DA5703B58A90DC1 /* aaronMurielCooper */,
 			);
 			name = scenes;
 			sourceTree = "<group>";
@@ -1573,6 +1494,15 @@
 			name = ofxGui;
 			sourceTree = "<group>";
 		};
+		4C6CE671AC32A71C4C8DBB65 /* mengfeiWhitney */ = {
+			isa = PBXGroup;
+			children = (
+				CF1505396057EE787DFD7490 /* mengfeiWhitney.h */,
+				65FF4397BB01F6F375B318FC /* mengfeiWhitney.cpp */,
+			);
+			name = mengfeiWhitney;
+			sourceTree = "<group>";
+		};
 		529AB19C7276F38A59AB297C /* libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1650,6 +1580,15 @@
 			name = CLD;
 			sourceTree = "<group>";
 		};
+		58431FDA05B5B444B8939F42 /* hannahSchwartz */ = {
+			isa = PBXGroup;
+			children = (
+				21217286064EB882DFE2D15C /* hannahSchwartz.cpp */,
+				89665F2CD20CE37F86A0A313 /* hannahSchwartz.h */,
+			);
+			name = hannahSchwartz;
+			sourceTree = "<group>";
+		};
 		5A54D0B78547080CC4E73BCF /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -1706,6 +1645,15 @@
 				BD09ADC1FE217D58683C3CEB /* CLD */,
 			);
 			name = include;
+			sourceTree = "<group>";
+		};
+		5C917FD6A5F9D6DD09ECBB77 /* mengfeiKen */ = {
+			isa = PBXGroup;
+			children = (
+				20C4D520BF99BA31B446019C /* mengfeiKen.cpp */,
+				8B39E558DB7C17583A56854C /* mengfeiKen.h */,
+			);
+			name = mengfeiKen;
 			sourceTree = "<group>";
 		};
 		5F810F423CFEEF7D30252583 /* src */ = {
@@ -2017,6 +1965,15 @@
 			name = imgcodecs;
 			sourceTree = "<group>";
 		};
+		91FA02294F2CDCEEE914085F /* mengfeiVera */ = {
+			isa = PBXGroup;
+			children = (
+				0C9F16D1D987AAEF8DBBF788 /* mengfeiVera.cpp */,
+				076150930842B253DE1A3D28 /* mengfeiVera.h */,
+			);
+			name = mengfeiVera;
+			sourceTree = "<group>";
+		};
 		93CF7F16E81F23E4B8C78F12 /* cudalegacy */ = {
 			isa = PBXGroup;
 			children = (
@@ -2038,12 +1995,39 @@
 			name = libs;
 			sourceTree = "<group>";
 		};
+		97DF82799163FAABD458900A /* hannahVera */ = {
+			isa = PBXGroup;
+			children = (
+				7A8CF084857781C68F17091E /* hannahVera.h */,
+				9F5A1AF425FB1E680586202F /* hannahVera.cpp */,
+			);
+			name = hannahVera;
+			sourceTree = "<group>";
+		};
 		992511B3CC020FD3F8FD5222 /* opencv */ = {
 			isa = PBXGroup;
 			children = (
 				AA631F30C1D649DA48183147 /* include */,
 			);
 			name = opencv;
+			sourceTree = "<group>";
+		};
+		9B44AC3FDC75F196E0719A1B /* lizVesulka */ = {
+			isa = PBXGroup;
+			children = (
+				3E92C6B22AFF8596B315FFC1 /* lizVesulka.cpp */,
+				7470AA32E978DF895B8D680A /* lizVesulka.h */,
+			);
+			name = lizVesulka;
+			sourceTree = "<group>";
+		};
+		9F6C7F243E6CB96737BE345F /* hannahWhitney */ = {
+			isa = PBXGroup;
+			children = (
+				DD9551CBAB2AFE1862D030D6 /* hannahWhitney.cpp */,
+				97FA4368CDD3ECFF4D9A80B1 /* hannahWhitney.h */,
+			);
+			name = hannahWhitney;
 			sourceTree = "<group>";
 		};
 		A3ED01357CC5A39A2E9DCEC9 /* ml */ = {
@@ -2273,6 +2257,15 @@
 				64B3D9A85215AF099C6FA8F7 /* color_cvt.hpp */,
 			);
 			name = detail;
+			sourceTree = "<group>";
+		};
+		C28D2E1A1F45642E79288C85 /* mengfeiLillian */ = {
+			isa = PBXGroup;
+			children = (
+				B7B31384F22C8A6F5BB87456 /* mengfeiLillian.h */,
+				714E4C4AE8BF961732BD7F2E /* mengfeiLillian.cpp */,
+			);
+			name = mengfeiLillian;
 			sourceTree = "<group>";
 		};
 		C6341EC9AC963099957D02A3 /* superres */ = {
@@ -2800,6 +2793,16 @@
 			name = viz;
 			sourceTree = "<group>";
 		};
+		EF3492F7236B291C00AFF3AC /* aaronLillianSchwartz */ = {
+			isa = PBXGroup;
+			children = (
+				EF3492F8236B291C00AFF3AC /* aaronLillianSchwartz.cpp */,
+				EF3492F9236B291C00AFF3AC /* aaronLillianSchwartz.h */,
+			);
+			name = aaronLillianSchwartz;
+			path = scenes/aaronLillianSchwartz;
+			sourceTree = "<group>";
+		};
 		F30391EB816EF977D2630A3E /* hal */ = {
 			isa = PBXGroup;
 			children = (
@@ -3002,20 +3005,31 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				30B185B3791FE460B590DF5A /* lizVera.cpp in Sources */,
 				409915A5BD6342A10718433E /* ethanMolnarScene.cpp in Sources */,
+				6DEF396AF4051957D00613D2 /* hannahVera.cpp in Sources */,
 				3E92C77E1FFA9160EBFEC26F /* pbeshaiKnowlton1.cpp in Sources */,
 				A0C015CC66A25C7CEDF8B659 /* emptyScene.cpp in Sources */,
+				03FB07DE0C1FCF8EDE942888 /* hannahMuriel.cpp in Sources */,
 				2DE293FAAF850C0ABF02DB62 /* exampleScene.cpp in Sources */,
+				E613EEED7B6C33AD98157D23 /* mengfeiKen.cpp in Sources */,
 				F9D8B86464FB3CE9B182BEBE /* pbeshaiVideo1.cpp in Sources */,
+				078C26726009EC0942404451 /* mengfeiMuriel.cpp in Sources */,
+				4E7A4B71966FFFBFAEE53C04 /* mengfeiLillian.cpp in Sources */,
 				8D7AFEDF91A09E52C649F708 /* pbeshaiMolnar1.cpp in Sources */,
 				5D78FCB30BFFBD00AFDD81F7 /* pbeshaiWhitney1.cpp in Sources */,
 				DDCF4765F3AFE93BA6CDDB53 /* pbeshaiBurson1.cpp in Sources */,
 				0E88A75C2E994C3D685709DC /* typographyManager.cpp in Sources */,
 				6F0D599D9FD124B23D0E0F8D /* baseScene.cpp in Sources */,
+				09902FAEB66DD2AB83770AE3 /* lizVesulka.cpp in Sources */,
+				4E828A8DA860E65865C8AE80 /* mengfeiVera.cpp in Sources */,
+				0FD283ABEDEEB914DBF0B417 /* mengfeiWhitney.cpp in Sources */,
+				BE1D9697CDA373A72FFCE27D /* hannahSchwartz.cpp in Sources */,
 				B758B8BA2F6A1532C27D92CE /* pbeshaiSchwartz1.cpp in Sources */,
 				FEE74E1013488F9FA2B0CA0B /* aaronVeraMolnar.cpp in Sources */,
 				E9514E69458BB4D0F06DC08C /* gauravVera.cpp in Sources */,
 				0E12501C76392FA5CCCF941A /* ethanWhitneyScene.cpp in Sources */,
+				78E4ECCCC112FFAAEB39FF02 /* hannahWhitney.cpp in Sources */,
 				B7D58E16975420B1293DD11E /* mitScene1.cpp in Sources */,
 				B9F620FAD9779D23123E03F0 /* aaronMurielCooper.cpp in Sources */,
 				955F720CEA06F043A060E5EE /* sceneManager.cpp in Sources */,
@@ -3031,32 +3045,25 @@
 				A3C6983F8768ECD6DBA89E0F /* ofxSliderGroup.cpp in Sources */,
 				413A3F52C6AC90B4F28A6A1C /* ofxToggle.cpp in Sources */,
 				E717C5A73BE4076EDBC728DC /* IpEndpointName.cpp in Sources */,
-				2FDBEC5D236B15AF00825426 /* lizVera.cpp in Sources */,
-				2FDBEC70236B176000825426 /* mengfeiMuriel.cpp in Sources */,
 				F0509CA2E805D1D5F70A87D0 /* NetworkingUtils.cpp in Sources */,
 				C9651B24B869083F299EFA4D /* UdpSocket.cpp in Sources */,
 				A857235EB7F8624F0C02D157 /* OscOutboundPacketStream.cpp in Sources */,
 				9753D2F373BDF97B89D59B33 /* OscPrintReceivedElements.cpp in Sources */,
-				2FDBEC85236B18D100825426 /* hannahMuriel.cpp in Sources */,
 				F95B04FD042E7407B70EE321 /* OscReceivedElements.cpp in Sources */,
 				014058944CFE6AE1A2171D12 /* OscTypes.cpp in Sources */,
 				40F8E3F7627F83C74FD9086A /* ofxOscBundle.cpp in Sources */,
 				6C503756DAFDCF2FEEE0EAA0 /* ofxOscMessage.cpp in Sources */,
-				2FDBEC72236B176000825426 /* mengfeiLillian.cpp in Sources */,
 				DBB73811B127DAE7DE28C895 /* ofxOscParameterSync.cpp in Sources */,
 				6F2D739BB67B61B0D43AB5BD /* ofxOscReceiver.cpp in Sources */,
 				866ACEB977FAB3191AD48906 /* ofxOscSender.cpp in Sources */,
-				2FDBEC82236B18D100825426 /* hannahWhitney.cpp in Sources */,
 				F4BA53EB83A682CF0A3B4E02 /* ofxXmlPoco.cpp in Sources */,
 				28DC652211D4AF8CC023D568 /* tinyxml.cpp in Sources */,
 				F877D69532909AE487E0EF22 /* tinyxmlerror.cpp in Sources */,
 				32E2318B89B6217AE6052155 /* tinyxmlparser.cpp in Sources */,
 				0C626D3D484EA5FB87A6AD23 /* ofxXmlSettings.cpp in Sources */,
 				DA10ED23BD58D4D33988D3CE /* RtMidi.cpp in Sources */,
-				2FDBEC71236B176000825426 /* mengfeiWhitney.cpp in Sources */,
 				4068C0ABA32B9D8203E7997C /* ofxRtMidiIn.cpp in Sources */,
 				AA4631C023A0DBA27AB435EB /* ofxRtMidiOut.cpp in Sources */,
-				2FDBEC83236B18D100825426 /* hannahVera.cpp in Sources */,
 				74B90FB956C1C60D24304221 /* ofxBaseMidi.cpp in Sources */,
 				D7E2DC735C3A66B8E967C993 /* ofxMidi.cpp in Sources */,
 				BC6E787BF912B9C5DEA2B374 /* ofxMidiIn.cpp in Sources */,
@@ -3069,8 +3076,8 @@
 				DDA5BD53D959C614F985AA30 /* ofxEasing.cpp in Sources */,
 				E4A6432D701334C97F89FFDD /* ofxEasingBack.cpp in Sources */,
 				F8E1A8FE5B019C4E173B25A4 /* ofxEasingBounce.cpp in Sources */,
+				EF3492FA236B291C00AFF3AC /* aaronLillianSchwartz.cpp in Sources */,
 				9BBCA851C530275D30E57BD7 /* ofxEasingCirc.cpp in Sources */,
-				2FDBEC84236B18D100825426 /* hannahSchwartz.cpp in Sources */,
 				F371BA47826BCB4729114673 /* ofxEasingCubic.cpp in Sources */,
 				A24426F12D75CFAD158C927E /* ofxEasingElastic.cpp in Sources */,
 				7F208A71CF13CBC28D2CD896 /* ofxEasingExpo.cpp in Sources */,
@@ -3091,16 +3098,13 @@
 				B1730298DA0566DA0584461F /* Flow.cpp in Sources */,
 				FBE8475F4B4CA6CD8615F5EB /* Helpers.cpp in Sources */,
 				49497EC5A6804D3D22460577 /* Kalman.cpp in Sources */,
-				2FDBEC73236B176000825426 /* lizVesulka.cpp in Sources */,
 				82515C719A9D40EF024AAE18 /* ObjectFinder.cpp in Sources */,
-				2FDBEC75236B176000825426 /* mengfeiVera.cpp in Sources */,
 				C9D54A57C8C6DBCD4684B16E /* RunningBackground.cpp in Sources */,
 				94A5A3399AF4579FBB550CB1 /* Tracker.cpp in Sources */,
 				D5F2C8DACD2FD161C78CAF6A /* Utilities.cpp in Sources */,
 				A8D0FEEC5446813B36EC8C43 /* Wrappers.cpp in Sources */,
 				B5C802AFE1A326D1112E9C59 /* ofxCvColorImage.cpp in Sources */,
 				B656F1B94D664D81AC043E06 /* ofxCvContourFinder.cpp in Sources */,
-				2FDBEC74236B176000825426 /* mengfeiKen.cpp in Sources */,
 				5FF53F0F4A2EF1116658212E /* ofxCvFloatImage.cpp in Sources */,
 				3DEFA8613050BA9E58974DF2 /* ofxCvGrayscaleImage.cpp in Sources */,
 				17669AF3B4078817F6485F8F /* ofxCvHaarFinder.cpp in Sources */,
@@ -3139,6 +3143,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					src,
+					src/aaronLillianSchwartz,
 					src/scenes,
 					src/scenes/aaronMurielCooper,
 					src/scenes/aaronVeraMolnar,
@@ -3147,6 +3152,17 @@
 					src/scenes/ethanWhitneyScene,
 					src/scenes/exampleScene,
 					src/scenes/gauravVera,
+					src/scenes/hannahMuriel,
+					src/scenes/hannahSchwartz,
+					src/scenes/hannahVera,
+					src/scenes/hannahWhitney,
+					src/scenes/lizVera,
+					src/scenes/lizVesulka,
+					src/scenes/mengfeiKen,
+					src/scenes/mengfeiLillian,
+					src/scenes/mengfeiMuriel,
+					src/scenes/mengfeiVera,
+					src/scenes/mengfeiWhitney,
 					src/scenes/mitScene1,
 					src/scenes/pbeshaiBurson1,
 					src/scenes/pbeshaiKnowlton1,
@@ -3263,6 +3279,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					src,
+					src/aaronLillianSchwartz,
 					src/scenes,
 					src/scenes/aaronMurielCooper,
 					src/scenes/aaronVeraMolnar,
@@ -3271,6 +3288,17 @@
 					src/scenes/ethanWhitneyScene,
 					src/scenes/exampleScene,
 					src/scenes/gauravVera,
+					src/scenes/hannahMuriel,
+					src/scenes/hannahSchwartz,
+					src/scenes/hannahVera,
+					src/scenes/hannahWhitney,
+					src/scenes/lizVera,
+					src/scenes/lizVesulka,
+					src/scenes/mengfeiKen,
+					src/scenes/mengfeiLillian,
+					src/scenes/mengfeiMuriel,
+					src/scenes/mengfeiVera,
+					src/scenes/mengfeiWhitney,
 					src/scenes/mitScene1,
 					src/scenes/pbeshaiBurson1,
 					src/scenes/pbeshaiKnowlton1,
@@ -3411,6 +3439,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					src,
+					src/aaronLillianSchwartz,
 					src/scenes,
 					src/scenes/aaronMurielCooper,
 					src/scenes/aaronVeraMolnar,
@@ -3419,6 +3448,17 @@
 					src/scenes/ethanWhitneyScene,
 					src/scenes/exampleScene,
 					src/scenes/gauravVera,
+					src/scenes/hannahMuriel,
+					src/scenes/hannahSchwartz,
+					src/scenes/hannahVera,
+					src/scenes/hannahWhitney,
+					src/scenes/lizVera,
+					src/scenes/lizVesulka,
+					src/scenes/mengfeiKen,
+					src/scenes/mengfeiLillian,
+					src/scenes/mengfeiMuriel,
+					src/scenes/mengfeiVera,
+					src/scenes/mengfeiWhitney,
 					src/scenes/mitScene1,
 					src/scenes/pbeshaiBurson1,
 					src/scenes/pbeshaiKnowlton1,
@@ -3543,6 +3583,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					src,
+					src/aaronLillianSchwartz,
 					src/scenes,
 					src/scenes/aaronMurielCooper,
 					src/scenes/aaronVeraMolnar,
@@ -3551,6 +3592,17 @@
 					src/scenes/ethanWhitneyScene,
 					src/scenes/exampleScene,
 					src/scenes/gauravVera,
+					src/scenes/hannahMuriel,
+					src/scenes/hannahSchwartz,
+					src/scenes/hannahVera,
+					src/scenes/hannahWhitney,
+					src/scenes/lizVera,
+					src/scenes/lizVesulka,
+					src/scenes/mengfeiKen,
+					src/scenes/mengfeiLillian,
+					src/scenes/mengfeiMuriel,
+					src/scenes/mengfeiVera,
+					src/scenes/mengfeiWhitney,
 					src/scenes/mitScene1,
 					src/scenes/pbeshaiBurson1,
 					src/scenes/pbeshaiKnowlton1,
@@ -3667,6 +3719,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					src,
+					src/aaronLillianSchwartz,
 					src/scenes,
 					src/scenes/aaronMurielCooper,
 					src/scenes/aaronVeraMolnar,
@@ -3675,6 +3728,17 @@
 					src/scenes/ethanWhitneyScene,
 					src/scenes/exampleScene,
 					src/scenes/gauravVera,
+					src/scenes/hannahMuriel,
+					src/scenes/hannahSchwartz,
+					src/scenes/hannahVera,
+					src/scenes/hannahWhitney,
+					src/scenes/lizVera,
+					src/scenes/lizVesulka,
+					src/scenes/mengfeiKen,
+					src/scenes/mengfeiLillian,
+					src/scenes/mengfeiMuriel,
+					src/scenes/mengfeiVera,
+					src/scenes/mengfeiWhitney,
 					src/scenes/mitScene1,
 					src/scenes/pbeshaiBurson1,
 					src/scenes/pbeshaiKnowlton1,
@@ -3807,6 +3871,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					src,
+					src/aaronLillianSchwartz,
 					src/scenes,
 					src/scenes/aaronMurielCooper,
 					src/scenes/aaronVeraMolnar,
@@ -3815,6 +3880,17 @@
 					src/scenes/ethanWhitneyScene,
 					src/scenes/exampleScene,
 					src/scenes/gauravVera,
+					src/scenes/hannahMuriel,
+					src/scenes/hannahSchwartz,
+					src/scenes/hannahVera,
+					src/scenes/hannahWhitney,
+					src/scenes/lizVera,
+					src/scenes/lizVesulka,
+					src/scenes/mengfeiKen,
+					src/scenes/mengfeiLillian,
+					src/scenes/mengfeiMuriel,
+					src/scenes/mengfeiVera,
+					src/scenes/mengfeiWhitney,
 					src/scenes/mitScene1,
 					src/scenes/pbeshaiBurson1,
 					src/scenes/pbeshaiKnowlton1,
