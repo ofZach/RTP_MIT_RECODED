@@ -1,5 +1,8 @@
 
 
+bin/model/*
+
+
 *shape_predictor_68_face_landmarks.dat
 
 # Some general ignore patterns
