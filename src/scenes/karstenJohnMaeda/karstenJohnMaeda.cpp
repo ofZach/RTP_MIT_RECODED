@@ -12,9 +12,7 @@ void karstenJohnMaeda::setup(){
     setAuthor("Karsten Schuhl");
     setOriginalArtist("John Maeda");
 
-    loadCode("scenes/karstenJohnMaeda/exampleCode.cpp");
-
-    
+   
     parameters.add(freq.set("freq", 0.1, 0.0, 1.0));
     parameters.add(amp.set("amp", -1, -4.0, 4.0));
     parameters.add(noiseFactor.set("noiseFactor", 0.05, 0.0, 0.1));
@@ -25,7 +23,11 @@ void karstenJohnMaeda::setup(){
     settings.direction = OF_TTF_LEFT_TO_RIGHT;
     settings.contours = true;
     settings.addRange(ofUnicode::Katakana);
-    font.load(settings);
+    fff.load(settings);
+    
+    loadCode("scenes/karstenJohnMaeda/exampleCode.cpp");
+    
+    
 }
 
 void karstenJohnMaeda::update(){
@@ -46,11 +48,11 @@ void karstenJohnMaeda::draw(){
         ofSetColor(0);
 
         string logo = "モリサワ"; //MO-RI-SA-WA
-        ofRectangle bounds = font.getStringBoundingBox(logo, 0.0, 0.0);
+        ofRectangle bounds = fff.getStringBoundingBox(logo, 0.0, 0.0);
         
         xBegin = (width-bounds.width)/2-10;
         yBegin = (bounds.height+3);
-        vector < ofPath > paths = font.getStringAsPoints(logo, true, false);
+        vector < ofPath > paths = fff.getStringAsPoints(logo, true, false);
             
         ofNoFill();
         ofSetLineWidth(1);
@@ -84,7 +86,7 @@ void karstenJohnMaeda::draw(){
         }
         
         ofSetColor(0);
-        font.drawString(logo, 0, 0); // MO - RI - SA - WA
+        fff.drawString(logo, 0, 0); // MO - RI - SA - WA
         ofPopMatrix();
     
 }

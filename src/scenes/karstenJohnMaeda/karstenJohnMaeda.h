@@ -12,7 +12,9 @@ public:
     void draw();
     
 //    ofParameter<float> param;
-    ofTrueTypeFont font;
+    
+    ofTrueTypeFont fff;
+    
     ofParameter < float > freq;
     ofParameter < float > amp;
     ofParameter < float > noiseFactor;

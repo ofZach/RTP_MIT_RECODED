@@ -49,6 +49,15 @@
 #include "manaswiRosaMenkman.h"
 
 
+#include "karstenVasulka.h"
+#include "karstenJohnMaeda.h"
+#include "karstenFaceMirror.h"
+#include "karstenVeraMolnar.h"
+#include "karstenKenKnowlton.h"
+#include "karstenJohnWhitney.h"
+
+
+
 
 //#include "testingScene.h"
 
@@ -69,6 +78,17 @@ void sceneManager::setup(){
     font.load("fonts/ProggySmall.fon", 8, false ,false, false, 0, 96);
     
     
+    
+    
+    // ----------------------- karsten
+    
+    
+     scenes.push_back(new karstenVasulka());
+     scenes.push_back(new karstenJohnMaeda());
+     scenes.push_back(new karstenFaceMirror());
+     scenes.push_back(new karstenVeraMolnar());
+     scenes.push_back(new karstenKenKnowlton());
+     scenes.push_back(new karstenJohnWhitney());
     
     
     
