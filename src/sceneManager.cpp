@@ -10,6 +10,7 @@
 #include "baseScene.h"
 #include "exampleScene.h"
 #include "mitScene1.h"
+#include "aaronLillianSchwartz.h"
 #include "aaronMurielCooper.h"
 #include "aaronVeraMolnar.h"
 #include "ethanWhitneyScene.h"
@@ -54,23 +55,23 @@ void sceneManager::setup(){
     
     // NOTE: pbeshaiBurson1 requires the ofxFaceTracker2 data (bin/data/shape_predictor_68_face_landmarks.dat)
 //    scenes.push_back(new pbeshaiBurson1());     // has recording (requires facetrakcer data)
+    
     scenes.push_back(new pbeshaiVideo1());      // has recording
     scenes.push_back(new pbeshaiKnowlton1());   // has recording
     scenes.push_back(new pbeshaiWhitney1());    // has recording
     scenes.push_back(new pbeshaiSchwartz1());   // has recording
     scenes.push_back(new pbeshaiMolnar1());     // has recording
-  
 //    scenes.push_back(new mengfeiKen());
 //    scenes.push_back(new mengfeiVera());
 //    scenes.push_back(new mengfeiMuriel());
 //    scenes.push_back(new mengfeiLillian());
 //    scenes.push_back(new mengfeiWhitney());
-    
     scenes.push_back(new hannahVera());
     scenes.push_back(new hannahMuriel());
     scenes.push_back(new hannahWhitney());
     scenes.push_back(new hannahSchwartz());
     scenes.push_back(new lizVera());
+    scenes.push_back(new aaronLillianSchwartz());
     scenes.push_back(new aaronMurielCooper());
     scenes.push_back(new aaronVeraMolnar());
     scenes.push_back(new gauravVera());
