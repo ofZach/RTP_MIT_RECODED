@@ -9,33 +9,23 @@ void setup(){
             mesh.addColor(ofFloatColor(0,0,0));
         }
     }
-    windowSizeX = dimensions.getWidth();
-    windowSizeY = dimensions.getHeight();
 }
 
 void update(){
     video.update();
        if (video.isFrameNew()){
-           for (int i = 0; i < video.getWidth()*video.getHeight(); i++)
-               color sampleColor(video.getPixels();
+           for (int i = 0; i < video.getWidth()*video.getHeight(); i++){
+               color sampleColor(video.getPixels());
                vec3f tempVec = mesh.getVertex(i);
                tempVec.z = sin(i*[[phaseZ]]*0.001)*[[extrusionAmount]];
-               }
-               mesh.setVertex(i, tempVec);
-               mesh.setColor(i, sampleColor);
+            }
+            mesh.setVertex(i, tempVec);
+            mesh.setColor(i, sampleColor);
            }
        }
 }
 
 void draw(){
-     setColor(0);
-     drawRectangle(0, 0, windowSizeX, windowSizeY);
-     cam.begin();
-     pushMatrix();
-     translate(-video.getWidth(), video.getHeight(), -video.getWidth());
-     scale(2,-2,2);
      mesh.drawFaces();
-     popMatrix();
-     cam.end();
 }
 
