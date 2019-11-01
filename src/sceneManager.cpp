@@ -95,19 +95,19 @@ void sceneManager::setup(){
     
     //------------------------------- mengfei
     
+
     scenes.push_back(new mengfeiKen());      // has recording
     scenes.push_back(new mengfeiLillian());  // has recording
     scenes.push_back(new mengfeiMuriel());   // has recording
-    scenes.push_back(new mengfeiVera());
-    scenes.push_back(new mengfeiWhitney());
-    
+    scenes.push_back(new mengfeiVera());            // has recording
+    scenes.push_back(new mengfeiWhitney());         // has recording    
     
     
     // ----------------------- karsten
     
     
-     scenes.push_back(new karstenVasulka());
-     scenes.push_back(new karstenJohnMaeda());
+     scenes.push_back(new karstenVasulka());        // has recording
+     scenes.push_back(new karstenJohnMaeda());      // has recording
     
 #ifdef USE_FACE_TRACKING_SKETCHES
     ofFile fileTest("model/face.tracker");
@@ -116,9 +116,9 @@ void sceneManager::setup(){
     }
 #endif
     
-     scenes.push_back(new karstenVeraMolnar());
-     scenes.push_back(new karstenKenKnowlton());
-     scenes.push_back(new karstenJohnWhitney());
+     scenes.push_back(new karstenVeraMolnar());     // has recording
+     scenes.push_back(new karstenKenKnowlton());    // has recording
+     scenes.push_back(new karstenJohnWhitney());    // has recording
     
     
     
@@ -135,8 +135,8 @@ void sceneManager::setup(){
     //------------------------------- liang
     
     
-    scenes.push_back(new liangVasulka());
-    scenes.push_back(new liangMuriel());
+    scenes.push_back(new liangVasulka());       // has recording
+    scenes.push_back(new liangMuriel());        // has recording
     
     
     
@@ -148,7 +148,7 @@ void sceneManager::setup(){
     ofFile file("shape_predictor_68_face_landmarks.dat");
     if (file.exists()){
         
-         scenes.push_back(new pbeshaiBurson1());
+         scenes.push_back(new pbeshaiBurson1()); // has recording
     }
 #endif
     
@@ -163,16 +163,16 @@ void sceneManager::setup(){
     
     
     //------------------------------- hannah
-    scenes.push_back(new hannahVera());
-    scenes.push_back(new hannahMuriel());
-    scenes.push_back(new hannahMuriel2());
-    scenes.push_back(new hannahWhitney());
-    scenes.push_back(new hannahSchwartz());
+    scenes.push_back(new hannahVera());         // has recording
+    scenes.push_back(new hannahMuriel());       // has recording
+    scenes.push_back(new hannahMuriel2());      // has recording
+    scenes.push_back(new hannahWhitney());      // has recording
+    scenes.push_back(new hannahSchwartz());     // has recording
     
     
     //------------------------------- liz
-    scenes.push_back(new lizVera());
-    scenes.push_back(new lizVesulka());
+    scenes.push_back(new lizVera());            // has recording
+    scenes.push_back(new lizVesulka());         // has recording
     
     
     //------------------------------- aaron
