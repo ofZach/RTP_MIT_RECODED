@@ -1,7 +1,7 @@
 void draw(){
     ofSetColor(255);
-    float time = speed*ofGetElapsedTimef()*50;
-    ofSeedRandom(noise);
+    float time = [[speed]]*ofGetElapsedTimef()*50;
+    ofSeedRandom([[noise]]);
     for (int z = 0; z < 10; z++){
         float radius = fmod(time + ofMap(z, 0, 10, 0, 300), 300);
         ofPoint center(400,300);

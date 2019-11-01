@@ -1,8 +1,9 @@
 
 void draw(){
+    ofSeedRandom([[noise]]);
     // Set color to purple
     ofSetColor(70,55,85, 150);
-    float r = space*0.001;
+    float r = [[space]]*0.001;
     
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < 10; j++){

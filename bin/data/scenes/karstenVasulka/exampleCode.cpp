@@ -12,6 +12,7 @@ void setup(){
 }
 void update(){
     video.update();
+
     if (video.isFrameNew()){ // get color into the mesh
        for (int i = 0; i < video.getWidth()*video.getHeight(); i++)
             color sampleColor(video.getPixels();

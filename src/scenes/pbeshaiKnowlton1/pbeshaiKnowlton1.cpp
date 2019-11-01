@@ -58,8 +58,8 @@ void pbeshaiKnowlton1::draw(){
   //    grabber.draw(640,0);
   
   
-  float width = dimensions.getWidth();
-  float height = dimensions.getHeight();
+  float width = player.getWidth();
+  float height = player.getHeight();
   
   
   ofSeedRandom(0);
