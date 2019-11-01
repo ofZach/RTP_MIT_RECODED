@@ -81,23 +81,23 @@ void sceneManager::setup(){
     
     //-------------------------------  alice
     
-    scenes.push_back(new aliceWhitney());
+    scenes.push_back(new aliceWhitney()); // has recording
     
     
     //------------------------------- gaurav
     
-    scenes.push_back(new gauravWhitney2());
-    scenes.push_back(new gauravMuriel2());
-    scenes.push_back(new gauravMuriel());
-    scenes.push_back(new gauravVera());
+    scenes.push_back(new gauravWhitney2()); // has recording
+    scenes.push_back(new gauravMuriel2());  // has recording
+    scenes.push_back(new gauravMuriel());   // has recording
+    scenes.push_back(new gauravVera());     // has recording
     
     
     
     //------------------------------- mengfei
     
-    scenes.push_back(new mengfeiKen());
-    scenes.push_back(new mengfeiLillian());
-    scenes.push_back(new mengfeiMuriel());
+    scenes.push_back(new mengfeiKen());      // has recording
+    scenes.push_back(new mengfeiLillian());  // has recording
+    scenes.push_back(new mengfeiMuriel());   // has recording
     scenes.push_back(new mengfeiVera());
     scenes.push_back(new mengfeiWhitney());
     
