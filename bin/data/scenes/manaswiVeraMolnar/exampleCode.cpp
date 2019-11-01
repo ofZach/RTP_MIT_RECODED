@@ -1,4 +1,4 @@
-void manaswiVeraMolnar::draw(){
+draw(){
     if (ofGetFrameNum() % 40 == 0) {
         computeVertices();
     }
@@ -15,7 +15,7 @@ void manaswiVeraMolnar::draw(){
     }
 }
 
-void manaswiVeraMolnar::computeVertices() {
+computeVertices() {
     for (int i = 0; i < gridSize; i++) {
         for (int j = 0; j < gridSize; j++) {
             // Choose Vertices
